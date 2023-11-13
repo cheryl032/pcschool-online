@@ -1,0 +1,1946 @@
+/* Base */
+html,
+body {
+  font-family: "Roboto", "Noto Sans TC", "Microsoft JhengHei", "Helvetica Neue", "Noto Sans", Helvetica, Arial, sans-serif !important;
+  font-size: 16px;
+  scrollbar-face-color: #8c000a;
+}
+
+body {
+  /* min-height: 75rem; */
+  /* padding-top: 4.5rem; */
+}
+
+.gjunHeaderBg .container, .gjunHeaderBg .dropdown-menu .container {
+  max-width: 1440px;/* 撠舘汗��堒云�𩑈 ��惩祝�軼ontainer -colette */
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#navbar_top {
+  z-index: 1000;
+  /*position: relative;*/
+  line-height: 1;
+  padding: 0;
+}
+
+.modal-open,
+.navbar {
+  padding-right: 0 !important;
+}
+
+/* ���拳�峕艶璅∠�𦠜���� */
+.modal-open .modal {
+  backdrop-filter: blur(5px);
+}
+
+/* Gjun Header */
+.gjunHeaderBg {
+  background-color: #C2000A;
+}
+
+.dtLogo img {
+  width: 80%;
+}
+
+.dtLogo35 {
+  position: absolute;
+  display: none;
+  z-index: 999999;
+  top: 8px;
+  left: 0;
+  padding-left: 10px;
+}
+
+/* adds some margin below the link sets  */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.nav .nav-link {
+  padding: .6rem 1rem;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.nav-link::after {
+  display: none;
+}
+
+.nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-item:focus,
+.nav-item:hover {
+  /*background: rgb(67, 109, 245);*/
+  color: #FFFFFF;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: none;
+  color: #428bca;
+}
+
+.navbar .dropdown-menu div[class*="col"] {
+  margin: 1rem 0;
+}
+
+.navbar .dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: none;
+  border-radius: 0 0;
+  /*box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;*/
+}
+
+.navbar .nav-item {
+  padding: .628rem 0rem;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.dropdown-menu .nav-item {
+  padding: 0 0 !important;
+  line-height: 24px;
+}
+
+.megaMenuLink a {
+  color: #3c3c3c !important;
+}
+
+.dropdown-menu .nav-item:hover,
+.dropdown-menu .megaMenuLink a:hover {
+  background: none;
+  color: rgb(67, 109, 245) !important;
+}
+
+.navbar-nav .dropdown-menu [class*="col-"] {
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  margin-left: -1px !important;
+}
+
+.dropdown-menu .nav-link {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  white-space: nowrap;
+  padding: .35rem 1rem !important;
+}
+
+.itemName {
+  color: rgb(67, 109, 245);
+  font-weight: 400;
+  margin-left: 17px;
+}
+
+.nav-link-PRO {
+  float: left;
+  width: 30px;
+  height: 22px;
+  background-color: #3c3c3c;
+  border-radius: .25rem;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-right: 3px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.allItem a {
+  color: #428bca;
+}
+
+.allItem a:hover {
+  color: #3b76ab;
+  text-decoration: none;
+}
+
+/* Search Panel */
+.searchPanel {
+  background-color: rgba(77, 77, 77, 0.9);
+  color: #FFFFFF;
+  display: none;
+  margin-top: 0px;
+  padding: 25px 0;
+  position: fixed;
+  right: 0;
+  top: 58px;
+  z-index: 200;
+}
+
+.searchHintPanel {
+  background-color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.35);
+  display: none;
+  padding: 7px 0px !important;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.searchResultItem {
+  color: #333333;
+  padding: 12px 10px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.searchResultItem:hover {
+  background: rgba(0, 0, 0, 0.175);
+  cursor: default;
+}
+
+/* Footer */
+.bg-pcschoolFooter {
+  /*background-color: #f4d3d4;*/
+  /*    background: url(images/bg.jpg) repeat;*/
+  color: #FFFFFF;
+  /*    margin-top: 30px;*/
+}
+
+.bg-pcschoolFooter .footer-pcschool p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, .65);
+}
+
+.footerTitle {
+  color: rgba(0, 0, 0, .65);
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.footer-pcschool {
+  padding: 60px 0;
+  border-top: 1px solid #F25757;
+}
+
+.footer-pcschool i {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.footer-pcschool h2 {
+  color: rgba(0, 0, 0, .65);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.footer-pcschool ul li {
+  line-height: 36px;
+  list-style: none;
+  text-align: left;
+}
+
+.footer-pcschool ul li {
+  /*    margin-left: -40px;*/
+}
+
+.footer-pcschool a {
+  color: rgba(0, 0, 0, .6);
+}
+
+.footer-pcschool a:hover {
+  text-decoration: none;
+}
+
+.footer-pcschool .footer-list-box ul li {
+  margin-bottom: 8px;
+}
+
+.footer-pcschool .footer-list-box h2 i {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.footer-pcschoolInfo {
+  background-color: #790006;
+  text-align: center;
+}
+
+.footer-pcschoolInfoBox {
+  width: auto;
+  padding: 30px 0;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-pcschoolInfoBox .pcschoolInfoBoxIcon1 a {
+  display: inline-block;
+}
+
+.footer-pcschoolInfoBox .pcschoolInfoBoxIcon1 a img {
+  vertical-align: 30%;
+  margin-right: 5px;
+}
+
+
+.footer-pcschoolInfoBox .pcschoolInfoBoxIcon2 {
+  display: inline-block;
+}
+
+.footer-pcschoolInfoBox .pcschoolInfoBoxIcon1 a:hover {
+  background-color: transparent;
+}
+
+.footer-pcschoolInfo span.rights {
+  display: block;
+  padding: 1rem 0 0 0;
+  line-height: 1.5;
+}
+
+.footer-pcschoolInfo a:hover {
+  background-color: #FFFFFF;
+  color: #C2000A;
+  text-decoration: none;
+}
+
+.footer-pcschoolInfo .contact-btn {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  padding: 3px 15px;
+}
+
+.footer-list-box {
+  height: auto;
+}
+
+.pl-2 {
+  padding-left: 8px;
+}
+
+.gjunFooter {
+  bottom: -2px;
+  overflow: visible;
+  height: 580px;
+  width: 100%;
+  border: 0 none;
+  position: relative;
+}
+
+/*blog擐㚚���撠暹見撘�*/
+.footerAD {
+  background: #FFFFFF;
+  height: 95px;
+  margin-bottom: 2rem;
+}
+
+.footerAD a {
+  /*border-bottom: 1px dotted #fff;*/
+  color: #2C434F;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  margin: 30px 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  width: 100%;
+  background: #f8f9fa;
+  border-radius: 50px;
+  font-weight: 300;
+}
+
+.footerAD a:hover {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+/*blog擐㚚���撠暹見撘�*/
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* this targets the default scrollbar (compulsory) */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* the new scrollbar will have a flat appearance with the set background color */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+}
+
+/* this will style the thumb, ignoring the track */
+/* ::-webkit-scrollbar-button {
+    background-color: #fff;
+} */
+/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+/* Footer */
+.shfooter .collapse {
+  display: inherit;
+}
+
+.shfooter .collapsed,
+.shfooter div {
+  cursor: pointer;
+}
+
+/* More Detail Button */
+.moreDetailBox {
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  z-index: 1000;
+}
+
+.moreDetailBox a:hover {
+  text-decoration: none;
+}
+
+.moreDetailBox1 {
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  z-index: 1000;
+}
+
+.moreDetailBox1 a:hover {
+  text-decoration: none;
+}
+
+.moreDetailBtn {
+  background: rgba(244, 211, 212, 0.9);
+  color: rgba(44, 67, 79, 1.0);
+  padding: 8px 8px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.187);
+}
+
+.goTopDescription {
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 8px;
+  width: 56px;
+  height: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.goTopchange {
+  /* display: block; */
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  /*margin-left: 380px;*/
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.moreDetailDescription {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 2px;
+  width: 450px;
+  height: auto;
+}
+
+
+.show {
+  opacity: 1;
+  left: 0;
+}
+
+.moreDetail01 {
+  float: left;
+  width: 10%;
+  text-align: center;
+  padding-left: 8px;
+}
+
+.moreDetail01 img {
+  -webkit-animation-name: myswing;
+  animation-name: myswing;
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes myswing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 10deg);
+    transform: rotate3d(0, 0, 1, 10deg)
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -7deg);
+    transform: rotate3d(0, 0, 1, -7deg)
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 3deg);
+    transform: rotate3d(0, 0, 1, 3deg)
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -3deg);
+    transform: rotate3d(0, 0, 1, -3deg)
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg)
+  }
+}
+
+.moreDetail02a {
+  display: block;
+  float: left;
+  width: 60%;
+  padding-top: 10px;
+}
+
+.moreDetail02b {
+  float: left;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.moreDetail03 {
+  float: left;
+  width: 25%;
+  padding-right: 5px;
+}
+
+.courseBtn {
+  width: 80px;
+  height: auto;
+  padding: 5px 6px;
+  background-color: #d9444b;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.courseBtn:hover {
+  background: #C2000A;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.187);
+}
+
+.bottom-form.btnClose {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: rgba(44, 67, 79, 1.0);
+  cursor: pointer;
+  text-align: center;
+  z-index: 992;
+  padding: 0;
+  top: 0;
+  right: 0;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.moreDetailBtn-icon img {
+  height: 16px;
+  width: 16px;
+}
+
+.goTop {
+  background: rgba(233, 241, 247, 0.875);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.187);
+  color: rgba(44, 67, 79, 0.187);
+  display: none;
+  padding: 15px 8px;
+  text-align: center;
+}
+
+.goTop:hover {
+  background: rgba(233, 241, 247, 1.0);
+  color: rgba(44, 67, 79, 0.57);
+}
+
+.goTop i {
+  margin-top: 10px;
+}
+
+.resize {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+/*RESIZESCREEN ANIMATION*/
+.fa-angle-double-right {
+  animation: rightanime 1s linear infinite;
+}
+
+.fa-angle-double-left {
+  animation: leftanime 1s linear infinite;
+}
+
+/* Modal */
+.close {
+  font-size: 32px;
+  font-weight: 100;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.netFormTitle {
+  color: rgb(0, 0, 0, 0.75);
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+  /*padding-bottom: 10px; 銵典鱓靽格㺿*/
+  padding-bottom: 5px;
+  text-align: center;
+  /*margin-top: 1.5rem; 銵典鱓靽格㺿*/
+  margin-top: 5px;
+}
+
+.textBreak {
+  display: inline-block;
+}
+
+span.textBreak {
+  display: inline-block;
+}
+
+.has-error {
+  color: Red;
+  font-size: 13px;
+  float: right;
+  display: none;
+  margin-left: inherit;
+}
+
+.form-Img img {
+  margin: 10px auto;
+}
+
+/*   銵典鱓靽格㺿*/
+.formbox .form-group {
+  margin-bottom: 0.5rem !important;
+}
+
+/*   銵典鱓靽格㺿end*/
+.formBox .form-group input,
+.formBox .form-group select {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.65) !important
+}
+
+.formBox .form-group input::placeholder {
+  color: rgba(0, 0, 0, 0.65) !important;
+  padding-left: 5px !important;
+}
+
+.formBox .form-group select:optional {
+  padding-left: 13px !important;
+}
+
+/*lightbox銵典鱓��敹恍�毺蒈�交�厰�� start*/
+.submitBtn {
+  background: #d9444b !important;
+  color: #FFFFFF;
+  cursor: pointer;
+  max-width: inherit;
+  margin: 15px 0 24px;
+  padding: 6px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.submitBtn:hover,
+.submitBtn:focus {
+  background: #bd2130 !important;
+}
+
+/*doreen_20220329_�鰵憓�*/
+.submitBtn a.sB_a, .submitBtn a.sB_a:hover, .submitBtn a.sB_a:focus{
+	color: #ffffff !important;
+}
+
+/*lightbox銵典鱓��敹恍�毺蒈�交�厰�� end*/
+/*銵典鱓靽格㺿*/
+span.textBreak-note {
+  display: inline-block;
+  /*margin-top: 6px;*/
+}
+
+.formBox .submitBtn {
+  margin: 0px !important;
+}
+
+.submitBtn a {
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 4px 0;
+  /*敹恍�毺蒈�乓���蠘�嗪�����厰��*/
+}
+
+.submitBtn a:hover,
+.linebtn a:hover {
+  text-decoration: none !important;
+}
+
+.submitBtn i {
+  padding-left: 10px;
+}
+
+.thanku {
+  width: 100%;
+}
+
+.agreeBox,
+.agreeBox label {
+  font-weight: inherit;
+  line-height: 24px;
+}
+
+.agreeBox i {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.agreeBox a,
+.agreeBox a:hover {
+  color: #C2000A !important;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.formBox a:hover {
+  text-decoration: none !important;
+}
+
+.giftTitle {
+  color: #416683;
+  font-size: 21px;
+}
+
+.giftDescription {
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.border-bottom-0 {
+  border-bottom: none;
+}
+
+.btnClassSchedule {
+  cursor: pointer;
+  padding: 7px 12px !important;
+}
+
+.btnClassSchedule i {
+  padding-right: 5px;
+}
+
+@keyframes rightanime {
+  50% {
+    transform: translateX(10px);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+}
+
+@keyframes leftanime {
+  50% {
+    transform: translateX(-10px);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+}
+
+
+/* 銵典鱓靽格㺿 */
+.card-body-form {
+  padding: 0;
+}
+
+.formBox .form-Info {
+  padding: 0px 0px 0px 30px;
+}
+
+/* �蠘�嗪�����栞�� */
+.thanku .form-Info {
+  margin: auto;
+  padding: 15px 40px;
+}
+
+/* �蒈�仿�����栞�� */
+.loginBox .form-Info {
+  padding: 0 30px;
+}
+
+#lblTitle {
+  margin-bottom: 0;
+  display: block;
+}
+
+.form-control-img {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.85) !important;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.left-login-column {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.login-img {
+  overflow: hidden;
+  height: 7rem;
+  width: 6.5rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background: url(../images/login_img.png) no-repeat;
+  background-position: center 3px;
+  background-size: contain;
+}
+.left-login-column .loginTitle {
+  text-align: center;
+}
+
+.coursebox {
+  display: flex;
+}
+
+.cs-left {
+  display: flex;
+  flex: 0 0 30%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cs-right {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 60%;
+}
+
+/* 銵典鱓靽格㺿end */
+/* 銵典鱓modal start */
+#myModal .modal-content {
+  /*background: transparent;*/
+  border: none;
+}
+
+.modal-header button {
+  -wekit-appearance: none;
+  border: none;
+  background: transparent;
+  font-size: 1.25rem;
+  outline: none;
+  opacity: .65;
+  font-weight: 500;
+  padding: 0;
+}
+
+.modal-header {
+  background: transparent;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  border-bottom: 0;
+}
+
+.modal-body {
+  background: transparent;
+  padding: 0;
+}
+
+iframe {
+  border-radius: 5px;
+}
+
+/* 銵典鱓modal end */
+/* �𢰧�湧俈�𢥫 start */
+.btnProtection {
+  position: fixed;
+  right: 10px;
+  bottom: 210px;
+  /*�箔��𦆮�坾蝭��砍�𠰴�銝𦠜��*/
+  z-index: 901;
+  width: 150px;
+  height: auto;
+  background-image: url("../images/protection.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  /*background-size: 100% 100%;*/
+  padding: 15px 0;
+}
+
+.btnProtection p {
+  background-color: #fff;
+  width: 83%;
+  height: 100%;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.85;
+  color: #1b1b1b;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px 5px;
+  margin-top: 53px;
+  margin-left: 12px;
+  border-bottom: #404040 2px solid;
+}
+
+.btnProtection p a {
+  color: #1b1b1b;
+  display: block;
+}
+
+.btnProtection p a:hover {
+  color: #c2000a;
+  /*font-weight: bold;*/
+}
+
+.right-float.btnClose {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1;
+  color: darkgray;
+  background-color: transparent;
+  border: darkgray 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  z-index: 992;
+  padding: 0;
+  top: -20px;
+  right: 5%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  padding: 0.5px 0 0 1px;
+}
+
+/* �𢰧�湧俈�𢥫 end */
+/*�蒈�仿��鰵憓�*/
+.modal-body-login {
+  max-height: 600px !important;
+}
+
+.modal-content-login {
+  max-width: 500px;
+  margin: auto;
+}
+
+.loginTitle {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.68);
+  font-weight: 500;
+}
+
+.loginBox .form-control {
+  border-radius: 0;
+}
+
+.loginBox .field {
+  padding: 0 20px;
+}
+
+.loginBox .tips {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 300;
+}
+
+.loginBox a:hover {
+  text-decoration: none;
+}
+
+.passwordBox a {
+  color: #D9444B;
+}
+
+.passwordBox a:hover {
+  text-decoration: underline !important;
+}
+
+.loginBox input {
+  border: 0;
+  width: 100%;
+  height: 39px;
+  border-bottom: #ccc 1px solid;
+  padding: .375rem .75rem;
+}
+
+.loginBox input:focus {
+  outline: none;
+}
+
+.lineBox {
+  background: #E5E2F1;
+  overflow: hidden;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 2rem 2rem 2.5rem;
+}
+
+.text-Description {
+  color: rgba(0, 0, 0, 0.68);
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+}
+
+.linebtn {
+  max-width: inherit;
+  color: #FFFFFF;
+  cursor: pointer;
+  max-width: inherit;
+  background-color: #00B900;
+  padding: 6px 0;
+  border-radius: 5px;
+}
+
+.linebtn a {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.linebtn:hover,
+.linebtn:focus {
+  background-color: #108810;
+}
+
+.linebtn>img {
+  width: 2.3rem;
+  margin-left: 5px;
+}
+
+.cont-pass {
+  color: #707070;
+}
+
+.cont-pass-send {}
+
+.cont-pass-send input,
+.note-word input {
+  margin-right: 3px;
+  width: auto !important;
+  border: initial !important;
+  height: auto !important;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.note-word a i {
+  margin: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 5px !important;
+}
+
+.form-group2 {
+  margin-bottom: 0.8rem;
+}
+
+/*�蒈�仿��鰵憓� end*/
+/* 20220119敹恍�毺蒈��,�蠘�嗪�*/
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #fff !important;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.quick_login {
+  display: flex;
+  width: 100%;
+  margin: 15px 0px 0px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quick_login a {
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.quick_login .com_logo {
+  flex: 0 0 2rem;
+  display: flex;
+}
+
+.button_login {
+  display: flex;
+  justify-content: center;
+  color: #343a40;
+  flex-shrink: 1;
+  flex-basis: 80%;
+}
+
+.type_b {
+  color: #333333;
+  background: #e8e8e8;
+}
+
+.type_b:hover,
+.type_b:focus {
+  background: #d8d8d8;
+}
+
+.hr-label {
+  color: #495057;
+  margin-top: 0;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hr-label::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.hr-label::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.hr-label::before,
+.hr-label::after {
+  content: "";
+  position: relative;
+  width: 8%;
+  background-color: #495057;
+  display: inline-block;
+  height: 1px;
+  vertical-align: middle;
+}
+
+.tick-tit {
+  text-align: center;
+  color: #f55458;
+  padding-left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tick-tit>img {
+  padding-right: 5px;
+}
+
+.thankU-quick_login {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  max-width: 11rem;
+  /* justify-content: space-around; */
+  list-style: none;
+  padding-left: 0;
+}
+.thankU-quick_login a {
+  text-decoration: none;
+  /*  flex: 0 0 3rem;*/
+}
+.thankU-quick_login .com_logo {
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*.thankU-quick_login .com_logo>img {
+  width: 100%;
+}
+
+.call {
+  color: #495057;
+  text-align: justify;
+  font-size: 0.85rem;
+}*/
+
+.re-info {
+  color: #525252;
+  border-radius: 15px;
+  border: 1px solid #dcdcdc;
+  padding: 15px 10px 10px;
+
+}
+
+.thankU-form-group {
+  margin-bottom: 15px;
+}
+
+.thankU-form-group-m {
+  margin-left: -15px;
+  margin-right: 15px;
+}
+
+.thankU-form-group .form-style {
+  outline: none;
+}
+
+.thankU-form-group .input-icon {
+  color: #dc3545;
+  /*  position: absolute;*/
+  /*  height: 40px;*/
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.input-icon-name {
+  top: 0;
+}
+
+.input-icon-mail {
+  top: 44px;
+}
+
+.input-icon-mobile {
+  top: 88px;
+}
+
+.input-icon-city {
+  top: 134px;
+}
+
+.input-icon-map {
+  top: 178px;
+}
+
+.input-icon-gift {
+  top: 220px;
+}
+
+.thankU-form-group .input-icon>img {
+  padding-right: 5px;
+  max-width: 21px;
+}
+
+.thankU-form-group .input-icon>span {}
+
+.thankU-form-group input {
+  border: 0;
+  width: 100%;
+  height: 44px;
+
+  background-color: #fff;
+  border-bottom: #ccc 1px solid;
+}
+
+
+.form-w {
+  min-width: 96px;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.form-w>img {
+  width: 1.35rem;
+  padding-right: 5px;
+}
+
+.thankU-form-group-p {
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  display: flex;
+  width: 100%;
+  color: #495057;
+  white-space: normal;
+  text-align: left;
+}
+
+/* 20220119敹恍�毺蒈��,�蠘�嗪�__end*/
+/* Responsive Setting */
+@media only screen and (max-width: 1199.98px) {
+
+  /* Header */
+  /* Nav */
+  .dtLogo {
+    overflow: hidden;
+    width: 38px;
+  }
+
+  /* Footer */
+  .footer-pcschool h2 {
+    font-size: 20px;
+  }
+
+  .footer-pcschool a {
+    font-size: 15px;
+  }
+
+  .netFormTitle {
+    font-size: 28px;
+  }
+}
+
+/* 銵典鱓modal end */
+
+/* Responsive Setting */
+@media screen and (max-width: 1280px) {
+  .navbar-nav .nav-link {
+    padding-right: 0rem !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 1199.98px) {
+
+  #navbar_top {
+    padding: 0.5rem 1rem;
+  }
+
+  /* Header */
+  /* Nav */
+  .dtLogo {
+    overflow: hidden;
+    width: 0;
+  }
+
+  .dtLogo35 {
+    display: block;
+  }
+
+  .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 1rem;
+  }
+
+  /* Header */
+  /* Nav */
+  .navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 1.0);
+    /*border-color: rgba(255, 255, 255, 1.0);*/
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border-color: transparent;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .nav-link::after {
+    display: inline-block;
+  }
+
+  /* .dtLogo {
+    width: inherit !important;
+  } */
+
+  .btnSearch {
+    color: #FFFFFF;
+    position: absolute;
+    right: 100px !important;
+    top: 12px;
+  }
+
+  .gjun-student {
+    position: absolute;
+    right: 62px;
+    top: 9px;
+  }
+
+  .btnSearch:hover {
+    color: #ffffff;
+  }
+
+  .navbar-nav .dropdown-menu [class*="col-"] {
+    border: none;
+    margin-left: inherit !important;
+  }
+
+  .navbar .dropdown-menu {
+    border-top: 1px solid #ffffff;
+    background-color: rgb(194, 0, 10) !important;
+  }
+
+  .navbar-collapse {
+    max-height: 380px;
+    overflow-y: scroll;
+  }
+
+  .navbar .dropdown-menu div[class*="col"] {
+    margin: .5rem 0;
+  }
+
+  .dropdown-menu .mx-auto {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .dropdown .nav-link {
+    padding: .4rem .25rem !important;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 0.25rem;
+    /* ��𧢲�毺���詨鱓撌血�游�漤��*/
+  }
+
+  .navbar .dropdown-menu .nav-item a {
+    color: #FFFFFF !important;
+    font-weight: 300;
+  }
+
+  .nav-link-PRO {
+    background-color: #fff;
+    color: #C2000A;
+  }
+
+  .itemName {
+    color: #B2ECE1;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+
+  .allItem a,
+  .allItem a:hover {
+    color: rgb(67, 109, 245);
+  }
+
+  .mobileSpace {
+    margin-left: -7px;
+  }
+
+  /* Search */
+  .searchBtnStart {}
+
+  /* Search Panel */
+  .searchPanel {
+    /*        background-color: rgba(255, 255, 255, 1.0);*/
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    /*        color: #4D4D4D;*/
+    top: 55px;
+  }
+
+  .searchBtnStart {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-pcschool h2 {
+    font-size: 20px;
+  }
+
+  .footer-pcschool a {
+    font-size: 15px;
+  }
+
+  .netFormTitle {
+    font-size: 28px;
+  }
+}
+
+/* 銵典鱓modal end */
+@media only screen and (max-width: 1040px) {
+
+  /* Header */
+  /* Nav */
+  /* .navbar-expand-lg .navbar-nav .nav-link {
+    padding: .6rem .25rem;
+  } */
+
+  /* Footer */
+  .mfp-iframe-holder .mfp-content {
+    width: 60% !important;
+    height: 60% !important;
+  }
+}
+
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 1199.98px) {
+
+
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+  /* .navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+} */
+
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .dropdown-menu .navbar .nav-item {
+    padding: .625rem .5rem;
+  }
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position: static;
+  }
+
+  .navbar .dropdown-menu {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 56px;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  /* shows the dropdown menu on hover */
+  .navbar .dropdown:hover .dropdown-menu,
+  .navbar .dropdown .dropdown-menu:hover {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+  }
+
+  .navbar .dropdown-menu {
+    border: none;
+    background-color: #fff;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    padding-left: 0.2rem;
+  }
+
+  /* 銵典鱓modal start */
+  .modal-dialog {
+    /*width: 60%;*/
+    max-width: 1050px;
+  }
+
+  iframe,
+  .modal-body {
+    height: 432px;
+  }
+
+  /* 銵典鱓modal start */
+}
+
+@media only screen and (max-width: 991.98px) {
+
+  /* Footer */
+  .footer-pcschool .footer-list-box ul li {
+    text-align: center;
+  }
+
+  .list-item {
+    margin-bottom: inherit;
+  }
+
+  .footer-pcschool h2 {
+    cursor: inherit;
+    text-align: left;
+  }
+
+  .footer-pcschoolInfo span.open-time {
+    display: inline-block;
+  }
+
+  .footer-pcschoolInfo span.rights {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .footer-pcschool h2 {
+    font-size: 19px;
+  }
+
+  .footer-pcschool a {
+    font-size: 16px;
+  }
+
+  /*blog擐㚚���撠暹見撘�*/
+  .footerAD {
+    height: 188px;
+    margin-bottom: 4rem;
+  }
+
+  .footerAD a {
+    border: 1px dotted #fff;
+    margin: 20px 0 0 0;
+  }
+
+  .footerAD a:hover {
+    border: 1px solid;
+  }
+
+  /*blog擐㚚���撠暹見撘�*/
+  span.textBreak-note {
+    /*display: inline-block;*/
+    /*margin-top: 6px;*/
+  }
+
+  .formBox {
+    /*display: grid;*/
+  }
+
+  .formBox .form-Info {
+    order: 3;
+  }
+
+  .form-Description {
+    margin: 12px 0;
+    order: 2;
+  }
+
+  .form-Img {
+    order: 3;
+  }
+
+
+
+}
+
+
+@media (max-width:767px) {
+
+  /* Nav */
+  .small-dropdown-menu {
+    margin: 0 0 !important;
+  }
+
+  /* Footer */
+  .shfooter ul {
+    margin-bottom: 0;
+  }
+
+  .shfooter .collapse {
+    display: none;
+  }
+
+  .shfooter .collapse.show {
+    display: block;
+  }
+
+  .shfooter .title .fa-angle-up,
+  .shfooter .title[aria-expanded=true] .fa-angle-down {
+    display: none;
+  }
+
+  .shfooter .title[aria-expanded=true] .fa-angle-up {
+    display: block;
+  }
+
+  .shfooter .navbar-toggler {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .form-Img {
+    order: 1;
+  }
+
+  /* Modal */
+  .textBreak {
+    display: block;
+    margin-top: 6px;
+  }
+
+  .form-Img img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /*銵典鱓靽格㺿*/
+  .formBox .form-Info {
+    padding: 10px 30px;
+  }
+
+  .loginBox .form-Info {
+    padding: 0px 30px;
+  }
+
+  .form-Img {
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 45%;
+    padding: 0;
+  }
+
+  /*銵典鱓靽格㺿end*/
+
+}
+
+@media only screen and (max-width: 769px) {
+
+  /* Header */
+  /* Footer */
+  .gjunFooter {
+    height: 587px;
+  }
+
+
+}
+
+@media only screen and (max-width: 679.98px) {
+
+  /* Header */
+  /* Footer */
+  .gjunFooter {
+    height: 587px;
+  }
+}
+
+
+@media only screen and (max-width: 575.98px) {
+
+  /* Header */
+  /* .dtLogo {
+    overflow: hidden;
+    width: 0px !important;
+  } */
+
+  .articleCategoryPanel .col-4 {
+    padding: 0 5px;
+  }
+
+  .border-right {
+    border-right: none !important;
+  }
+
+  /* Footer */
+  .bg-pcschoolFooter {
+    margin-bottom: 63px;
+  }
+
+  /* More Detail Button */
+  .moreDetailBox {
+    bottom: 0;
+    right: 0;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .moreDetailBox1 {
+    bottom: 55px;
+    right: 0;
+    height: 70px;
+    position: fixed;
+  }
+
+  .moreDetailBtn {
+    height: 70px;
+    /*display: flex;*/
+    position: fixed;
+    right: 0;
+    width: 100%;
+    /*justify-content: space-around;*/
+  }
+
+  .goTopchange {
+    margin-left: 535px;
+  }
+
+  .moreDetailDescription {
+    font-size: 16px;
+    float: inherit;
+    line-height: 24px;
+    margin-top: -5px;
+    width: auto;
+    height: 56px;
+    /*text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;*/
+  }
+
+  .goTopDescription {
+    display: none;
+  }
+
+  .courseBtn {
+    width: 100px;
+  }
+
+  /* Modal */
+  .netFormTitle {
+    font-size: 24px;
+  }
+
+  .submitBtn {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 479.98px) {
+
+  .form-control,
+  .agreeBox {
+    font-size: 0.9rem;
+  }
+
+  .moreDetail01 {
+    width: 15%;
+    padding-left: 0;
+    margin-top: 5px;
+  }
+
+  .moreDetail01 img {
+    display: block;
+    margin-right: 38px;
+  }
+
+  .moreDetail02b {
+    /*display: flex;*/
+    width: 50%;
+    /*padding-top: 10px;*/
+    text-align: left;
+    /*align-items: center;*/
+    font-size: 15px;
+  }
+
+  .moreDetail03 {
+    width: 35%;
+    padding-right: 5px;
+  }
+
+/* ��㕑府�糓�蠘�嗪���icon */
+  .login-img {
+    display: none;
+  }
+
+  /*footer*/
+  .footer-pcschool {
+    margin: 0 5px;
+    padding: 30px 0;
+  }
+
+  .footerTitle {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .footer-pcschool a {
+    font-size: 14px;
+  }
+
+  .footer-pcschoolInfo span.rights {
+    padding: 0.8rem 0 0 0;
+  }
+
+  /*GoTop*/
+  .goTopchange {}
+
+  /*scrollbar*/
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /*銵典鱓靽格㺿*/
+  .cs-left {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+
+  .form-control {
+    font-size: 0.85rem;
+  }
+
+
+  .moreDetail01 img {
+    width: 50px;
+    margin-top: 8px;
+  }
+
+  .moreDetailBtn {
+    padding: 5px 0;
+  }
+
+  .courseBtn {
+    width: 85px;
+    margin-left: 10px;
+  }
+
+  .moreDetail02b {
+    font-size: 14px;
+  }
+
+  .moreDetailBox1 {
+    bottom: 10%;
+  }
+}
