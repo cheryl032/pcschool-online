@@ -1424,6 +1424,72 @@ a:focus {
     right: 0;
 }
 
+
+
+/* 四大學習保證 2023.11.15
+ */
+ .gjunWeb2021-Content-learnPromise {
+    background-color: #f5f4f8;
+    /* background-color: #fffcf6; */
+    background-image: url(../images/picbg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+ }
+ .learnPromiseBox {
+    
+}
+.learnPromiseClassBox {
+    width: 100%;
+    height: 100%;
+}
+
+.learnPromiseBox .card {
+    border: none;
+    background-color: transparent;
+}
+
+.learnPromiseBox .picbg {
+    padding: 10px;
+}
+
+.learnPromiseBox .card img {
+    background-position: center center;
+    background-size: cover;
+    /* height: 100%;
+    min-height: 148px; */
+    object-fit: cover;
+    border-radius: 0.25rem !important;
+    position: relative;
+    box-shadow: 5px 5px 0px rgba(217, 217, 217, 0.5);
+}
+
+.learnPromiseBox .card-body {
+    height: 100%;
+}
+
+.learnPromiseBox .card-title {
+    color: rgba(44, 67, 79, 1.0);
+    display: -webkit-box;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.learnPromiseBox .card-text {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
 /* Teacher Cards List */
 .pcschoolTeachersBox {
     background: transparent;
@@ -3034,6 +3100,11 @@ a:focus {
         height: 650px;
     }
 
+    /* 四大學習保證 2023.11.15 */
+    .learnPromiseClassBox {
+        height: 650px;
+    }
+
     .latestNewsBoxRightBox {
         width: 100%;
         height: 400px;
@@ -3093,6 +3164,11 @@ a:focus {
     }
 
     .videoLearnClassBox {
+        height: 500px;
+    }
+
+    /* 四大學習保證 2023.11.15 */
+    .learnPromiseClassBox {
         height: 500px;
     }
 
@@ -3166,6 +3242,11 @@ a:focus {
 
 @media (max-width: 479.98px) {
     .videoLearnClassBox {
+        height: 400px;
+    }
+    
+    /* 四大學習保證 2023.11.15 */
+    .learnPromiseClassBox {
         height: 400px;
     }
 
@@ -3336,6 +3417,11 @@ a:focus {
         height: 420px;
     }
 
+    /* 四大學習保證 2023.11.15 */
+    .learnPromiseClassBox {
+        height: 420px;
+    }
+
     .latestNewsBoxRightBox {
         width: 100%;
         height: 300px;
@@ -3359,6 +3445,10 @@ a:focus {
 
 @media (max-width: 320.98px) {
     .videoLearnClassBox {
+        height: 380px;
+    }
+    /* 四大學習保證 2023.11.15 */
+    .learnPromiseClassBox {
         height: 380px;
     }
 
