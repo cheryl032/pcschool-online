@@ -1436,6 +1436,7 @@ a:focus {
     background-repeat: no-repeat;
     background-position: center left;
  }
+ 
  .learnPromiseBox {
     
 }
@@ -1480,6 +1481,7 @@ a:focus {
     font-size: 16px;
     line-height: 26px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -2861,8 +2863,8 @@ a:focus {
 .latestNewsBox {
     display: block;
     /*background-color: #e9f1f7;*/
-    padding-top: 50px;
-    padding-bottom: 80px;
+    /* padding-top: 50px;
+    padding-bottom: 80px; */
 }
 
 .latestNewsClassBox {
@@ -3072,6 +3074,20 @@ a:focus {
     .liveCoursesClassBox .card-title {
         margin-top: -58px;
     }
+
+    /* 四大學習保證
+    */
+    .gjunWeb2021-Content-learnPromise {
+        background-image: none;
+    }
+
+    .learnPromiseBox .card {
+        background-image: url(../images/picbg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+
 	.socialBtn {
         display: none !important;
     }
@@ -3113,9 +3129,9 @@ a:focus {
     }
 
     /* 四大學習保證 */
-    .learnPromiseClassBox {
+    /* .learnPromiseClassBox {
         height: 650px;
-    }
+    } */
 
     .latestNewsBoxRightBox {
         width: 100%;
@@ -3180,9 +3196,9 @@ a:focus {
     }
 
     /* 四大學習保證 */
-    .learnPromiseClassBox {
+    /* .learnPromiseClassBox {
         height: 500px;
-    }
+    } */
 
     .videoLearnBox .card-detail {
         display: block;
@@ -3258,9 +3274,9 @@ a:focus {
     }
     
     /* 四大學習保證 */
-    .learnPromiseClassBox {
+    /* .learnPromiseClassBox {
         height: 400px;
-    }
+    } */
 
     .latestNewsBoxRightBox {
         width: 100%;
@@ -3430,9 +3446,9 @@ a:focus {
     }
 
     /* 四大學習保證 */
-    .learnPromiseClassBox {
+    /* .learnPromiseClassBox {
         height: 420px;
-    }
+    } */
 
     .latestNewsBoxRightBox {
         width: 100%;
@@ -3460,9 +3476,9 @@ a:focus {
         height: 380px;
     }
     /* 四大學習保證 */
-    .learnPromiseClassBox {
+    /* .learnPromiseClassBox {
         height: 380px;
-    }
+    } */
 
     .latestNewsBoxRightBox {
         width: 100%;
