@@ -583,7 +583,8 @@ a:focus {
     font-size: 26px;
     font-weight: 500;
     line-height: 1.45;
-    height: 70px;
+    height: 100%;
+    max-height: 70px;
     position: relative;
     padding: 0 15px;
     margin-top: 30px;
@@ -2775,7 +2776,7 @@ a:focus {
 /* More Detail Button */
 .socialBtn {
     position: fixed;
-    left: 10px;
+    right: 10px;
     top: 73px;
     transition: all .3s ease-in-out;
     z-index: 50;
