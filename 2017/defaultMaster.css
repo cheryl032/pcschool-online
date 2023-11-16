@@ -1,0 +1,50 @@
+body {
+    padding-top:52px!important;
+}
+
+.panel2Wrapper {
+    background-color: transparent;
+}
+
+.panel2Wrapper, .mcHeader {
+    margin-top: 15px;
+}
+
+.footerSubtitle {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+#navbar2::-webkit-scrollbar {
+    width: 0;
+}
+
+#navbar2 {
+    margin-right: 20px;
+}
+
+.btnFBShare {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #5890FF;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+    padding: 2px 20px 2px 20px;
+}
+
+.ytvSkin {
+    border-image: url(/2017/images/youtube42x42-01.png) 14 round;
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.ytvSkinIOS {
+    -webkit-border-image: url(/2017/images/youtube42x42-01.png) 14 round;
+    border-image: url(/2017/images/youtube42x42-01.png);
+    border-width: 14px;
+    border-image-slice: 14;
+}

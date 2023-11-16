@@ -1,0 +1,2307 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head><meta charset="utf-8" /><meta name="viewport"
+            content="width=device-width,initial-scale=1.0,user-scalable=1" /><meta
+            http-equiv="X-UA-Compatible" content="IE=edge" /><meta
+            name="format-detection" content="telephone=no" /><title>
+            UI/UX設計師必備的ChatGPT對話術
+        </title>
+        <!--[if lt IE 10]>
+      <script>
+              alert('親愛的同學您好，您使用的瀏覽器為IE8/9，目前本網站已不支援IE9(含)以下的版本，請使用IE9以後的版本或其他瀏覽器。');
+              location.href='https://www.google.com.tw/chrome/browser/desktop/index.html';
+      </script>
+    <![endif]-->
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /><link
+            rel="shortcut icon" href="favicon.ico" type="image/x-icon" /><link
+            rel="apple-touch-icon" href="2015/images/appicon60x60.png" /><link
+            rel="apple-touch-icon" sizes="76x76"
+            href="2015/images/appicon76x76.png" /><link rel="apple-touch-icon"
+            sizes="120x120" href="2015/images/appicon120x120.png" /><link
+            rel="apple-touch-icon" sizes="152x152"
+            href="2015/images/appicon152x152.png" /><link
+            href="js/bootstrap336/css/bootstrap.min.css" rel="stylesheet" /><link
+            href="js/slick/slick/slick.min.css" rel="stylesheet" /><link
+            href="js/Magnific-Popup/dist/magnific-popup.min.css"
+            rel="stylesheet" /><link href="2017/css/defaultMaster.css"
+            rel="stylesheet" /><link href="2017/css/style.css" rel="stylesheet" /><link
+            href="2017/defaultMaster.css" rel="stylesheet" />
+
+        <script src="js/jquery-2.2.4.min.js"></script>
+
+        <style>
+        .panel5Item {
+            border: 1px solid #CCCCCC;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 10px;
+            color: black;
+            text-align: center;
+        }
+
+        .panel5ItemTitle, .panel5ItemText {
+            color: black;
+            text-align: center;
+            height: 50px;
+            line-height: 25px;
+            overflow: hidden;
+            vertical-align: baseline;
+            text-align: center;
+        }
+
+        .panel5Item:after {
+            content: '\e114';
+            font-family: 'Glyphicons Halflings';
+            color: #00CCCC;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            display: inline-block;
+            top: 0;
+        }
+    </style>
+
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w,d,s,l,i) {
+            w[l]=w[l]||[]; w[l].push({
+                'gtm.start':
+                    new Date().getTime(),event: 'gtm.js'
+            }); var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'? '&l='+l:''; j.async=true; j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl; f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TPQ8RC');</script>
+        <!-- End Google Tag Manager -->
+        <meta property="og:title" content="UI/UX設計師必備的ChatGPT對話術" /><meta
+            property="og:site_name" content="巨匠電腦" /><meta name="keywords"
+            content="UI設計,UX設計,ChatGPT,設計師,AI,咒語,prompt" /><meta
+            property="og:description"
+            content="巨匠電腦補習班,學電腦超簡單!提供各種程式設計,設計課程,以及全方位電腦證照考試輔導.並提供線上,線下課程規劃,是您學電腦課程最佳選擇!" /><meta
+            name="description"
+            content="巨匠電腦補習班,學電腦超簡單!提供各種程式設計,設計課程,以及全方位電腦證照考試輔導.並提供線上,線下課程規劃,是您學電腦課程最佳選擇!" /><meta
+            property="og:image"
+            content="https://www.pcschool.com.tw/updimg/act/2017/livecourse/course/rwd_live102.jpg" /><meta
+            name="image"
+            content="https://www.pcschool.com.tw/updimg/act/2017/livecourse/course/rwd_live102.jpg" /><meta
+            property="og:type" content="website" /><meta property="og:url"
+            content="https://www.pcschool.com.tw/livecourse" /><meta
+            property="fb:app_id" content="485150688254489" /><link
+            rel="canonical"
+            href="https://www.pcschool.com.tw/livecourse/chatgpt-for-uiux-designer" /></head>
+    <body onunload>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPQ8RC"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <form name="aspnetForm" method="post" action="./livecourse"
+            onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+            <div>
+                <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET"
+                    value />
+                <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT"
+                    value />
+                <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value />
+                <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                    value="keaMrtjICYv6C/8pzpAaryZM30P1B0ReUgB7H+eDcF5tBsM/ic7K/PIM3ajEsWUYO8DGJvhXM5rJVULqNbM7t85uhzvSAXeoEDTKOxluu7j2sZ8aS9gTSoevZsb45RW2joCXF4JsWBelGIQzBP8HWjWQVZzP1MX+sA6wD9Uqj/harz50M5fB6NBrbP59t+J70AT3o1nZmYXfMZ7W6eUDrIf85rde/595bnjs3TPy8QuoeoaBAltqAvNgd/C95/qiqCgH+3rpH/ZHj7h5m4hE7ao4lWy8LD30ASAH057DBT4mxgWp5xGtl1flNjS+YWMe+LNlYTb1oiYbBF0p+foWx04T1JgVbaxSbw791x8As1pXHzNGO+OSQ1jPFy7j8rz2A20QDIcVx2ZoRwAGTSpak7M6vKg2twqLiGS5XNJg2hjQe9v6npEY5RHPqac2mTydCLgC39VdI+OfQc1Rq9cHNxVsj3YvdFnvsLw/+xL8IWq0FPdb5X1r7S4AZU1369cPSU1HNyZDsKIsagLy87Zmrctajp9C7zIgrrDKCH+O1SiWRZCEDljzqQnvOkHKVXk0QzCz6Wh2fz5+03AcH+nm9WNDYIPf4rNy+uxGUh+x0ZDiu4/VuyFoXhOBxbWDDHz40KnHQbJIwpeTafXnJQX2xNQmYSh3/Y7fQhL8jVlHUXl0WqP46PvldlVg9wpkJX82tkBARSOd6srLF1VXuzVr89X1VD5ra7WrjNhZLUhZ3ytCwQlHottWxhHPDLKySizOvCKQT0t/tw4J6NgnyI6GmrXmevfCNB9I6Cdxpr/tsxULm/KreNbVfOttdFQ1ea7TJVLSla0Cpsf1FC5lyyYwno3JMKSS1iju1I2dnt7sp7w3E8VQUpEUlbMaIdz7EBukCrU3g2mFYAT7uS1mTdHTszUmYzrgZVAZJbPPV3PYtCdMkcJ4roEvQ2Y569VooR9pCMz06zcyEDSEfUli8sDAHkzTQEXQq7H2e7kCBYBeCxw=" />
+            </div>
+
+            <script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+            <script
+                src="WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNN307vBl4QllFgkFJcJvuUZMf3G6iRY_8j-cHDntGn2TKK5WXgq0ND-8dPQVLLpBA2&amp;t=637814941746327080"
+                type="text/javascript"></script>
+
+            <script
+                src="ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1BZACfc-gtGPQV8cHgASwXj0NPbtd2tQSoRkp87EmxQPXFORTlWjiTVoE0Fas5sgfK4URipV_JFYfjQKHaqEiBZhXIlGBFui4DmNo5CB6dvfaL6MsgDrj3hMh_BAK4dCQg2&amp;t=14d69f50"
+                type="text/javascript"></script>
+            <script src="Scripts/WebForms/MsAjax/MicrosoftAjax.js"
+                type="text/javascript"></script>
+            <script src="Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"
+                type="text/javascript"></script>
+            <script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+            <div>
+
+                <input type="hidden" name="__VIEWSTATEGENERATOR"
+                    id="__VIEWSTATEGENERATOR" value="6731B912" />
+                <input type="hidden" name="__EVENTVALIDATION"
+                    id="__EVENTVALIDATION"
+                    value="I4P6zZtyuS81+TF6Yn+RPqNF6P/Io7Vvbq4mVszRvuWbawZrlzD1i6/1/TmUQMtxIeWKgQ5LoUNdxVH5UxSseUC69zoUAdIX71HLnENa+073cJDtNkdHJTzMvmcoeHQTnv7zPy1ZSQ7kGzkas5wGJS05c8725R/v0o75873cFMdgJDSfpkqzF1xl0Fekz2vrgnbhtW0h5EJFcRPJ7NGBo+D3QzT0zoBVdY/08tBS13pR1KG+YyfPsyxlgrpqlyA1MbmNwXlnBNdeZYDL8zkaILdyd2erdOLIPRttmdoHIMGf24mHxz3pnuUQ63ExiiZT4waVmMDTBfwHjTV4Fzw51Z55B4Rpls7QvIJEizuPT1sEV7pA7kMdJG2q7eCr9V17lGtT9UWBTbu5mJWKOeVk9mJ5aGsCcUGwjzHFpEijrEEK9O7utOyC+rOG9qH3107732tRdah+v+pOhhr4kSFZwSQpqQ2xoL5oz0ypEQlsKpyxttpUVgTSaJ7hiy/YlsfVBkZmdPdqHRA+nzH6IRp9+/GRaS06fCsunjP7rXhrv7DlxH0wihwFx2kbUrQ6dGLpMqx7f3Y2nCI+B2wuR7j1yZCAFVebIWXn5VDQYcUcUpLlpD7isFHmC/QYS4xmd6H5rkJtbxZUPC2NnJMPS5PEWIHKBvPZxAcan7w3EHLWCC/qSib8sK68S2oBcFkU+noKdBysOqWLQRj9LnvM2CFcPg9D55rlqPdcqH54kwdGerFOmkc00r83o3JcVjM5unVHjRp1L4hBrpXcezyGBUswzTZUMsr84S97DFaw2aLe+7EiM8w86tW8JcO+G2J+qBfAhWUF6BFfDlPhq/BU2YEvdz/uMLVRnkpIuNW9WesW2vSFvgOainNfa9rb6ycRQ2bXbYnFgzHmsGRCb6Fj/ipIGSweKITzYAQq2+5VyiHVlM3m95QXXZ6eJx6e8fe/j/t1" />
+            </div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm', ['tctl00$ContentPlaceHolder1$netForm$UpdatePanel1',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+            <link href="2017/css/hf-2019.css?v=20200528" rel="stylesheet" />
+
+            <style>
+    @media screen and (min-width: 1199.99px) and (max-width: 1465px) {
+        .dtLogo > img {
+            margin-right: 10px !important;
+        }
+
+        .menubarTop div.dropdown-toggle {
+            padding: 16px 3px !important;
+        }
+
+        #navbar .nav > li > a {
+            padding: 16px 3px;
+        }
+    }
+
+    @media (max-width: 1199.98px) {
+        .menubarTop .navbar-header {
+            float: none;
+        }
+
+        .menubarTop .navbar-left,
+        .menubarTop .navbar-right {
+            float: none !important;
+        }
+
+        .menubarTop .navbar-toggle {
+            display: block;
+        }
+
+        .menubarTop .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+
+        .menubarTop .navbar-fixed-top {
+            top: 0;
+            border-width: 0 0 1px;
+        }
+
+        .menubarTop .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+        .menubarTop .navbar-nav {
+            float: none !important;
+            margin-top: 7.5px;
+        }
+
+            .menubarTop .navbar-nav > li {
+                float: none;
+            }
+
+                .menubarTop .navbar-nav > li > a {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+
+        .menubarTop .collapse.in {
+            display: block !important;
+        }
+
+        .menubarTop .navbar-brand {
+            display: inline-block;
+            float: none;
+        }
+
+        .menubarTop .navbar-form.form-inline {
+            display: inline-block;
+            border-color: transparent;
+            margin: 4px;
+            padding: 5px;
+        }
+
+        .menubarTop .navbar-form .form-control {
+            display: inline-block;
+            width: auto;
+            vertical-align: middle;
+        }
+    }
+
+
+
+    .searchResultItem {
+        display: block;
+        line-height: 40px;
+        text-align: left;
+        cursor: pointer;
+        color: black;
+    }
+
+        .searchResultItem:hover {
+            color: yellow;
+        }
+
+    .menubarTop .dropdown-menu-large {
+        overflow: hidden;
+    }
+
+    .menubarTop div.dropdown-toggle {
+        display: inline-block !important;
+        cursor: pointer;
+        padding: 16px 8px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .menubarTop .dropdown .dropdown-menu-large {
+        border-radius: 0 0 4px 4px !important;
+        margin-top: 0 !important;
+    }
+
+    .menubarTop .dropup .dropdown-menu-large {
+        border-radius: 4px 4px 0 0 !important;
+    }
+
+    .menubarTop .dropdown-menu-large[aria-labelledby="myTabDrop41"] {
+        width: 470px;
+        left: -177px !important;
+    }
+
+    .menubarTop .dropdown-menu-large[aria-labelledby="myTabDrop42"] {
+        width: 470px;
+        left: -117px !important;
+    }
+
+    .menubarTop .dropdown-menu-large[aria-labelledby="myTabDrop5"] {
+        width: 580px;
+        left: -487px !important;
+    }
+
+    .menubarTop .dropdown-menu-large[aria-labelledby="myTabDrop62"] {
+        width: 470px;
+        left: -117px !important;
+    }
+
+    .menubarTop .dropdown.dropdown-large.open .dropdown-toggle {
+        background-color: #428bca;
+    }
+
+    .dtWrapper {
+        text-align: left;
+        padding-left: 15%;
+    }
+
+    @media (max-width: 1638px) and (min-width: 1280px) {
+        .dtWrapper {
+            padding-left: 2.5%;
+        }
+    }
+
+    .dtLogo > img {
+        margin-right: 60px;
+    }
+
+    .dtWrapper {
+        text-align: left;
+    }
+
+    @media (max-width:1280px) {
+        .dtWrapper {
+            text-align: center;
+            padding-left: 0;
+        }
+
+        .dtLogo > img {
+            margin-right: 15px;
+        }
+    }
+
+    @media (max-width:1023px) {
+        .dtLogo {
+            width: 55px;
+            overflow: hidden;
+        }
+    }
+
+    @media (min-width:1200px) and (max-width:1230px) {
+        #navbar .nav > li > a {
+            padding: 16px 8px;
+        }
+    }
+</style>
+            <div class="clearfix"></div>
+
+            <div class="xrow menubarTop"
+                style="width: 100%; position: fixed; z-index: 1001; top: 0; left: 0;">
+                <div style="width: 100%; position: relative;" class="pageHeader"
+                    id="affixMenubarWrapper">
+                    <div class="affixMenubar">
+                        <div class="menubarWrapper">
+                            <div class="visible-lg">
+                                <div class="col-md-12 dtWrapper"
+                                    style="background-image: url(2017/images/bg.jpg); line-height: 0;">
+                                    <div id="navbar"
+                                        class="navbar-collapse collapse"
+                                        aria-expanded="false"
+                                        style="height: 1px; margin-left: 0; position: relative; display: inline-block!important; width: auto!important;">
+                                        <div class="navbar-header">
+                                            <a class="nav-brand dtLogo" href
+                                                style="margin-right: 0; display: inline-block;">
+                                                <img src="2017/images/logo.png"
+                                                    alt="巨匠電腦-電腦補習班,學電腦"
+                                                    title="巨匠電腦-電腦補習班,學電腦"
+                                                    style="margin-top: 8px;" /></a>
+                                        </div>
+                                        <ul class="nav navbar-nav menubar2017">
+                                            <li class="dropdown dropdown-large">
+                                                <div class="dropdown-toggle"
+                                                    id="myTabDrop2">開課查詢</div>
+                                                <ul
+                                                    class="dropdown-menu dropdown-menu-large"
+                                                    aria-labelledby="myTabDrop2"
+                                                    style="width: 600px;">
+                                                    <li class="col-sm-4"
+                                                        style="width: 33%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="courses">課程查詢</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="courses?branchid=99999">直播教學查詢</a></li>
+                                                            <li><a
+                                                                    href="courses?branchid=99998">窩課360課程查詢</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col-sm-4"
+                                                        style="width: 33%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="freecourse/seminar">線上說明會報名</a></li>
+                                                            <li><a
+                                                                    href="freecourse">免費研討會查詢</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col-sm-4"
+                                                        style="width: 33%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="branch-school">免費課表索取</a></li>
+                                                            <li><a
+                                                                    href="special-offers">熱門活動</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown dropdown-large">
+                                                <div class="dropdown-toggle"
+                                                    id="myTabDrop1">課程總覽</div>
+                                                <ul
+                                                    class="dropdown-menu dropdown-menu-large open"
+                                                    aria-labelledby="myTabDrop1"
+                                                    style="width: 1050px;">
+                                                    <div class="coursesMenu">
+                                                        <div class="col-md-2">
+                                                            <h4
+                                                                class="coursesItem">課程總表</h4>
+                                                            <li>
+                                                                <ul>
+                                                                    <li><a
+                                                                            href="courses-list">課程總表</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <h4
+                                                                class="coursesItem">資訊系列課程</h4>
+                                                            <div class="row">
+                                                                <div
+                                                                    class="col-sm-6">
+                                                                    <li>
+                                                                        <ul>
+                                                                            <li><a
+                                                                                    href="programming">程式/資料庫</a></li>
+                                                                            <li><a
+                                                                                    href="ai-programming"
+                                                                                    target="_blank">AI程式設計</a></li>
+                                                                            <li><a
+                                                                                    href="cloud-computing">資安網管</a></li>
+                                                                            <li><a
+                                                                                    href="app-creation">手機APP設計</a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                                <div
+                                                                    class="col-sm-6">
+                                                                    <li>
+                                                                        <ul>
+                                                                            <li><a
+                                                                                    href="pcguide">辦公室應用</a></li>
+                                                                            <li><a
+                                                                                    href="certified-remedial">認證輔導</a></li>
+                                                                            <li><a
+                                                                                    href="activity/108/teenProgrammingBootCamp/index.html?fromto=99001131"
+                                                                                    target="_blank">青少年程式營</a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <h4
+                                                                class="coursesItem">設計系列課程</h4>
+                                                            <div class="row">
+                                                                <div
+                                                                    class="col-sm-6">
+                                                                    <li>
+                                                                        <ul>
+                                                                            <li><a
+                                                                                    href="visual-design">視覺設計</a></li>
+                                                                            <li><a
+                                                                                    href="webdesign">網頁設計</a></li>
+                                                                            <li><a
+                                                                                    href="industrial-design">工業設計</a></li>
+                                                                            <li><a
+                                                                                    href="architectural-interior-design">建築室內設計</a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                                <div
+                                                                    class="col-sm-6">
+                                                                    <li>
+                                                                        <ul>
+                                                                            <li><a
+                                                                                    href="3d-animation">3D多媒體動畫</a></li>
+                                                                            <li><a
+                                                                                    href="visual-effects">影視特效</a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <h4
+                                                                class="coursesItem">設計學院專屬</h4>
+                                                            <div class="row">
+                                                                <div
+                                                                    class="col-sm-6">
+                                                                    <li>
+                                                                        <ul>
+                                                                            <li><a
+                                                                                    href="design-college/interior-design"><span
+                                                                                        class="nav-link-PRO">PRO</span>室內設計</a>
+                                                                            </li>
+                                                                            <li><a
+                                                                                    href="design-college/graphic-design"><span
+                                                                                        class="nav-link-PRO">PRO</span>平面設計</a>
+                                                                            </li>
+                                                                            <li><a
+                                                                                    href="design-college/web-design"><span
+                                                                                        class="nav-link-PRO">PRO</span>網頁設計</a>
+                                                                            </li>
+                                                                            <li><a
+                                                                                    href="design-college/visual-effects"><span
+                                                                                        class="nav-link-PRO">PRO</span>影視特效</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                                <div
+                                                                    class="col-sm-6">
+                                                                    <li>
+                                                                        <ul>
+                                                                            <li><a
+                                                                                    href="design-college/digital-painting"><span
+                                                                                        class="nav-link-PRO">PRO</span>數漫電繪</a>
+                                                                            </li>
+                                                                            <li><a
+                                                                                    href="design-college/game-animation"><span
+                                                                                        class="nav-link-PRO">PRO</span>遊戲動畫</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </ul>
+                                            </li>
+                                            <li><a href="design-college">設計學院</a></li>
+                                            <li class="dropdown dropdown-large">
+                                                <div class="dropdown-toggle"
+                                                    id="myTabDrop3">政府補助</div>
+                                                <ul
+                                                    class="dropdown-menu dropdown-menu-large"
+                                                    aria-labelledby="myTabDrop3"
+                                                    style="width: 250px;">
+                                                    <li class="col-sm-3"
+                                                        style="width: 40%">
+                                                        <ul>
+                                                            <li>
+
+                                                                <a
+                                                                    href="https://www.pcschool.com.tw/activity/106/1061023_gov/index.html?fromto=99001139">政府委辦課程查詢</a>
+                                                            </li>
+                                                            <li><a href="gov">政府補助說明</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="gov-faq">職訓資格說明</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="manpower">就業輔導</a></li>
+                                            <li><a
+                                                    href="https://biz.pcschool.tv">企業服務</a></li>
+                                            <li><a href="branch-school">分校據點</a></li>
+
+                                            <li><a href="pcschool-teachers">百大名師</a></li>
+                                            <li class="dropdown dropdown-large">
+                                                <div class="dropdown-toggle"
+                                                    aria-labelledby="myTabDrop4">直播教學</div>
+                                                <ul
+                                                    class="dropdown-menu dropdown-menu-large"
+                                                    aria-labelledby="myTabDrop4"
+                                                    style="width: 200px;">
+                                                    <li class="col-sm-3"
+                                                        style="width: 40%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="https://www.pcschoolonline.com.tw"
+                                                                    target="_blank">直播教學首頁</a></li>
+                                                            <li><a
+                                                                    href="online-live-course">熱門直播課程</a></li>
+                                                        </ul>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown dropdown-large">
+                                                <div class="dropdown-toggle"
+                                                    aria-labelledby="myTabDrop4">學習成果</div>
+                                                <ul
+                                                    class="dropdown-menu dropdown-menu-large"
+                                                    aria-labelledby="myTabDrop4"
+                                                    style="width: 200px;">
+                                                    <li class="col-sm-3"
+                                                        style="width: 40%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="success-stories"
+                                                                    target="_blank">學員故事</a></li>
+                                                            <li><a
+                                                                    href="student-show">學員作品</a></li>
+                                                            <li><a
+                                                                    href="https://www.pcschool.com.tw/activity/collected-stories/index.aspx?fromto=9900113I">匠人這樣說</a></li>
+                                                            <li><a
+                                                                    href="greatmaster">金匠獎</a></li>
+                                                        </ul>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown dropdown-large">
+                                                <div class="dropdown-toggle"
+                                                    aria-labelledby="myTabDrop62">學習資源</div>
+                                                <ul
+                                                    class="dropdown-menu dropdown-menu-large"
+                                                    aria-labelledby="myTabDrop62"
+                                                    style="width: 210px;">
+                                                    <li class="col-sm-4">
+                                                        <ul>
+                                                            <li><a href="blog">就醬學充電站</a></li>
+                                                            <li><a
+                                                                    href="study-technical">電腦學習密技</a></li>
+                                                            <li><a
+                                                                    href="video-learning">電腦技能一學就會</a></li>
+                                                            <li><a
+                                                                    href="livecourse">電腦Live直播講堂</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <a
+                                                    href="javascript:return false;"
+                                                    class="btnSearch"><span
+                                                        class="glyphicon glyphicon-search"></span></a>
+                                            </li>
+
+                                            <li>
+                                                <div class="col-sm-12"
+                                                    style="padding-right: 25px;"></div>
+                                            </li>
+
+                                            <li class="dropdown dropdown-large">
+                                                <div class="dropdown-toggle"
+                                                    id="myTabDrop5">
+                                                    <i class="fas fa-user"
+                                                        style="margin-right: 2px;"></i>學員專區
+                                                </div>
+                                                <ul
+                                                    class="dropdown-menu dropdown-menu-large dropdown-menu-right"
+                                                    aria-labelledby="myTabDrop5"
+                                                    style="width: 640px;">
+                                                    <li class="col-sm-2"
+                                                        style="width: 25%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="purchase-list">課程劃位</a></li>
+                                                            <li><a
+                                                                    href="exchange">點數卡產品兌換</a></li>
+                                                            <li><a
+                                                                    href="class-cancellations">課程取消劃位</a></li>
+                                                            <li><a
+                                                                    href="leaving-your-course">請假作業</a></li>
+                                                            <li><a href="signin"
+                                                                    class="loginFirst">上課簽到</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col-sm-2"
+                                                        style="width: 25%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="calendar">我的課表</a></li>
+                                                            <li><a
+                                                                    href="trading-recording">我的使用紀錄</a></li>
+                                                            <li><a
+                                                                    href="course-collection">我的收藏課程</a></li>
+                                                            <li><a
+                                                                    href="questionnaire"
+                                                                    class="loginFirst">課程服務問卷填寫</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col-sm-2"
+                                                        style="width: 25%">
+                                                        <ul>
+                                                            <li><a
+                                                                    href="about-me">我的個人資料</a></li>
+                                                            <li><a
+                                                                    href="customer-rights">學員權益說明</a></li>
+                                                            <li><a
+                                                                    href="school-bulletin">學員公告</a></li>
+                                                            <li><a
+                                                                    href="manpower">求職專區</a></li>
+                                                            <li><a
+                                                                    href="career-reward"
+                                                                    class="loginFirst">就業獎學金</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="col-sm-2"
+                                                        style="width: 25%">
+                                                        <ul>
+                                                            <li>
+                                                                <a
+                                                                    id="ctl00_ucHeader_btnLogout"
+                                                                    href="javascript:__doPostBack(&#39;ctl00$ucHeader$btnLogout&#39;,&#39;&#39;)">
+                                                                    登出</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div
+                                class="visible-xs visible-sm visible-md pageHeader2"
+                                style="width: 100%; overflow-x: hidden;">
+                                <div class="row">
+                                    <div class="col-md-12"
+                                        style="background-image: url(2017/images/bg.jpg);">
+                                        <div class="col-md-2"></div>
+                                        <div class="col-md-8">
+                                            <div class="navbar-header">
+                                                <button
+                                                    style="float: right; margin-right: 5px; margin-left: 1px;"
+                                                    type="button"
+                                                    class="navbar-toggle collapsed btnMobile"
+                                                    data-toggle="collapse"
+                                                    data-target="#navbar2"
+                                                    aria-expanded="false"
+                                                    aria-controls="navbar2">
+                                                    <span class="sr-only">Toggle
+                                                        navigation</span> <span
+                                                        class="icon-bar"></span><span
+                                                        class="icon-bar"></span><span
+                                                        class="icon-bar"></span>
+                                                </button>
+                                                <button type="submit"
+                                                    class="btn glyphicon glyphicon-search fontWhite btnSearch"
+                                                    style="background-color: transparent; margin-top: 8px; float: right; margin-right: 2px;">
+                                                </button>
+                                                <a class="nav-brand" href
+                                                    style="display: inline-block;">
+                                                    <img
+                                                        src="2017/images/logo.png"
+                                                        alt="巨匠電腦-電腦補習班,學電腦"
+                                                        title="巨匠電腦-電腦補習班,學電腦"
+                                                        style="margin-top: 8px;" /></a>
+                                            </div>
+                                            <div id="navbar2"
+                                                class="navbar-collapse collapse"
+                                                aria-expanded="false">
+                                                <ul class="nav navbar-nav"
+                                                    style="width: 100%; overflow-x: hidden; padding-left: 15px;">
+                                                    <li class="dropdown">
+                                                        <a href="#"
+                                                            class="dropdown-toggle"
+                                                            data-toggle="dropdown"
+                                                            role="button"
+                                                            aria-haspopup="true"
+                                                            aria-expanded="false">開課查詢<span
+                                                                class="caret"></span></a>
+                                                        <ul
+                                                            class="dropdown-menu">
+                                                            <li><a
+                                                                    href="courses">課程查詢</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="courses?branchid=99999">直播教學查詢</a></li>
+                                                            <li><a
+                                                                    href="courses?branchid=99998">窩課360課程查詢</a></li>
+                                                            <li><a
+                                                                    href="freecourse/seminar">線上說明會報名</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="freecourse">免費研討會查詢</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="branch-school">免費課表索取</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="special-offers">熱門活動</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown">
+                                                        <a href="#"
+                                                            class="dropdown-toggle"
+                                                            data-toggle="dropdown"
+                                                            role="button"
+                                                            aria-haspopup="true"
+                                                            aria-expanded="false">課程總覽<span
+                                                                class="caret"></span></a>
+                                                        <ul
+                                                            class="dropdown-menu">
+                                                            <h4
+                                                                class="coursesItem"><i
+                                                                    class="glyphicon glyphicon-tag"></i>課程總表</h4>
+                                                            <li><a
+                                                                    href="courses-list">課程總表</a>
+                                                            </li>
+                                                            <h4
+                                                                class="coursesItem"><i
+                                                                    class="glyphicon glyphicon-tag"></i>資訊系列課程</h4>
+                                                            <li><a
+                                                                    href="programming">程式/資料庫</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="ai-programming"
+                                                                    target="_blank">AI程式設計</a></li>
+                                                            <li><a
+                                                                    href="cloud-computing">網路管理</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="app-creation">手機APP設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="pcguide">辦公室應用</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="certified-remedial">認證輔導</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="activity/108/teenProgrammingBootCamp/index.html?fromto=99001131"
+                                                                    target="_blank">青少年程式營</a></li>
+                                                            <h4
+                                                                class="coursesItem"><i
+                                                                    class="glyphicon glyphicon-tag"></i>設計系列課程</h4>
+                                                            <li><a
+                                                                    href="visual-design">視覺設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="webdesign">網頁設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="industrial-design">工業設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="architectural-interior-design">建築室內設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="3d-animation">3D多媒體動畫</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="visual-effects">影視特效</a>
+                                                            </li>
+                                                            <h4
+                                                                class="coursesItem"><i
+                                                                    class="glyphicon glyphicon-tag"></i>設計學院專屬</h4>
+                                                            <li><a
+                                                                    href="design-college/interior-design"><span
+                                                                        class="nav-link-PRO">PRO</span>室內設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="design-college/graphic-design"><span
+                                                                        class="nav-link-PRO">PRO</span>平面設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="design-college/web-design"><span
+                                                                        class="nav-link-PRO">PRO</span>網頁設計</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="design-college/visual-effects"><span
+                                                                        class="nav-link-PRO">PRO</span>影視特效</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="design-college/digital-painting"><span
+                                                                        class="nav-link-PRO">PRO</span>數漫電繪</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="design-college/game-animation"><span
+                                                                        class="nav-link-PRO">PRO</span>遊戲動畫</a>
+                                                            </li>
+                                                            <li><a
+                                                                    href="design-college/ecommerce"><span
+                                                                        class="nav-link-PRO">PRO</span>數位電商</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="design-college">設計學院</a>
+                                                        <li class="dropdown">
+                                                            <a href="#"
+                                                                class="dropdown-toggle"
+                                                                data-toggle="dropdown"
+                                                                role="button"
+                                                                aria-haspopup="true"
+                                                                aria-expanded="false">政府補助<span
+                                                                    class="caret"></span></a>
+                                                            <ul
+                                                                class="dropdown-menu">
+                                                                <li>
+
+                                                                    <a
+                                                                        href="https://www.pcschool.com.tw/activity/106/1061023_gov/index.html?fromto=99001139">政府委辦課程查詢</a>
+                                                                </li>
+
+                                                                <li><a
+                                                                        href="gov">政府補助說明</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="gov-faq">職訓資格說明</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="manpower">就業輔導</a></li>
+                                                        <li><a
+                                                                href="http://biz.pcschool.tv">企業服務</a></li>
+                                                        <li><a
+                                                                href="branch-school">分校據點</a></li>
+                                                        <li><a
+                                                                href="pcschool-teachers">百大名師</a></li>
+                                                        <li class="dropdown">
+                                                            <a href="#"
+                                                                class="dropdown-toggle"
+                                                                data-toggle="dropdown"
+                                                                role="button"
+                                                                aria-haspopup="true"
+                                                                aria-expanded="false">直播教學<span
+                                                                    class="caret"></span></a>
+                                                            <ul
+                                                                class="dropdown-menu">
+                                                                <li><a
+                                                                        href="https://www.pcschoolonline.com.tw"
+                                                                        target="_blank">直播教學首頁</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="online-live-course">熱門直播課程</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#"
+                                                                class="dropdown-toggle"
+                                                                data-toggle="dropdown"
+                                                                role="button"
+                                                                aria-haspopup="true"
+                                                                aria-expanded="false">學習成果<span
+                                                                    class="caret"></span></a>
+                                                            <ul
+                                                                class="dropdown-menu">
+                                                                <li><a
+                                                                        href="success-stories">學員故事</a></li>
+                                                                <li><a
+                                                                        href="student-show">學員作品</a></li>
+                                                                <li><a
+                                                                        href="https://www.pcschool.com.tw/activity/collected-stories/index.aspx?fromto=9900113I">匠人這樣說</a></li>
+                                                                <li><a
+                                                                        href="greatmaster">金匠獎</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a href="#"
+                                                                class="dropdown-toggle"
+                                                                data-toggle="dropdown"
+                                                                role="button"
+                                                                aria-haspopup="true"
+                                                                aria-expanded="false">學習資源<span
+                                                                    class="caret"></span></a>
+                                                            <ul
+                                                                class="dropdown-menu">
+                                                                <li><a
+                                                                        href="blog">就醬學充電站</a></li>
+                                                                <li><a
+                                                                        href="study-technical">電腦學習密技</a></li>
+                                                                <li><a
+                                                                        href="video-learning">電腦技能一學就會</a></li>
+                                                                <li><a
+                                                                        href="livecourse">電腦Live直播講堂</a></li>
+                                                            </ul>
+                                                        </li>
+
+                                                        <li class="dropdown">
+                                                            <a href="#"
+                                                                class="dropdown-toggle"
+                                                                data-toggle="dropdown"
+                                                                role="button"
+                                                                aria-haspopup="true"
+                                                                aria-expanded="false">學員專區<span
+                                                                    class="caret"></span></a>
+                                                            <ul
+                                                                class="dropdown-menu">
+
+                                                                <li><a
+                                                                        href="purchase-list">課程劃位</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="exchange">點數卡產品兌換</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="class-cancellations">課程取消劃位</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="leaving-your-course">請假作業</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="calendar">我的課表</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="trading-recording">我的使用紀錄</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="course-collection">我的收藏課程</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="signin">上課簽到</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="questionnaire"
+                                                                        class="loginFirst">課程服務問卷填寫</a></li>
+
+                                                                <li><a
+                                                                        href="about-me">我的個人資料</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="customer-rights">學員權益說明</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="school-bulletin">學員公告</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="manpower">求職專區</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="career-reward"
+                                                                        class="loginFirst">就業獎學金</a></li>
+                                                                <li>
+                                                                    <a
+                                                                        id="ctl00_ucHeader_btnLogout2"
+                                                                        href="javascript:__doPostBack(&#39;ctl00$ucHeader$btnLogout2&#39;,&#39;&#39;)">登出</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a
+                                                                href="https://www.facebook.com/pcplay"
+                                                                target="_blank">FB粉絲團</a></li>
+                                                        <li><a
+                                                                href="http://line.me/ti/p/@jox8901a"
+                                                                target="_blank">Line官方帳號</a></li>
+                                                        <li><a href="blog">部落格</a></li>
+                                                        <li><a
+                                                                href="teaching-channel">影音學習</a></li>
+                                                        <li><a
+                                                                href="https://www.youtube.com/user/GjunChannel"
+                                                                target="_blank">YouTube頻道</a></li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="ctl00_ucHeader_searchPanel"
+                                onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_ucHeader_searchBtn&#39;)">
+
+                                <div class="xrow searchPanel "
+                                    style="background-color: rgba(77,77, 77,0.95); display: none; width: 100%; padding-bottom: 15px; position: absolute;">
+                                    <div
+                                        class="col-md-12 center-block text-center"
+                                        style="padding: 15px 15px 0 15px; margin: 0;">
+                                        <div class="form-inline" role="form">
+                                            <div class="form-group">
+                                                <div
+                                                    style="font-size: 14px; margin-bottom: 10px; color: black; display: inline-block;"
+                                                    class="searchPanelTitlt center-block">課程搜尋</div>
+                                                <select
+                                                    name="ctl00$ucHeader$searchCat"
+                                                    id="ctl00_ucHeader_searchCat"
+                                                    class="form-control searchCat">
+                                                    <option value="1">北區開課查詢</option>
+                                                    <option value="2">中區開課查詢</option>
+                                                    <option value="3">南區開課查詢</option>
+                                                    <option value="4">東區開課查詢</option>
+                                                    <option value="5">熱門文章搜尋</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input
+                                                    name="ctl00$ucHeader$searchText"
+                                                    type="text" maxlength="20"
+                                                    id="ctl00_ucHeader_searchText"
+                                                    class="form-control searchText"
+                                                    placeholder="請輸入關鍵字" />
+                                                <div
+                                                    style="height: 0; position: relative;">
+                                                    <div class="searchHintPanel"
+                                                        style="display: none; width: 100%; background-color: dodgerblue; z-index: 999; border: 1px solid gray; position: absolute; padding: 5px;"></div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <a
+                                                    onclick="return searchChecker();"
+                                                    id="ctl00_ucHeader_searchBtn"
+                                                    class="btn glyphicon glyphicon-search fontWhite"
+                                                    href="javascript:__doPostBack(&#39;ctl00$ucHeader$searchBtn&#39;,&#39;&#39;)"
+                                                    style="background-color:#E02512;display: inline-block; margin-top: -2px;"></a>
+                                                <script>
+                                    function searchChecker() {
+                                        if ($.trim($('.searchText').val()) == '') {
+                                            alert('請輸入關鍵字...');
+                                            return false;
+                                        } else {
+                                            return true;
+                                        }
+                                    }
+                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <script>
+
+    $(function () {
+        var isLoading3 = false;
+        $('a.loginFirst').click(function (e) {
+            var targetLink = this;
+            e.preventDefault();
+            if (isLoading3) {
+                return;
+            }
+            isLoading3 = true;
+            $.ajax({
+                type: "POST",
+                url: "/ws2015.asmx/getLoginStatus",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data, status) {
+                    var dataAry = $.parseJSON(data.d);
+                    if (dataAry.length === 0) {
+                        isLoading3 = false;
+                        linkerClick('/login.aspx?ReturnUrl=' + $(targetLink).attr('href'));
+                    } else {
+                        var d = dataAry[0];
+                        isLoading3 = false;
+                        if (d.islogin === 1) {
+
+                            linkerClick($(targetLink).attr('href'), '_self');
+                        } else {
+
+                            linkerClick('/login.aspx?ReturnUrl=' + $(targetLink).attr('href'));
+                        }
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    isLoading3 = false;
+                    linkerClick('/login.aspx?ReturnUrl=' + $(targetLink).attr('href'));
+                }
+            });
+        });
+
+
+
+        $('.btnSearch').click(function () {
+            if ($('.btnMobile').attr('aria-expanded') === 'true') {
+                $('.btnMobile').click();
+            }
+            $('.btnSearch').toggleClass('actived');
+            $('.searchPanel').slideToggle();
+            if ($('.searchPanel').is(':visible')) {
+                $('.searchPanel').css('background-color', 'rgba(77,77,77,0.95)');
+                $('.searchPanelTitlt').css('color', 'white');
+            }
+            return false;
+        });
+
+
+        $('.btnMobile').click(function () {
+            if ($('.btnMobile').attr('aria-expanded') === 'false') {
+                $('.searchPanel').hide();
+            } else if ($('.btnSearch').hasClass('actived') || !$('.btnSearch').is(':visible')) {
+                $('.searchPanel').show();
+            } else {
+                $('.searchPanel').hide();
+            }
+        });
+
+
+        var isLoading2 = false;
+        $('.searchText').on('keyup focus paste', function () {
+            if ($.trim($('.searchText').val()) != '') {
+                if (isLoading2) {
+                    return;
+                }
+                isLoading2 = true;
+                $.ajax({
+                    type: "POST",
+                    url: "/ws2017.asmx/getSearchHint",
+                    data: "{qty:5,searchText:'" + $.trim($('.searchText').val()) + "'}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data, status) {
+                        if ($.trim(data) != '' && data.d) {
+                            var dataAry = $.parseJSON(data.d);
+                            if (dataAry.length == 0) {
+                                $('.searchHintPanel').slideUp();
+                                logger('length is 0...');
+                            } else {
+                                logger(data);
+                                var d, h;
+                                $('.searchHintPanel').html('');
+                                for (var i = 0; i < dataAry.length; i++) {
+                                    d = dataAry[i];
+
+                                    h = '';
+                                    h += '<div onclick="pickupKeyword(\'' + d.msg_subject + '\');" class="searchResultItem">';
+                                    h += d.msg_subject;
+                                    h += '</div>';
+
+                                    $('.searchHintPanel').append(h);
+                                }
+                                if (!$('.searchHintPanel').is(':visible')) {
+                                    $('.searchHintPanel').slideDown();
+                                }
+                            }
+                        } else {
+                            $('.searchHintPanel').slideUp();
+                        }
+                        isLoading2 = false;
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        logger('error...');
+                        $('.searchHintPanel').slideUp();
+                        isLoading2 = false;
+                    }
+                });
+            } else {
+                $('.searchHintPanel').slideUp();
+                isLoading2 = false;
+            }
+        }).blur(function () {
+            $('.searchHintPanel').slideUp();
+            isLoading2 = false;
+        });;
+
+        var testing = true;
+
+        $('.dropdown-large').on('mouseenter click', function () { // mouseenter
+            if (isMobile && !isIOS && testing) { // for android
+                $('.dropdown-large').removeClass('open');
+                $('.menubar2017 .dropdown-menu').css('display', 'none');
+            }
+            if (!$(this).hasClass('open')) {
+                $('.dropdown-toggle', $(this)).dropdown();
+                $(this).addClass('open');
+                if (isMobile && !isIOS && testing) { // for android
+                    $('.dropdown-menu', $(this)).css('display', 'block');
+                }
+            }
+        }).mouseleave(function () { // mouseleave,  DO NOT USE mouseout
+            $(this).blur().removeClass('open');
+            if (isMobile && !isIOS && testing) { // for android
+                $('.dropdown-large').removeClass('open');
+                $('.menubar2017 .dropdown-menu').css('display', 'none');
+            }
+        });
+
+    });
+
+    var pickupKeyword = function (p) {
+        $('.searchText').val(p);
+        $('.searchHintPanel').slideUp();
+    }
+
+</script>
+
+                <div class="container-fluid" style="overflow-x: hidden;">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1"></div>
+                        <div class="col-md-10 col-sm-10 col-xs-12">
+
+                            <div class="panel2Wrapper">
+                                <div class="panel2Header purple">
+                                    電腦Live直播講堂
+                                </div>
+                                <div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div class="col-md-8 col-sm-8">
+                                            <div
+                                                style="font-size: 20px; padding: 0 0 15px 0; font-weight: bold; color: #fe710a;">
+
+                                                <br class="visible-xs" />
+                                                <div class="pull-right"
+                                                    style="margin-top: 5px; margin-left: 15px;">
+                                                    <div class="btnFBShare"
+                                                        data-name="電腦Live講堂 2023年 5月IV."
+                                                        data-pic="2017/livecourse/course/rwd_live102.jpg"
+                                                        data-desc="UI/UX設計師必備的ChatGPT對話術">FB分享</div>
+                                                </div>
+                                                <br class="visible-xs" />
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <h1
+                                                style="font-size: 18px; padding: 0; line-height: 24px;">
+                                                UI/UX設計師必備的ChatGPT對話術
+                                            </h1>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2"></div>
+                                        <div
+                                            class="col-md-8 col-sm-8 text-center">
+
+                                            <div class="ytvWrapper ytvSkin">
+                                                <div
+                                                    class="embed-responsive embed-responsive-16by9">
+                                                    <iframe width="100%"
+                                                        src="/www.youtube.com/embed/LOjf1AkVDQI?rel=0&showinfo=0"
+                                                        frameborder="0"
+                                                        class="embed-responsive-item"
+                                                        allowfullscreen="allowfullscreen"></iframe>
+                                                </div>
+                                            </div>
+
+                                            <div class="row"
+                                                style="text-align: left; line-height: 30px; margin-top: 15px;">
+                                                <div class="col-md-12">課程簡介：</div>
+                                                <div class="col-md-12"><h2>●
+                                                        與其被取代，不如與AI科技共好<br />●
+                                                        運用AI技術彙整資料，簡化發想流程<br />●
+                                                        如何精準有效的提問技巧<h2></div>
+
+                                                        <div class="col-md-12"
+                                                            style="margin-top: 15px;">講師簡介：</div>
+                                                        <div class="col-md-12">
+                                                            <div class="row">
+                                                                <div
+                                                                    class="col-md-4 center-block text-center">
+                                                                    <img
+                                                                        src="/www.pcschool.com.tw/updimg/act/2017/livecourse/teacher/201812-1-teacher.png"
+                                                                        alt
+                                                                        class="img-responsive"
+                                                                        style="display: inline-block;" />
+                                                                </div>
+                                                                <div
+                                                                    class="col-md-8">
+                                                                    <strong><span
+                                                                            style="font-size:24px;">孫鳴遠&nbsp;</span></strong><span
+                                                                        style="font-size:24px;"><span
+                                                                            style="font-size:18px;">老師</span></span><br />
+                                                                    <br />
+                                                                    <span
+                                                                        style="font-size:18px;"><u>視覺/廣告創意專家</u><br />
+                                                                        鳴之設計事務所
+                                                                        創意總監<br />
+                                                                        致理科技大學多媒體設計系兼任講師<br />
+                                                                        師大、銘傳、中原、萬能、華梵、世新等大學業界講師<br />
+                                                                        三民家商2D原畫
+                                                                        外聘指導講師</span><br />
+                                                                    <br />
+                                                                    <span
+                                                                        style="font-size:18px;"><u>專
+                                                                            長 領
+                                                                            域</u><br />
+                                                                        多媒體影像使用教學技巧、作品分析、實例運用<br />
+                                                                        網站技術：規劃、建置、產業分析、軟體使用<br />
+                                                                        資訊應用：設計管哩、品牌規劃、介面設計、網站規劃<br />
+                                                                        <br />
+                                                                        <span
+                                                                            style="font-size:18px;"><u>重
+                                                                                要
+                                                                                著
+                                                                                作</u><br />
+                                                                            PChome網路家庭雜誌「主題急救戰」專欄<br />
+                                                                            ACA國際認證教戰手冊-Photoshop完全攻略<br />
+                                                                            關於設計這些事<br />
+                                                                            這些設計那些創意</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-md-2 col-sm-2"></div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+
+                                    <a name="footerNetForm"></a>
+                                    <div style="padding: 15px;">
+                                        <div
+                                            id="ctl00_ContentPlaceHolder1_netForm_UpdatePanel1">
+
+                                            <style>
+                .submitBtn {
+                    margin-left:auto!important;
+                    margin-right:auto!important;
+                }
+
+            </style>
+                                            <div class="row"
+                                                style="border: 1px solid  dodgerblue;">
+                                                <div
+                                                    class="col-md-12 bgBlue fontWhite"
+                                                    style="font-weight: bold; font-size: 20px; padding: 5px; color: white;">
+                                                    免費課程諮詢
+                                                </div>
+                                                <div class="container-fluid"
+                                                    style="background-color:white;">
+                                                    <div class="row">
+                                                        <div class="col-md-8">
+                                                            <div
+                                                                id="ctl00_ContentPlaceHolder1_netForm_formPanel"
+                                                                onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_ContentPlaceHolder1_netForm_formdataBtn&#39;)">
+
+                                                                <div class="row"
+                                                                    style="padding-top: 15px;">
+                                                                    <div
+                                                                        class="col-sm-6 col-md-4 form-group">
+                                                                        <input
+                                                                            name="ctl00$ContentPlaceHolder1$netForm$iName"
+                                                                            type="text"
+                                                                            maxlength="10"
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_iName"
+                                                                            class="form-control"
+                                                                            placeholder="姓名" />
+                                                                        <span
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1"
+                                                                            class="has-error"
+                                                                            style="color:Red;display:none;">不可空白</span>
+                                                                    </div>
+                                                                    <div
+                                                                        class="col-sm-6 col-md-4 form-group">
+                                                                        <input
+                                                                            name="ctl00$ContentPlaceHolder1$netForm$iMobile"
+                                                                            type="text"
+                                                                            maxlength="10"
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_iMobile"
+                                                                            class="form-control"
+                                                                            placeholder="手機" />
+                                                                        <span
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2"
+                                                                            class="has-error"
+                                                                            style="color:Red;display:none;">不可空白</span>
+                                                                        <span
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1"
+                                                                            class="has-error"
+                                                                            style="color:Red;display:none;">格式錯誤</span>
+                                                                    </div>
+                                                                    <div
+                                                                        class="col-xs-12 col-sm-12 col-md-4 form-group">
+                                                                        <input
+                                                                            name="ctl00$ContentPlaceHolder1$netForm$iEmail"
+                                                                            type="text"
+                                                                            maxlength="50"
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_iEmail"
+                                                                            class="form-control"
+                                                                            placeholder="電子信箱" />
+                                                                        <span
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3"
+                                                                            class="has-error"
+                                                                            style="color:Red;display:none;">不可空白</span>
+                                                                        <span
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2"
+                                                                            class="has-error"
+                                                                            style="color:Red;display:none;">格式錯誤</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div
+                                                                        class="col-xs-6 form-group">
+                                                                        <select
+                                                                            name="ctl00$ContentPlaceHolder1$netForm$ddlcity1"
+                                                                            onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$netForm$ddlcity1\&#39;,\&#39;\&#39;)&#39;, 0)"
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_ddlcity1"
+                                                                            class="form-control">
+                                                                            <option
+                                                                                selected="selected"
+                                                                                value>請選擇</option>
+                                                                            <option
+                                                                                value="01">基隆市</option>
+                                                                            <option
+                                                                                value="02">台北市</option>
+                                                                            <option
+                                                                                value="03">新北市</option>
+                                                                            <option
+                                                                                value="04">桃園市</option>
+                                                                            <option
+                                                                                value="05">新竹市</option>
+                                                                            <option
+                                                                                value="06">新竹縣</option>
+                                                                            <option
+                                                                                value="07">苗栗縣</option>
+                                                                            <option
+                                                                                value="08">台中市</option>
+                                                                            <option
+                                                                                value="10">彰化縣</option>
+                                                                            <option
+                                                                                value="11">南投縣</option>
+                                                                            <option
+                                                                                value="12">雲林縣</option>
+                                                                            <option
+                                                                                value="13">嘉義市</option>
+                                                                            <option
+                                                                                value="14">嘉義縣</option>
+                                                                            <option
+                                                                                value="15">台南市</option>
+                                                                            <option
+                                                                                value="17">高雄市</option>
+                                                                            <option
+                                                                                value="19">屏東縣</option>
+                                                                            <option
+                                                                                value="20">台東縣</option>
+                                                                            <option
+                                                                                value="21">花蓮縣</option>
+                                                                            <option
+                                                                                value="22">宜蘭縣</option>
+                                                                            <option
+                                                                                value="23">澎湖縣</option>
+                                                                            <option
+                                                                                value="24">金門縣</option>
+                                                                            <option
+                                                                                value="25">連江縣</option>
+
+                                                                        </select>
+                                                                        <span
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4"
+                                                                            class="has-error"
+                                                                            style="color:Red;display:none;">請選擇</span>
+
+                                                                    </div>
+                                                                    <div
+                                                                        class="col-xs-6 form-group">
+                                                                        <select
+                                                                            name="ctl00$ContentPlaceHolder1$netForm$ddlcity2"
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_ddlcity2"
+                                                                            class="form-control">
+                                                                            <option
+                                                                                value>請選擇</option>
+
+                                                                        </select>
+                                                                        <span
+                                                                            id="ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5"
+                                                                            class="has-error"
+                                                                            style="color:Red;display:none;">請選擇</span>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div
+                                                                        class="col-md-12 form-group">
+                                                                        <div
+                                                                            class="pull-left">我要領取
+                                                                        </div>
+                                                                        <div
+                                                                            class="pull-left">
+                                                                            <select
+                                                                                name="ctl00$ContentPlaceHolder1$netForm$prizeList"
+                                                                                id="ctl00_ContentPlaceHolder1_netForm_prizeList"
+                                                                                class="listItemStyle"
+                                                                                RepeatDirection="Vertical"
+                                                                                RepeatLayout="Flow">
+                                                                                <option
+                                                                                    selected="selected"
+                                                                                    value="1">12000堂免費電腦線上課程</option>
+                                                                                <option
+                                                                                    value="2">萬元課程補助金</option>
+
+                                                                            </select>
+                                                                            <span
+                                                                                id="ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6"
+                                                                                class="has-error"
+                                                                                style="color:Red;display:none;">請選擇</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="center-block form-group">
+                                                                    <div
+                                                                        class="text-center"
+                                                                        style="padding-top: 20px; padding-bottom: 20px;">
+                                                                        <span
+                                                                            class="agreeBox"
+                                                                            style="color:Black;"><input
+                                                                                id="ctl00_ContentPlaceHolder1_netForm_iAgree"
+                                                                                type="checkbox"
+                                                                                name="ctl00$ContentPlaceHolder1$netForm$iAgree" /><label
+                                                                                for="ctl00_ContentPlaceHolder1_netForm_iAgree">我已詳細閱讀並接受</label></span>
+                                                                        <a
+                                                                            href="http://www.pcschool.com.tw/member/Message.html"
+                                                                            target="_blank"
+                                                                            class="agreeLink">個資保護聲明</a>
+                                                                    </div>
+                                                                    <input
+                                                                        type="submit"
+                                                                        name="ctl00$ContentPlaceHolder1$netForm$formdataBtn"
+                                                                        value="送出"
+                                                                        onclick="iformcheck();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$netForm$formdataBtn&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))"
+                                                                        id="ctl00_ContentPlaceHolder1_netForm_formdataBtn"
+                                                                        class="submitBtn bgOrange center-block text-center" />
+                                                                    <div
+                                                                        style="color: gray;">*
+                                                                        免費贈品數量有限，將由專人安排至巨匠電腦分校領取，如贈送完畢將以等值贈品代替。</div>
+                                                                    <script>
+                                        function iformcheck() {
+                                            if (typeof (Page_ClientValidate) == 'function') {
+                                                Page_ClientValidate();
+                                            }
+
+                                            if (!Page_IsValid) {
+                                                alert('填寫資料有誤，請檢查後再重試...');
+                                                return false;
+                                            } else {
+                                                var tObj = $('#ctl00_ContentPlaceHolder1_netForm_iAgree');
+                                                if (!tObj.is(":checked")) {
+                                                    alert("請勾選『我已詳細閱讀並接受個資保護聲明』...");
+                                                    return false;
+                                                }
+                                            }
+                                            return true;
+                                        }
+                                    </script>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="col-md-4 center-block text-center">
+                                                            <img
+                                                                src="2015/uc/netform/images/prize-2021.png"
+                                                                class="img-responsive"
+                                                                style="display: inline-block; margin-top: 10px;" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <script src="js/gjunConversion2.js"></script>
+                                    <div class="panel2Header purple"
+                                        style="margin-left: 10px;">
+                                        電腦Live講堂
+                                    </div>
+                                    <div class="row" id="memberStoryList"
+                                        style="padding: 0 20px 0 20px;">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="btnMore purple" data-page="0"
+                                        data-text="看更多主題">
+                                        看更多主題
+                                    </div>
+                                    <script type="text/javascript">
+        var isLoading = false;
+        $(function () {
+            $('.btnMore').click(function () {
+                if (isLoading) {
+                    return;
+                }
+                isLoading = true;
+                $('.btnMore').html('載入中，請稍候...');
+                $.ajax({
+                    type: "POST",
+                    url: "/ws2017.asmx/getLiveCourse",
+                    data: "{page:" + $('.btnMore').attr('data-page') + "}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: readData,
+                    error: reqerr
+                });
+            });
+
+            var readData = function (data, status) {
+                logger(data.d);
+                var dataAry = $.parseJSON(data.d);
+                if (dataAry.length == 0) {
+                    alert("系統發生錯誤，請重試...#1");
+                } else {
+                    var d, h;
+                    logger(dataAry.length);
+                    for (var i = 0; i < dataAry.length - 1; i++) {
+                        d = dataAry[i];
+                        h = '';
+                        h += '<div class="col-lg-3 col-md-4 col-sm-6">';
+                        h += '<a href="' + d.spath + '/' + d.surl + '" style="display: block;">';
+                        h += '<div class="panel5Item " style="width: 100%;margin-top:0;">';
+
+                        h += '<div class="xpanel2ItemImg">';
+                        if ($.trim(d.msg_icon) == '') {
+                            h += '<img src="' + d.ytv_url + '" class="img-responsive" style="width:100%;" alt="'+d.alttext+'" />';
+                        } else {
+                            h += '<img src="https://www.pcschool.com.tw/updimg/act/' + d.msg_icon + '" class="img-responsive" style="width:100%;" alt="'+d.alttext+'" />';
+                        }
+                        h += '</div>';
+                        //h+='<div class="panel5ItemTitle">';
+                        //h+=d.msg_subject;
+                        //h+='</div>';
+                        h += '<div class="panel5ItemText">';
+                        h += d.msg_subject2;
+                        h += '</div>';
+                        h += '</div>';
+                        h += '</a>';
+
+                        h += '</div>';
+                        //logger(h);
+                        $('#memberStoryList').append(h);
+                    }
+                    d = dataAry[dataAry.length - 1];
+                    if (d.msg_subject == 'Z') {
+                        $('.btnMore').hide();
+                    } else {
+                        $('.btnMore').attr('data-page', d.msg_subject);
+                    }
+                }
+                isLoading = false;
+                $('.btnMore').html($('.btnMore').attr('data-text'));
+            }
+
+            var reqerr = function (jqXHR, textStatus, errorThrown) {
+                isLoading = false;
+                alert("系統發生錯誤，請重試...");
+                logger(jqXHR);
+                logger(textStatus);
+                logger(errorThrown);
+                $('.btnMore').html($('.btnMore').attr('data-text'));
+            };
+
+            $('.btnMore').click();
+        });
+    </script>
+
+                                </div>
+                                <div class="col-md-1 col-sm-1"></div>
+                            </div>
+                        </div>
+
+                        <script src="https://kit.fontawesome.com/cc969d17d7.js"
+                            crossorigin="anonymous"></script>
+                        <link rel="stylesheet"
+                            href="2017/css/footer-pcschool.css?v=20201118" />
+
+                        <!-- Gjun Footer Start -->
+                        <footer class="bg-pcschoolFooter">
+                            <div class="container">
+                                <div class="footer-pcschool">
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-3 list-item">
+                                            <!-- List Item Start -->
+                                            <div class="footer-list-box">
+                                                <p><a
+                                                        href="https://www.pcschool.com.tw/">巨匠電腦</a><i
+                                                        class="hidden-lg"></i></p>
+                                                <ul>
+                                                    <li><a
+                                                            href="https://www.pcschool.com.tw/branch-school">全國直營分校</a></li>
+                                                    <li><a
+                                                            href="https://www.pcschool.com.tw/courses">全國課表</a></li>
+                                                    <li><a
+                                                            href="https://www.pcschoolonline.com.tw/">巨匠直播教學</a></li>
+                                                    <li><a
+                                                            href="https://www.pcschool.com.tw/design-college">設計學院</a></li>
+                                                    <li><a
+                                                            href="https://www.worker360.com.tw/">窩課360</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- List Item End -->
+                                        </div>
+                                        <div
+                                            class="col-lg-2 col-md-6 list-item mb-0">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-6">
+                                                    <div class="footer-list-box">
+                                                        <p>
+                                                            <a
+                                                                href="https://www.soeasyedu.com.tw/"
+                                                                target="_blank">巨匠美語</a><i
+                                                                class="hidden-lg"></i>
+                                                        </p>
+                                                        <ul>
+                                                            <li><a
+                                                                    href="https://www.soeasyedu.com.tw/branch-school"
+                                                                    target="_blank">全國直營分校</a></li>
+                                                            <li><a
+                                                                    href="https://www.soeasyedu.com.tw/courses"
+                                                                    target="_blank">全國課表</a></li>
+                                                            <li><a
+                                                                    href="https://www.soeasyedu.com.tw/mobile-learning"
+                                                                    target="_blank">蜂美語
+                                                                    APP</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-6">
+                                                    <div class="footer-list-box">
+                                                        <p>
+                                                            <a
+                                                                href="https://www.onejapan.com.tw/"
+                                                                target="_blank">巨匠東大日語</a><i
+                                                                class="hidden-lg"></i>
+                                                        </p>
+                                                        <ul>
+                                                            <li><a
+                                                                    href="https://www.onejapan.com.tw/branch-school"
+                                                                    target="_blank">全國直營分校</a></li>
+                                                            <li><a
+                                                                    href="https://www.onejapan.com.tw/courses"
+                                                                    target="_blank">全國課表</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 list-item">
+                                            <div class="footer-list-box">
+                                                <p><a
+                                                        href="https://www.abconline.com.tw/"
+                                                        target="_blank">巨匠雲端</a><i
+                                                        class="hidden-lg"></i></p>
+                                                <ul>
+                                                    <li><a
+                                                            href="https://www.abconline.com.tw/"
+                                                            target="_blank">巨匠線上真人</a></li>
+                                                    <li><a
+                                                            href="https://www.abconline.com.tw/2020/course/course.aspx?lang=us"
+                                                            target="_blank">美語線上真人</a></li>
+                                                    <li><a
+                                                            href="https://www.abconline.com.tw/2020/course/course.aspx?lang=jp"
+                                                            target="_blank">日語線上真人</a></li>
+                                                    <li><a
+                                                            href="https://www.abconline.com.tw/2020/course/course.aspx?lang=kr"
+                                                            target="_blank">韓語線上真人</a></li>
+                                                    <li><a
+                                                            href="https://www.abconline.com.tw/2020/course/course.aspx?lang=sp"
+                                                            target="_blank">西班牙線上真人</a></li>
+                                                    <li><a
+                                                            href="https://www.wincenter.com.tw/"
+                                                            target="_blank">巨匠狀元王</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="breakDiv"></div>
+                                        <div class="col-lg-2 col-md-3 list-item">
+                                            <div class="footer-list-box">
+                                                <p><a
+                                                        href="http://www.pcschool.tv/"
+                                                        target="_blank">巨匠數位學院</a><i
+                                                        class="hidden-lg"></i></p>
+                                                <ul>
+                                                    <li><a
+                                                            href="http://www.pcschool.tv/default.aspx"
+                                                            target="_blank">電腦數位學院</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="https://www.pcschool.tv/soeasyedu/"
+                                                            target="_blank">美日語數位學院</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 list-item">
+                                            <div class="footer-list-box">
+                                                <p>社群<i></i></p>
+                                                <ul>
+                                                    <li><a
+                                                            href="https://www.facebook.com/pcplay"
+                                                            target="_blank">就醬玩電腦</a></li>
+                                                    <li><a
+                                                            href="https://www.facebook.com/link.pcschool/"
+                                                            target="_blank">校園福利社</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="https://www.facebook.com/94Creative/"
+                                                            target="_blank">94
+                                                            Creative</a></li>
+                                                    <li><a
+                                                            href="https://www.facebook.com/pccoding/"
+                                                            target="_blank">全民
+                                                            Coding</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="https://www.facebook.com/woke360/"
+                                                            target="_blank">窩課360
+                                                        </a></li>
+                                                    <li><a
+                                                            href="https://www.facebook.com/gjunsoeasy"
+                                                            target="_blank">就愛嗑英文吐司</a>
+                                                    </li>
+                                                    <li><a
+                                                            href="https://www.youtube.com/user/GjunChannel"
+                                                            target="_blank">巨匠
+                                                            YouTube</a></li>
+                                                    <li
+                                                        class="visible-xs visible-sm"><a
+                                                            href="https://liff.line.me/1655816130-6KeJ2wj2?app=1655816130-6KeJ2wj2&feedbackId=c926f022-e6bb-48d5-a50d-d0df538bf524&webtrackingid=479788d0-4ef1-4fb3-b0d4-dd1dd30cd781&module=add-friend"
+                                                            target="_blank">Line官方帳號</a></li>
+                                                    <li
+                                                        class="visible-md visible-lg"><a
+                                                            href="https://line-gjun.azurewebsites.net/api/img/bdfa1cea-268b-49cb-bdd0-3d5caa7b349b"
+                                                            target="_blank">Line官方帳號</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-3 list-item">
+                                            <div class="footer-list-box">
+                                                <p>其他<i></i></p>
+                                                <ul>
+                                                    <li><a
+                                                            href="https://www.pcschool.com.tw/activity/gjun_hr/index.html">關於我們</a>
+                                                    </li>
+                                                    <!--							<li><a href="">校園贊助合作</a></li>-->
+                                                    <li><a
+                                                            href="https://www.pcschool.com.tw/special-offers">熱門活動</a></li>
+                                                    <li><a
+                                                            href="https://www.pcschool.com.tw/2017/prevent-fraud.html"
+                                                            target="_blank">防詐騙提醒</a></li>
+                                                    <li><a
+                                                            href="https://www.gjunedu.com.tw/hr"
+                                                            target="_blank">人才招募</a></li>
+                                                    <li><a
+                                                            href="https://gmiedu.pcschool.com.tw/career/comlogin.asp"
+                                                            target="_blank">廠商登入</a></li>
+                                                    <li><a
+                                                            href="https://itunes.apple.com/tw/app/%E5%B7%A8%E5%8C%A0%E9%9B%BB%E8%85%A6%E5%AD%B8%E5%93%A1%E6%9C%8D%E5%8B%99/id1297108141?mt=8"
+                                                            target="_blank">學員
+                                                            APP (iOS)</a></li>
+                                                    <li><a
+                                                            href="https://play.google.com/store/apps/details?id=com.gjun.itstudentservice&hl="
+                                                            target="_blank">學員
+                                                            APP (Android)</a></li>
+                                                    <li><a
+                                                            href="https://www.pcschool.com.tw/member/Message.html"
+                                                            target="_blank">隱私暨個資保護聲明</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid footer-pcschoolInfo">
+                                <div class="container">
+                                    <div class="footer-pcschoolInfoBox">
+                                        <span class="pcschoolInfoBoxIcon1">
+                                            <a href>
+                                                <img src="2017/images/gjun.png"
+                                                    alt="巨匠教育集團-電腦補習班,學電腦"></a>
+                                        </span>
+                                        <span class="pcschoolInfoBoxIcon2">巨匠電腦版權所有｜
+                                            2023 Gjun information Co., Ltd. All
+                                            Rights Reserved<br>
+                                            免付費客服專線：0800-231-381 週一至五
+                                            09:00~18:00 <a href="contact-us"
+                                                class="contact-btn">線上諮詢<i
+                                                    class="fas fa-caret-right pl-2"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                        <!-- Gjun Footer End -->
+                        <link rel="stylesheet"
+                            href="2020/covid19/float/css/protection.css?v=20210608">
+                        <div class="btnProtection" id="right_advertising"
+                            style="background-image: url(https://www.pcschool.com.tw/updimg/act/right-diversion/iwantajob.png)">
+                            <div type="button"
+                                onclick="javascript:document.getElementById('right_advertising').style.display='none';"
+                                class="btnClose">X</div>
+                            <p>
+                                <a
+                                    href="https://www.pcschool.com.tw/activity/106/1061102_job/index.html?fromto=99001138"
+                                    target="_blank">你是哪種工作型🔎</a>
+                                <a
+                                    href="https://www.pcschool.com.tw/activity/109/10905-free-courses/index.html?fromto=99001138"
+                                    target="_blank">免費課程任你選</a>
+                                <a
+                                    href="https://www.pcschool.com.tw/activity/2023/live-lecture/ai-school/index.html?fromto=99001138"
+                                    target="_blank">📢AI私塾開課啦</a>
+                            </p>
+                        </div>
+
+                        <!-- JS For Footer -->
+                        <script>
+    $(function () {
+        function footerResize() {
+            if ($(window).width() < 1000) {
+                $('.footer-pcschool .footer-list-box ul').hide();
+                $(".footer-list-box p i").removeClass('fas fa-angle-up');
+                $(".footer-list-box p i").addClass('fas fa-angle-down');
+                $(".footer-list-box p").unbind('click');
+                $(".footer-list-box p").click(function () {
+                    $(this).siblings().toggle();
+                    if ($(this).find('i').hasClass('fa-angle-down')) {
+                        $(this).find('i').removeClass('fa-angle-down').addClass(
+                            'fa-angle-up');
+                    } else if ($(this).find('i').hasClass('fa-angle-up')) {
+                        $(this).find('i').removeClass('fa-angle-up').addClass(
+                            'fa-angle-down');
+                    }
+                });
+            } else {
+                $(".footer-list-box p i").removeClass('fas fa-angle-up');
+                $(".footer-list-box p i").removeClass('fas fa-angle-down');
+                $(".footer-list-box p").unbind('click');
+                $('.footer-pcschool .footer-list-box ul').show();
+            }
+        };
+        footerResize();
+        $(window).on('resize', footerResize);
+        //$(window).resize(function () {
+        //    footerResize();
+        //});
+
+    });
+</script>
+
+                        <div class="btnGoTop">
+                            TOP
+                        </div>
+
+                        <div id="ctl00_ucFooter_nfBtn2"
+                            class="btnClassSchedule linker"
+                            data-navurl="/netform.aspx?title=免費課程體驗&amp;pno=10309A000008&amp;fromto=99001053">
+                            體驗課程
+                        </div>
+
+                        <style>
+    .btnPlayGame {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: 898;
+        /*max-width: 300px;*/
+        overflow: hidden;
+        background-color: transparent;
+    }
+
+        .btnPlayGame > img {
+            cursor: pointer;
+        }
+
+    .btnPlayGameIframe {
+        position: fixed;
+        left: 0;
+        bottom: -1080px;
+        /*z-index: 897;*/
+        z-index: 999 !important;
+        width: 300px;
+        overflow: hidden;
+        height: 350px;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .btnClassSchedule {
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        font-size: 18px;
+        text-align: center;
+        white-space: nowrap;
+        cursor: pointer;
+        z-index: 897;
+        background-color: #FF3B3B;
+        text-align: center;
+    }
+
+    .btnGoTop {
+        position: fixed;
+        right: 10px;
+        bottom: 60px;
+        z-index: 899;
+        background-color: #4B2F86;
+        color: white;
+        border-radius: 90px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        font-weight: bold;
+        border: 2px solid white;
+    }
+</style>
+
+                        <script>
+    $(function () {
+
+
+        $('.btnGoTop').click(function () {
+            scrolling = true;
+            $('html, body').stop().animate({
+                'scrollTop': 0
+            }, 1000, 'swing', function () {
+                scrolling = false;
+            });
+        });
+
+        $('.btnPlayGame iframe').on('load', function () {
+            $('.btnPlayGameIframe').toggle();
+        });
+
+        $('.btnPlayGame > img').click(function () {
+            if (!$('.btnPlayGameIframe').is(':visible')) {
+                if (typeof (document.getElementById('gameIframe').contentWindow.play) == 'function') {
+                    document.getElementById('gameIframe').contentWindow.play();
+                }
+            }
+            $('.btnPlayGameIframe').slideToggle(function () {
+                $(this).css('position', 'static').css('bottom', 0);
+            });
+        });
+    });
+</script>
+
+                        <script type="application/ld+json">{
+"@context":"http://schema.org",
+"@type":"BreadcrumbList",
+"itemListElement":[
+{"@type":"ListItem","position":1,"name":"巨匠電腦","item":"https://www.pcschool.com.tw"}
+,{"@type":"ListItem","position":2,"name":"Live講堂","item":"https://www.pcschool.com.tw/livecourse"}
+]}
+</script>
+
+                        <script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1"), document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2"), document.getElementById("ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1"), document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3"), document.getElementById("ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2"), document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4"), document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5"), document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6"));
+//]]>
+</script>
+
+                        <script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1");
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_iName";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1.errormessage = "不可空白";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1.initialvalue = "";
+var ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2");
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_iMobile";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2.errormessage = "不可空白";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2.initialvalue = "";
+var ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1");
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_iMobile";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1.errormessage = "格式錯誤";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1.validationexpression = "^(0)(9)([0-9]{8})$";
+var ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3");
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_iEmail";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3.errormessage = "不可空白";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3.initialvalue = "";
+var ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2");
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_iEmail";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2.errormessage = "格式錯誤";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2.validationexpression = "\\w+([-+.\']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
+var ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4");
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_ddlcity1";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4.errormessage = "請選擇";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4.initialvalue = "";
+var ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5");
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_ddlcity2";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5.errormessage = "請選擇";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5.initialvalue = "";
+var ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6 = document.all ? document.all["ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6"] : document.getElementById("ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6");
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6.controltovalidate = "ctl00_ContentPlaceHolder1_netForm_prizeList";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6.errormessage = "請選擇";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6.display = "Dynamic";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6.initialvalue = "";
+//]]>
+</script>
+
+                        <script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator1'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator2'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator1'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator3'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RegularExpressionValidator2'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator4'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator5'));
+}
+
+document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_netForm_RequiredFieldValidator6'));
+}
+//]]>
+</script>
+                    </form>
+                    <script src="js/bootstrap336/js/bootstrap.min.js"></script>
+                    <script src="js/slick/slick/slick.min.js"></script>
+                    <script
+                        src="js/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+                    <script src="2017/defaultMaster.js"></script>
+                    <script src="js/jquery.cookie.min.js"></script>
+
+                    <script>
+        function goLineBind() {
+            $.magnificPopup.open({
+                items: { src: '' },
+                fixedContentPos: true,
+                fixedBgPos: false,
+                closeBtnInside: false,
+                type: 'iframe',
+
+                callbacks: {
+                    open: function () {
+                        $('.mfp-iframe').attr('src', '/2020/LineBind.aspx');
+                    },
+                    beforeClose: function () {
+
+                    },
+                    close: function () {
+                        
+                    }
+                }
+            });
+        }
+
+        function enterprise_pwd_notice() {
+            $.magnificPopup.open({
+                items: { src: '' },
+                fixedContentPos: true,
+                fixedBgPos: false,
+                closeBtnInside: false,
+                type: 'iframe',
+
+                callbacks: {
+                    open: function () {
+                        $('.mfp-iframe').attr('src', '/2021/enterprise_pwd_notice.aspx');
+                    },
+                    beforeClose: function () {
+
+                    },
+                    close: function () {
+                        
+                    }
+                }
+            });
+        }
+    </script>
+
+                </body>
+            </html>

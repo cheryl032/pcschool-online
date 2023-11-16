@@ -1,0 +1,401 @@
+.coursesMenu li ul {
+	padding-left: 0px;
+}
+
+.coursesMenu li ul li {
+	line-height: 32px;
+	list-style: none;
+}
+
+.coursesMenu li ul li a {
+	color: #333333;
+	font-size: 16px;
+}
+
+.coursesMenu li ul li a:hover {
+	color: #428bca;
+}
+
+.coursesItem {
+	color: #428bca;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.allCourses {
+	margin-top: 12px;
+}
+
+.allCourses a {
+	border-radius: 48px 48px;
+	color: #428bca;
+	display: inline !important;
+	font-size: 16px;
+	padding: 4px 12px;
+	width: inherit;
+}
+
+.allCourses a:hover {
+	color: #3b76ab;
+}
+
+.allCourses i {
+	font-size: 14px;
+	line-height: 29px;
+	padding-left: 4px;
+}
+
+/* Footer */
+.footer-pcschool h2 {
+	white-space: nowrap;
+}
+
+.footer-pcschool h2 a {
+	display: contents;
+	position: relative;
+}
+
+.footer-pcschool h2 a i {
+	position: absolute;
+}
+
+.footer-pcschool h2 a {
+	color: rgba(250, 215, 137, 1.00);
+	font-size: 21px;
+}
+
+.mb-0 {
+	margin-bottom: 0px !important;
+}
+
+/* Modal */
+.my-auto {
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.close {
+	font-size: 32px;
+	font-weight: 100;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.modal {
+	overflow-y: hidden !important;
+	padding-right: 0 !important;
+}
+
+.modal-dialog {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1140px;
+	width: 80%;
+}
+
+.modal-content {
+	border: none !important;
+}
+
+.netFormTitle {
+	color: rgb(0, 0, 0, 0.75);
+	font-size: 32px;
+	font-weight: bolder;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.textBreak {
+	display: inline-block;
+}
+
+.has-error {
+	color: Red;
+	font-size: 13px;
+	float: right;
+	display: none;
+	margin-left: inherit;
+}
+
+.form-Img img {
+	margin: 20px 0;
+}
+
+.formBox .form-group input,
+.formBox .form-group select {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: rgba(0, 0, 0, 0.85) !important
+}
+
+.formBox .form-group input::placeholder {
+	color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.formBox .form-group select:optional {
+	padding-left: 12px !important;
+}
+
+/*.submitBtn {
+	background: #FF6633 !important;
+	border-radius: 0 0;
+	color: #FFFFFF;
+	cursor: pointer;
+	max-width: inherit;
+	margin: 24px 0;
+	padding: 10px 0;
+}*/
+
+.submitBtn a {
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 4px 0;
+}
+
+.submitBtn i {
+	padding-left: 10px;
+}
+
+.agreeBox,
+.agreeBox label {
+	font-weight: inherit;
+}
+
+.agreeBox i {
+	padding-left: 5px;
+}
+
+.agreeBox a,
+.agreeBox a:hover {
+	color: #C2000A !important;
+	display: inline-flex;
+	text-decoration: none;
+}
+
+.giftTitle {
+	color: #416683;
+	font-size: 21px;
+}
+
+.giftDescription {
+	color: rgba(0, 0, 0, 0.50);
+	font-size: 15px;
+}
+
+.border-bottom-0 {
+	border-bottom: none;
+}
+
+.btnClassSchedule {
+	cursor: pointer;
+	padding: 7px 12px !important;
+}
+
+.btnClassSchedule i {
+	padding-right: 5px;
+}
+
+.modal-dialog-centered {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: calc(100% - 1rem);
+}
+.nav-link-PRO {
+	width: 30px;
+	height: 22px;
+	background-color: #3c3c3c;
+	border-radius: .25rem;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-right: 3px;
+	padding: 2px;
+}
+/* Go to Top */
+.btnGoTop {
+	background: rgba(250, 215, 137, 1.0) !important;
+	border: none !important;
+	border-radius: 5px !important;
+	color: #C2000A !important;
+	height: auto !important;
+	line-height: 24px !important;
+	padding: 6px 12px !important;
+	width: 119px !important;
+}
+
+.btnGoTop i {
+	padding-right: 5px;
+}
+
+@media only screen and (max-width: 1199.98px) {
+	#navbar2 .navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	.pageHeader2 .col-md-8 {
+		width: 100% !important;
+	}
+
+	.navbar-collapse.in {
+		overflow-y: auto !important;
+	}
+
+	#navbar2 i {
+		font-size: 14px;
+		padding-right: 4px;
+	}
+
+	#navbar2 .allCourses {
+		border: 1px solid #FFFFFF;
+		border-radius: 4px;
+		color: #FFFFFF;
+		padding: 2px 12px;
+		text-align: center;
+	}
+
+	#navbar2 .allCourses:hover {
+		border: 1px solid gold;
+	}
+	
+	.nav-link-PRO {
+		background-color: #fff;
+		color: #C2000A;
+		margin-right: 0;
+	}
+	
+	.coursesItem {
+		border-bottom: none;
+		color: #FFFFFF;
+		display: inline;
+		font-size: 18px;
+		padding: 0 15px;
+	}
+
+	/* Footer */
+	.footer-pcschool h2 {
+		text-align: left !important;
+	}
+
+	.breakDiv {
+		clear: both;
+	}
+}
+
+@media only screen and (max-width: 991.98px) {
+
+	/* Footer */
+	.bg-pcschoolFooter {
+		margin-bottom: 56px;
+	}
+
+	.footer-pcschool h2 {
+		text-align: inherit !important;
+	}
+
+	/* Modal */
+	.formBox {
+		display: grid;
+	}
+
+	.form-Info {
+		order: 3;
+	}
+
+	.form-Description {
+		margin: 12px 0;
+		order: 2;
+	}
+
+	.form-Img {
+		order: 1;
+	}
+
+	/* Pcschool Sticky Tools */
+	.pcschool-stickyTool {
+		bottom: 0;
+		box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.75);
+		height: 56px !important;
+		position: fixed;
+		width: 100% !important;
+	}
+
+	.pcschool-stickyTool .btnGoTop {
+		background: rgba(250, 215, 137, 1.0) !important;
+		bottom: 0 !important;
+		border-radius: 0 !important;
+		color: #C2000A !important;
+		font-size: 18px !important;
+		font-weight: normal !important;
+		height: 56px !important;
+		left: 0 !important;
+		line-height: 42px !important;
+		min-width: 56px !important;
+		width: 56px !important;
+	}
+
+	.pcschool-stickyTool .btnClassSchedule {
+		background: #C2000A !important;
+		bottom: 0 !important;
+		border-radius: 0 !important;
+		height: 56px !important;
+		justify-content: center;
+		line-height: 42px !important;
+		right: 0 !important;
+		width: calc(100% - 56px) !important;
+	}
+}
+
+@media only screen and (max-width: 767.98px) {
+	.navbar-nav .open .dropdown-menu h4 {
+		display: inline-block;
+		margin: 8px 0 4px 0;
+	}
+}
+
+@media only screen and (max-width: 575.98px) {
+
+	/* Modal */
+	.textBreak {
+		display: block;
+		margin-top: 6px;
+	}
+
+	.modal {
+		overflow-y: auto !important;
+	}
+
+	.modal-dialog-centered {
+		min-height: calc(100% - 3.5rem);
+	}
+
+	.netFormTitle {
+		font-size: 29px;
+	}
+
+	.submitBtn {
+		margin-bottom: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 320.98px) {
+
+	/* Pcschool Sticky Tools */
+	.pcschool-stickyTool .btnGoTop i {
+		padding-right: 0 !important;
+	}
+}
