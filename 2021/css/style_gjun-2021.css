@@ -1426,15 +1426,15 @@ a:focus {
 
 
 
-/* 四大學習保證 2023.11.15
+/* 四大學習保證
  */
  .gjunWeb2021-Content-learnPromise {
-    background-color: #f5f4f8;
-    /* background-color: #fffcf6; */
+    /* background-color: #f5f4f8;
+    background-color: #fffcf6; */
     background-image: url(../images/picbg.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: center left;
  }
  .learnPromiseBox {
     
@@ -3112,7 +3112,7 @@ a:focus {
         height: 650px;
     }
 
-    /* 四大學習保證 2023.11.15 */
+    /* 四大學習保證 */
     .learnPromiseClassBox {
         height: 650px;
     }
@@ -3179,7 +3179,7 @@ a:focus {
         height: 500px;
     }
 
-    /* 四大學習保證 2023.11.15 */
+    /* 四大學習保證 */
     .learnPromiseClassBox {
         height: 500px;
     }
@@ -3257,7 +3257,7 @@ a:focus {
         height: 400px;
     }
     
-    /* 四大學習保證 2023.11.15 */
+    /* 四大學習保證 */
     .learnPromiseClassBox {
         height: 400px;
     }
@@ -3429,7 +3429,7 @@ a:focus {
         height: 420px;
     }
 
-    /* 四大學習保證 2023.11.15 */
+    /* 四大學習保證 */
     .learnPromiseClassBox {
         height: 420px;
     }
@@ -3459,7 +3459,7 @@ a:focus {
     .videoLearnClassBox {
         height: 380px;
     }
-    /* 四大學習保證 2023.11.15 */
+    /* 四大學習保證 */
     .learnPromiseClassBox {
         height: 380px;
     }
