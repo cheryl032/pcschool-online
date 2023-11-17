@@ -1,0 +1,4346 @@
+@charset "utf-8";
+/* CSS Document */
+.intro-content .accordion .card-header.intro-content .accordion .card-header@charset "UTF-8";
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+ol,
+ul {
+  /*list-style: none;*/
+  margin-bottom: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.noMargin {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.startBlog {
+	margin-top: -15px;
+}
+
+.intro-content {
+  margin-top: -15px;
+  /* #bs-collapse icon scale option */
+}
+.intro-content .TOP {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/ 
+  margin-top: 65px; /*增加強調實體+線上特色*/
+	
+}
+@media (max-width: 767px) {
+  .intro-content .TOP {
+    /*background-size: auto 100%;*/
+  }
+}
+.intro-content .TOP .container {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: auto;
+  padding: 100px 0;
+}
+@media (max-width: 768px) {
+  .intro-content .TOP .container {
+    padding: 100px 0 50px 0;
+  }
+}
+.intro-content .TOP .container h1 {
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.intro-content .TOP .container h1 br {
+  display: none;
+}
+.intro-content .TOP .container h1 span {
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+}
+.intro-content .TOP .container h1 span br {
+  display: none;
+}
+@media (max-width: 768px) {
+  .intro-content .TOP .container h1 {
+    font-size: 30px;
+    line-height: 1.35;
+  }
+  .intro-content .TOP .container h1 br {
+    display: block;
+  }
+  .intro-content .TOP .container h1 span {
+    font-size: 24px;
+  }
+  .intro-content .TOP .container h1 span br {
+    display: block;
+  }
+}
+/* 新版首頁上線微調start */
+.intro-content .TOP .container .classification .classificationBtn2.main-color {
+	line-height: 1;
+}
+.CONTENT1 .layer .content1BoxBox .content1BoxTextMain h3,
+.CONTENT1 .layer .tabsFontBox .slick-track h3 {
+	font-size: 1.15rem;
+	font-weight: 500;
+}
+#teacherCardModalCenter .modal-header {
+	position: relative;
+}
+#teacherCardModalCenter .modal-body {
+	padding: 1rem;
+}
+#teacherCardModalCenter .modal-body .coursesName {
+	font-size: 1rem;
+}
+#teacherCardModalCenter .modal-body .accordion .card-header h2 {
+	font-size: 1.25rem;
+}
+#teacherCardModalCenter span.accicon {
+	display: none;
+}
+/* 新版首頁上線微調end */
+/* 增加強調實體+線上特色start */
+.intro-content .TeachingBox {
+  display: block;
+  /*position: absolute;*/
+  width: 100%;
+  height: auto;
+  padding: 0 15px;
+  /*bottom: calc(100% - 720px);*/
+  z-index: 789;
+  margin-top: -50px;
+}
+.intro-content .TeachingBox .contentBox {
+  position: relative;
+  max-width: 767px;
+  background: #fff;
+  border-radius: 5px;
+  border-bottom: 5px solid #ffd71c;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin: 15px auto;
+  font-family: 18px;
+  line-height: 1.3;
+  font-weight: bold;
+  text-align: center;
+  color: #3b3b3b;
+  -webkit-box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.5);
+  box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.5);
+}
+
+.intro-content .TeachingBox .contentBox .detailOne {
+  position: absolute;
+  width: 100%;
+  top: -18px;
+  left: 0;
+}
+
+.intro-content .TeachingBox .contentBox .detailOne .detailOneBox {
+  width: 130px;
+  background: #ffd71c;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
+.intro-content .TeachingBox .contentBox .detailTwoBox {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.intro-content .TeachingBox .contentBox .detailTwoBox .one {
+  float: left;
+  width: 45%;
+  text-align: right;
+  font-weight: 500;
+}
+.intro-content .TeachingBox .contentBox .detailTwoBox .two {
+  float: left;
+  width: 10%;
+}
+
+.intro-content .TeachingBox .contentBox .detailTwoBox .two img {
+  margin-top: -7px;
+}
+.intro-content .TeachingBox .contentBox .detailTwoBox .three {
+  float: left;
+  width: 45%;
+  text-align: left;
+  font-weight: 500;
+}
+/* 增加強調實體+線上特色end */
+.intro-content .TOP .container .classification p {
+  width: 100%;
+  height: auto;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.intro-content .TOP .container .classification {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .intro-content .TOP .container .classification {
+    width: 80%;
+  }
+}
+
+.intro-content .TOP .container .classCourse {
+  /*width: 50%;*/
+  height: auto;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .intro-content .TOP .container .classCourse {
+    width: 80%;
+  }
+}
+.intro-content .TOP .container .classCourse .classCourseName {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #362e2b;
+  border: 1px solid #fff;
+  padding-top: 17px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.intro-content .TOP .container .classCourse .classCourseName i {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.intro-content .TOP .container .classCourse .classCourseColorR {
+  background-color: rgba(164, 0, 0, 0.8);
+}
+.intro-content .TOP .container .classCourse .classCourseColorG {
+  background-color: rgba(19, 181, 177, 0.8);
+}
+.intro-content .TOP .container .classCourse .classCourseColorY {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.intro-content .TOP .container .classCourse .classCourseColorO {
+  background-color: rgba(0, 117, 169, 0.8);
+}
+.intro-content .lineTitle {
+  width: 3%;
+  height: 4px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #ffc144;
+}
+@media (max-width: 767px) {
+  .intro-content .lineTitle {
+    width: 15%;
+  }
+}
+.intro-content .CONTENT1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+.intro-content .CONTENT1 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.intro-content .CONTENT1 .layer h2 {
+  font-size: 26px;
+  color: #1b1b1b;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT1 .layer h2 {
+    font-size: 24px;
+  }
+  .intro-content .CONTENT1 .layer h2 span {
+    display: block;
+  }
+}
+.intro-content .CONTENT1 .layer .content1BoxBox {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  .intro-content .CONTENT1 .layer .content1BoxBox {
+    width: 35%;
+  }
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT1 .layer .content1BoxBox {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT1 .layer .content1Box {
+  float: left;
+  position: relative;
+  width: 15%;
+  /*background-color: #ffc144;*/
+  border-radius: 15px;
+  padding: 25px 25px 15px 25px;
+  margin-bottom: 15px;
+}
+@media (max-width: 1024px) {
+  .intro-content .CONTENT1 .layer .content1Box {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT1 .layer .content1Box {
+    width: 30%;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT1 .layer .content1Box {
+    width: 20%;
+  }
+}
+@media (max-width: 425px) {
+  .intro-content .CONTENT1 .layer .content1Box {
+    padding: 20px 20px 10px 20px;
+  }
+}
+@media (max-width: 398px) {
+  .intro-content .CONTENT1 .layer .content1Box {
+    width: 30%;
+  }
+}
+.intro-content .CONTENT1 .layer .content1Box p {
+  position: absolute;
+  display: block;
+  width: 60%;
+  height: 30px;
+  padding: 5px;
+  top: -10px;
+  left: 0;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  /*color: #ec6941;*/
+  text-align: center;
+  /*background-color: #fff;
+  border: 1px solid #ec6941;*/
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT1 .layer .content1Box p {
+    width: 80%;
+  }
+}
+@media (max-width: 398px) {
+  .intro-content .CONTENT1 .layer .content1Box p {
+    /*width: 90%;
+    font-size: 8px;*/
+  }
+}
+.intro-content .CONTENT1 .layer .content1Box p i {
+  font-size: 8px;
+  margin-right: 2px;
+}
+.intro-content .CONTENT1 .layer .content1Box img {
+  width: 100%;
+  margin: 0 auto;
+}
+.intro-content .CONTENT1 .layer .content1BoxTextMain {
+  float: left;
+  width: 85%;
+  height: auto;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1b1b1b;
+  text-align: justify;
+  font-weight: 500;
+  padding: 0 15px 15px 15px;
+}
+.intro-content .CONTENT1 .layer .content1BoxTextMain span {
+  display: block;
+  margin-top: 0.5em;
+}
+@media (max-width: 1024px) {
+  .intro-content .CONTENT1 .layer .content1BoxTextMain {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT1 .layer .content1BoxTextMain {
+    width: 70%;
+    height: auto;
+    padding: 0 5px 15px 15px;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT1 .layer .content1BoxTextMain {
+    width: 80%;
+  }
+}
+@media (max-width: 398px) {
+  .intro-content .CONTENT1 .layer .content1BoxTextMain {
+    width: 70%;
+  }
+}
+.intro-content .CONTENT1 .layer .content1BoxTextMain span {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT1 .layer .content1BoxTextMain span {
+    font-size: 14px;
+  }
+}
+.intro-content .CONTENT1 .layer .content1BoxLine {
+  display: none;
+  width: 90%;
+  height: 1px;
+  background-color: #bfbfbf;
+  margin: 0 5%;
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT1 .layer .content1BoxLine {
+    display: block;
+  }
+}
+.intro-content .CONTENT1 .layer .content1BoxImg {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  .intro-content .CONTENT1 .layer .content1BoxImg {
+    width: 65%;
+  }
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT1 .layer .content1BoxImg {
+    display: none;
+  }
+}
+.intro-content .CONTENT1 .layer .content1BoxImg img {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+@media (max-width: 1024px) {
+  .intro-content .CONTENT1 .layer .content1BoxImg img {
+    width: 100%;
+  }
+}
+.intro-content .canvasjs-chart-credit {
+  display: none;
+}
+.intro-content .CONTENT2,
+.intro-content .CONTENT4 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.intro-content .CONTENT2 .layer,
+.intro-content .CONTENT4 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.intro-content .CONTENT2 .layer h2,
+.intro-content .CONTENT4 .layer h2 {
+  font-size: 26px;
+  color: #1b1b1b;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .layer h2,
+.intro-content .CONTENT4 .layer h2 {
+    font-size: 24px;
+  }
+}
+.intro-content .CONTENT2 .layer .CONTENT2background,
+.intro-content .CONTENT4 .layer .CONTENT2background {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.intro-content .CONTENT2 .layer .content2Text,
+.intro-content .CONTENT4 .layer .content2Text {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  color: #1b1b1b;
+  line-height: 1.5;
+  text-align: justify;
+  border-left: #1b1b1b 3px solid;
+  padding-left: 15px;
+  margin: 15px 0;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .layer .content2Text,
+.intro-content .CONTENT4 .layer .content2Text {
+    font-size: 14px;
+  }
+}
+.intro-content .CONTENT2 .layer .navigation,
+.intro-content .CONTENT4 .layer .navigation {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  color: #1b1b1b;
+  line-height: 1.5;
+  text-align: left;
+  margin: 15px 0;
+}
+.intro-content .CONTENT2 .layer .navigation i,
+.intro-content .CONTENT4 .layer .navigation i {
+  margin-right: 5px;
+}
+.intro-content .CONTENT2 .layer .bgNav.main-color,
+.intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: none;
+  background-repeat: repeat;
+  background-size: cover;
+  margin-top: 15px;
+  /*background-color: #fff;*/
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .layer .bgNav,
+.intro-content .CONTENT4 .layer .bgNav {
+    float: left;
+    width: 10%;
+    background-image: url();
+    margin-top: 0;
+    background-color: transparent;
+  }
+}
+@media (max-width: 639px) {
+  .intro-content .CONTENT2 .layer .bgNav,
+.intro-content .CONTENT4 .layer .bgNav {
+    width: 12%;
+  }
+}
+@media (max-width: 479px) {
+  .intro-content .CONTENT2 .layer .bgNav,
+.intro-content .CONTENT4 .layer .bgNav {
+    width: 17%;
+  }
+}
+@media (max-width: 425px) {
+  .intro-content .CONTENT2 .layer .bgNav,
+.intro-content .CONTENT4 .layer .bgNav {
+    width: 20%;
+  }
+}
+@media (max-width: 375px) {
+  .intro-content .CONTENT2 .layer .bgNav,
+  .intro-content .CONTENT4 .layer .bgNav {
+    width: 22%;
+  }
+}
+@media (max-width: 320px) {
+  .intro-content .CONTENT2 .layer .bgNav,
+.intro-content .CONTENT4 .layer .bgNav {
+    width: 26%;
+  }
+}
+
+.intro-content .CONTENT2 .layer .bgNav ul li,
+.intro-content .CONTENT4 .layer .bgNav ul li {
+  position: relative;
+  padding: 0 8px;
+}
+
+@media (max-width: 480px) {
+.intro-content .CONTENT2 .layer .bgNav ul li,
+.intro-content .CONTENT4 .layer .bgNav ul li {
+  padding: 0 13px;
+}
+}
+.intro-content .CONTENT2 .layer .bgNav ul li .bgNavText,
+.intro-content .CONTENT4 .layer .bgNav ul li .bgNavText {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-align: center;
+  line-height: 1.3;
+  text-decoration: underline;
+  top: -50px;
+  left: 0;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .layer .bgNav ul li .bgNavText,
+.intro-content .CONTENT4 .layer .bgNav ul li .bgNavText {
+    display: none;
+  }
+}
+.intro-content .CONTENT2 .layer .bgNav2,
+.intro-content .CONTENT4 .layer .bgNav2 {
+  display: block;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .layer .bgNav2,
+.intro-content .CONTENT4 .layer .bgNav2 {
+    float: left;
+    width: 90%;
+  }
+}
+@media (max-width: 639px) {
+  .intro-content .CONTENT2 .layer .bgNav2,
+.intro-content .CONTENT4 .layer .bgNav2 {
+    width: 85%;
+  }
+}
+@media (max-width: 479px) {
+  .intro-content .CONTENT2 .layer .bgNav2,
+.intro-content .CONTENT4 .layer .bgNav2 {
+    width: 83%;
+  }
+}
+@media (max-width: 425px) {
+  .intro-content .CONTENT2 .layer .bgNav2,
+.intro-content .CONTENT4 .layer .bgNav2 {
+    width: 80%;
+  }
+}
+@media (max-width: 375px) {
+  .intro-content .CONTENT2 .layer .bgNav2,
+.intro-content .CONTENT4 .layer .bgNav2 {
+    width: 78%;
+  }
+}
+@media (max-width: 320px) {
+  .intro-content .CONTENT2 .layer .bgNav2,
+.intro-content .CONTENT4 .layer .bgNav2 {
+    width: 74%;
+  }
+}
+.intro-content .CONTENT2 .layer .AppLinkFontBoxFrame,
+.intro-content .CONTENT4 .layer .AppLinkFontBoxFrame {
+  width: 100%;
+  height: auto;
+  margin: 15px 0 30px 0;
+}
+.intro-content .CONTENT2 .layer .AppLinkFontBox,
+.intro-content .CONTENT4 .layer .AppLinkFontBox {
+  width: 100%;
+  height: auto;
+}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox {
+  float: left;
+  width: 98% !important;
+  height: 470px;
+  -webkit-box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.5);
+  box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.5);
+  background-color: #fff;
+  margin: 0 1%;
+  margin-bottom: 30px;
+}
+@media (max-width: 1440px) {
+  .intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox {
+    height: 420px;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox {
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 0px rgba(151, 151, 151, 0.5);
+    box-shadow: 0px 0px 0x rgba(151, 151, 151, 0.5);
+    border: 1px solid #c9c9c9;
+  }
+}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox img,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox img {
+  width: 100%;
+  height: auto;
+}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleA,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleA {
+  /*font-family: 21px;*/
+  font-weight: 500;
+  text-align: center;
+  margin: 15px 0;
+}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB {
+  display: block;
+  /*overflow: hidden;*/
+  /*font-family: 16px !important;*/
+  padding: 0 15px 15px 15px;
+  height: 130px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/* 設計類 scrollbar */
+
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar,
+.intro-content .CONTENT2 .navLinkText::-webkit-scrollbar, .intro-content .CONTENT4 .navLinkText::-webkit-scrollbar{ display: block; width: 4px;}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar-track,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar-track,
+.intro-content .CONTENT2 .navLinkText::-webkit-scrollbar-track, .intro-content .CONTENT4 .navLinkText::-webkit-scrollbar-track
+{ background: linear-gradient(to right, var(--scroll-track-color) 0%, var(--scroll-track-color) 30%, var(--scroll-color) 60%, var(--body-bg-color) 61%, var(--body-bg-color) 100%);}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar-thumb,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar-thumb,
+.intro-content .CONTENT2 .navLinkText::-webkit-scrollbar-thumb, .intro-content .CONTENT4 .navLinkText::-webkit-scrollbar-thumb
+{ background-color: var(--scroll-color);
+  border-radius: 5px;}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar-button,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB::-webkit-scrollbar-button,
+.intro-content .CONTENT2 .navLinkText::-webkit-scrollbar-button, .intro-content .CONTENT4 .navLinkText::-webkit-scrollbar-button
+{ background: transparent;}
+:root {
+  --body-bg-color: #ffffff;
+  --scroll-color: darkgray;
+  --scroll--hover-color: #666;
+  --scroll-track-color: rgba(255,255,255,0);
+}
+
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB ul,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB ul {
+  list-style-type: square;
+  list-style-position: outside;
+  padding: 0 15px;
+  line-height: 1.5;
+}
+.intro-content .CONTENT2 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB ul li,
+.intro-content .CONTENT4 .layer .AppLinkFontBox .AppLinkFontBoxBox .AppLinkFontBoxTitleB ul li {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #1b1b1b;
+}
+.intro-content .CONTENT2 .tab-content > .tab-pane,
+.intro-content .CONTENT2 .pill-content > .pill-pane,
+.intro-content .CONTENT4 .tab-content > .tab-pane,
+.intro-content .CONTENT4 .pill-content > .pill-pane {
+  display: block;
+  height: 0;
+  overflow-y: hidden;
+}
+.intro-content .CONTENT2 .tab-content > .active,
+.intro-content .CONTENT2 .pill-content > .active,
+.intro-content .CONTENT4 .tab-content > .active,
+.intro-content .CONTENT4 .pill-content > .active {
+  height: auto;
+}
+.intro-content .CONTENT2 .nav-pills .nav-link,
+.intro-content .CONTENT4 .nav-pills .nav-link {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  height: 130px;
+  /*background-color: #776b9a;
+  -webkit-clip-path: polygon(95% 0, 100% 40%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);*/
+  padding: 15px;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .nav-pills .nav-link,
+.intro-content .CONTENT4 .nav-pills .nav-link {
+    /*background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;*/
+    height: 100%;
+    padding: 0;
+  }
+}
+.intro-content .CONTENT2 .nav-item:focus,
+.intro-content .CONTENT2 .nav-item:hover,
+.intro-content .CONTENT4 .nav-item:focus,
+.intro-content .CONTENT4 .nav-item:hover {
+  background: transparent;
+  color: #FFFFFF;
+}
+.intro-content .CONTENT2 .navLinkTitle,
+.intro-content .CONTENT4 .navLinkTitle {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  /*background-color: #0d0d0d;*/
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT2 .navLinkTitle,
+.intro-content .CONTENT4 .navLinkTitle {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .navLinkTitle,
+.intro-content .CONTENT4 .navLinkTitle {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    /*writing-mode: vertical-lr;*/
+  }
+}
+.intro-content .CONTENT2 .navLinkTitle1,
+.intro-content .CONTENT4 .navLinkTitle1 {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 5px;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT2 .navLinkTitle1,
+.intro-content .CONTENT4 .navLinkTitle1 {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .navLinkTitle1,
+.intro-content .CONTENT4 .navLinkTitle1 {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  }
+}
+
+.intro-content .CONTENT2 .navLinkText,
+.intro-content .CONTENT4 .navLinkText {
+  width: 100%;
+  height: 130px;
+  height: auto;
+  font-size: 14px;
+  color: #1b1b1b;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 500;
+  overflow-x: hidden;
+  /* overflow-y: auto; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  }
+
+
+/*.intro-content .CONTENT2 .navLinkText::-webkit-scrollbar, .intro-content .CONTENT4 .navLinkText::-webkit-scrollbar { display: none;}*/
+
+.intro-content .CONTENT2 .navLinkText p,
+.intro-content .CONTENT4 .navLinkText p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT2 .navLinkText,
+.intro-content .CONTENT4 .navLinkText {
+    font-size: 12px;
+  }
+
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT2 .navLinkText,
+.intro-content .CONTENT4 .navLinkText {
+    display: none;
+  }
+}
+.intro-content .accordion .card-header.main-color {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  /*background-color: #42395e !important;*/
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+@media (max-width: 768px) {
+  .intro-content .accordion .card-header.main-color {
+    padding: 0.75rem 0.25rem;
+  }
+}
+.intro-content .accordion .btn-link {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 0;
+  position: relative;
+  text-decoration: none;
+}
+.intro-content .accordion .mb-0.py-2 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  border-radius: 0;
+  position: relative;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .intro-content .accordion .mb-0.py-2 {
+  font-size: 16px;
+  line-height: 1.35;
+}
+  .intro-content .accordion .btn-link {
+    font-size: 16px;
+  }
+}
+.intro-content .accordion .mb-0 > a {
+  display: block;
+  position: relative;
+}
+.intro-content .accordion .mb-0:after {
+		font-family: 'Material Icons';
+        content: "expand_more";
+        -webkit-font-feature-settings: 'liga' 1;
+  		-moz-font-feature-settings: 'liga' 1;
+  		font-feature-settings: 'liga' 1;
+		float: right;
+		font-size: 1.5rem;
+    }
+.intro-content .accordion .mb-0[aria-expanded=true]:after {
+        font-family: 'Material Icons';
+        content: "expand_less";
+        -webkit-font-feature-settings: 'liga' 1;
+  		-moz-font-feature-settings: 'liga' 1;
+  		font-feature-settings: 'liga' 1;
+		float: right;
+		font-size: 1.5rem;
+    }
+/*老師簡介燈箱的收合icon*/
+#teacherCardModal .mb-0:after {
+		font-family: 'Material Icons';
+        content: "expand_more";
+        -webkit-font-feature-settings: 'liga' 1;
+  		-moz-font-feature-settings: 'liga' 1;
+  		font-feature-settings: 'liga' 1;
+		float: right;
+		font-size: 1.5rem;
+		margin-top: -2.2rem;
+    }
+#teacherCardModal .mb-0[aria-expanded=true]:after {
+        font-family: 'Material Icons';
+        content: "expand_less";
+        -webkit-font-feature-settings: 'liga' 1;
+  		-moz-font-feature-settings: 'liga' 1;
+  		font-feature-settings: 'liga' 1;
+		float: right;
+		font-size: 1.5rem;
+		margin-top: -2.2rem;
+    }
+.intro-content .accordion .card.main-color {
+  display: block;
+  overflow: hidden;
+  /*border: 2px solid #42395e;*/
+  margin-bottom: 15px;
+  border-radius: 2px;
+}
+@media (max-width: 767px) {
+  .intro-content .accordion .card .collapse {
+    padding: 0 15px;
+  }
+}
+.intro-content .accordion .card-body {
+  padding-left: -15px !important;
+  padding-right: -15px !important;
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  .intro-content .accordion .card-body img {
+    margin-bottom: 15px;
+  }
+}
+.intro-content .accordion .card-body ul {
+  list-style-type: square;
+  padding-left: 0;/* 改版微調*/
+}
+.intro-content .accordion li {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.intro-content .CONTENT4 {
+  padding-top: 5px;
+}
+.intro-content .slick-prev {
+  left: 0px;
+  z-index: 3;
+}
+.intro-content .slick-next {
+  right: 0px;
+  z-index: 4;
+}
+.intro-content .slick-prev:before,
+.intro-content .slick-next:before {
+  color: black;
+}
+.intro-content .navBarTouch {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+.intro-content .menu-padding {
+  padding-top: 80px;
+}
+.intro-content .fixnav {
+  position: fixed;
+  top: 58px;
+  left: 0;
+  padding: 0 8.8%;
+}
+@media (max-width: 1440px) {
+  .intro-content .fixnav {
+    padding: 0;
+  }
+}
+
+.intro-content .nav-pills .nav-link.active,
+.intro-content .nav-pills .show > .nav-link {
+  /*color: #fff;*/
+  /*background-color: #40385c;*/
+  /*-webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);*/
+}
+@media (max-width: 767px) {
+  .intro-content .nav-pills .nav-link.active,
+.intro-content .nav-pills .show > .nav-link {
+    background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+  }
+  .intro-content .accordion li {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 0.35em;
+}
+}
+.intro-content .nav-pills .nav-link.active .navLinkTitle,
+.intro-content .nav-pills .show > .nav-link .navLinkTitle {
+  background-color: #40385c;
+}
+.intro-content .nav-pills .nav-link.active .navLinkTitle1,
+.intro-content .nav-pills .show > .nav-link .navLinkTitle1 {
+  color: #f7cb4f;
+}
+.intro-content .nav-pills .nav-link.active .navLinkText,
+.intro-content .nav-pills .show > .nav-link .navLinkText {
+  /*color: #fff;*/
+}
+.intro-content .btn {
+  font-size: 21px;
+  line-height: 1.3;
+}
+.intro-content .btn-group,
+.intro-content .btn-group-vertical {
+  width: 100%;
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-box;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.intro-content .btn-secondary.main-color {
+  color: #1b1b1b;
+  background-color: #fff;
+  border-color: #bfbfbf;
+  -webkit-box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.5);
+  box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.5);
+  padding: 12px 0;
+}
+.intro-content .btn-secondary.main-color:hover {
+  /*color: #1b1b1b;*/
+  /*background-color: #fff;*/
+}
+.intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active,
+.intro-content .show > .btn-secondary.main-color.dropdown-toggle {
+  color: #1b1b1b;
+  font-weight: 500;
+  background-color: #ffc144;
+  border-color: transparent;
+}
+.intro-content h4 {
+  font-size: 20px;
+  color: #1b1b1b;
+  line-height: 1.3;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 1%;
+}
+.intro-content .h4Text {
+  font-size: 18px;
+  color: #1b1b1b;
+  line-height: 1.3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .intro-content .h4Text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+.intro-content .panel {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.intro-content .panel:last-child {
+  border-bottom: none;
+}
+.intro-content .panel-group > .panel:first-child .panel-heading {
+  border-radius: 4px 4px 0 0;
+}
+.intro-content .panel-group .panel {
+  border-radius: 0;
+}
+.intro-content .panel-group .panel + .panel {
+  margin-top: 0;
+}
+.intro-content .panel-heading {
+  overflow: hidden;
+  background-color: #eeeeee;
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.intro-content .panel-title a {
+  display: block;
+  color: #00a0e9;
+  padding: 15px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+}
+.intro-content .panel-body {
+  background: #fff;
+}
+.intro-content .panel:last-child .panel-body {
+  border-radius: 0 0 4px 4px;
+}
+.intro-content .panel:last-child .panel-heading {
+  border-radius: 0 0 4px 4px;
+  -webkit-transition: border-radius 0.3s linear 0.2s;
+  -o-transition: border-radius 0.3s linear 0.2s;
+  transition: border-radius 0.3s linear 0.2s;
+}
+.intro-content .panel:last-child .panel-heading.active {
+  border-radius: 0;
+  -webkit-transition: border-radius linear 0s;
+  -o-transition: border-radius linear 0s;
+  transition: border-radius linear 0s;
+}
+.intro-content .panel-group .panel-heading + .panel-collapse > .list-group,
+.intro-content .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: 1px solid #fff;
+}
+.intro-content .panel-heading a:before {
+  content: "";
+  position: absolute;
+  font-family: "Material Icons";
+  right: 5px;
+  top: 10px;
+  font-size: 24px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+      transform: scale(1);
+}
+.intro-content .panel-heading.active a:before {
+  content: " ";
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+      transform: scale(0);
+}
+.intro-content .CONTENT3,
+.intro-content .CONTENT5 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.intro-content .CONTENT3 .layer,
+.intro-content .CONTENT5 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+@media (max-width: 1440px) {
+  .intro-content .CONTENT3 .layer,
+.intro-content .CONTENT5 .layer {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT3 .layer h2,
+.intro-content .CONTENT5 .layer h2 {
+  font-size: 26px;
+  color: #1b1b1b;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT3 .layer h2,
+.intro-content .CONTENT5 .layer h2 {
+    font-size: 24px;
+  }
+}
+.intro-content .CONTENT3 .layer .doubtBox,
+.intro-content .CONTENT5 .layer .doubtBox {
+  width: 100%;
+  height: 100%;
+}
+.intro-content .CONTENT3 .layer .doubt,
+.intro-content .CONTENT5 .layer .doubt {
+  display: block;
+  overflow: hidden;
+  width: 93% !important;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  border: #e5e5e5 2px solid;
+}
+@media (max-width: 1024px) {
+  .intro-content .CONTENT3 .layer .doubt,
+.intro-content .CONTENT5 .layer .doubt {
+    margin-left: 13px;
+  }
+}
+@media (max-width: 991px) {
+  .intro-content .CONTENT3 .layer .doubt,
+  .intro-content .CONTENT5 .layer .doubt {
+    margin-left: 11px;
+  }
+
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT3 .layer .doubt,
+.intro-content .CONTENT5 .layer .doubt {
+    height: 250px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT3 .layer .doubt,
+.intro-content .CONTENT5 .layer .doubt {
+    width: 96% !important;
+    margin-left: 7px;
+  }
+}
+@media (max-width: 639px) {
+  .intro-content .CONTENT3 .layer .doubt,
+.intro-content .CONTENT5 .layer .doubt {
+    margin-left: 6px;
+  }
+}
+@media (max-width: 479px) {
+  .intro-content .CONTENT3 .layer .doubt,
+.intro-content .CONTENT5 .layer .doubt {
+    width: 100% !important;
+    margin-left: 0;
+  }
+}
+.intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  width: 100%;
+  height: 100%;
+  /*background-image: url(../images/home1.svg);*/
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  padding: 30px 15px;
+}
+.intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  width: 100%;
+  height: 100%;
+  /*background-image: url(../images/home2.svg);*/
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  padding: 30px 15px;
+}
+.intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  width: 100%;
+  height: 100%;
+  /*background-image: url(../images/electronics.svg);*/
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  padding: 30px 15px;
+}
+.intro-content .CONTENT3 .layer .doubt .doubtText,
+.intro-content .CONTENT5 .layer .doubt .doubtText {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  /*color: #ec6941;*/
+  text-align: center;
+  margin-bottom: 30px;
+}
+.intro-content .CONTENT3 .layer .doubt ul,
+.intro-content .CONTENT5 .layer .doubt ul {
+  list-style: none;
+  padding: 0 15px;
+  margin-left: 60px;
+}
+@media (max-width: 1024px) {
+  .intro-content .CONTENT3 .layer .doubt ul,
+.intro-content .CONTENT5 .layer .doubt ul {
+    padding: 0 0;
+    margin-left: 0;
+  }
+}
+.intro-content .CONTENT3 .layer .doubt ul li,
+.intro-content .CONTENT5 .layer .doubt ul li {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1b1b1b;
+}
+.intro-content .CONTENT3 .layer .doubt ul li i,
+.intro-content .CONTENT5 .layer .doubt ul li i {
+  margin-right: 5px;
+  /*color: #ffc144;*/
+}
+.intro-content .doubtButton {
+  position: relative;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  *zoom: 1;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 2;
+  /*color: #1b1b1b;*/
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 12px 0;
+  /*background-color: #ffc144;*/
+}
+.intro-content .doubtButton span {
+  line-height: 3.6;
+  color: #1b1b1b;
+}
+@media (max-width: 768px) {
+  .intro-content .doubtButton {
+    width: 210px;
+    margin-top: 30px;
+  }
+}
+.intro-content .doubtButton i, .intro-content .otherBoxButton .fas.fa-angle-right {
+  position: absolute;
+  width: 150px;
+  top: 15px;
+  right: 100px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+@media (max-width: 768px) {
+  .intro-content .doubtButton i {
+    width: 80px;
+  }
+}
+.intro-content .CONTENT6 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.intro-content .CONTENT6 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+.intro-content .CONTENT6 .layer .ui-dialog {
+  max-width: 1200px;/*內嵌表單調整寬度*/
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+@media (max-width: 1440px) {
+  .intro-content .CONTENT6 .layer {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT6 .layer h2 {
+  font-size: 26px;
+  color: #1b1b1b;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.intro-content .CONTENT6 .layer h2 span .nextbr {
+  display: inline;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT6 .layer h2 {
+    font-size: 24px;
+  }
+  .intro-content .CONTENT6 .layer h2 span {
+    display: block;
+  }
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox {
+  width: 100%;
+  height: 100%;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a {
+  width: 50%;
+  padding: 15px;
+  outline: 0;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox {
+  display: block;
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  -o-box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.5);
+  -webkit-box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.5);
+  box-shadow: 0px 0px 20px rgba(151, 151, 151, 0.5);
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox img {
+  display: block !important;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .TeacherBoxName {
+  width: auto;
+  height: 50px;
+  padding: 15px;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .TeacherBoxName p {
+  font-size: 21px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-align: center;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .TeacherBoxWork {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-align: center;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore {
+  float: left;
+  height: 56px;
+  width: 100%;
+  line-height: 56px;
+  text-align: right;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore i {
+  color: #ec6941;
+  font-size: 24px;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox:hover, .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox:focus {
+  -o-box-shadow: 0px 0px 30px rgba(151, 151, 151, 0.5);
+  -webkit-box-shadow: 0px 0px 30px rgba(151, 151, 151, 0.5);
+  box-shadow: 0px 0px 30px rgba(151, 151, 151, 0.5);
+}
+.intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox:hover .teachereCardMore i, .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox:focus .teachereCardMore i {
+  color: #362e2b;
+  font-size: 24px;
+}
+.intro-content .CONTENT6 .layer .TeacherBoxButton {
+  position: relative;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  *zoom: 1;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 2;
+  /*color: #1b1b1b;*/
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 12px 0;
+  /*background-color: #ffc144;*/
+}
+.intro-content .CONTENT6 .layer .TeacherBoxButton span {
+  line-height: 3.6;
+  color: #1b1b1b;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT6 .layer .TeacherBoxButton {
+    width: 210px;
+    margin-top: 30px;
+  }
+}
+.intro-content .CONTENT6 .layer .TeacherBoxButton i {
+  position: absolute;
+  width: 150px;
+  top: 15px;
+  right: 100px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT6 .layer .TeacherBoxButton i {
+    width: 80px;
+  }
+}
+.intro-content .CONTENT7 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.intro-content .CONTENT7 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px 15px;
+}
+@media (max-width: 1440px) {
+  .intro-content .CONTENT7 .layer {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT7 .layer h2 {
+  font-size: 26px;
+  color: #1b1b1b;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT7 .layer h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT7 .layer h2 span {
+    display: block;
+  }
+}
+.intro-content .CONTENT7 .layer .studentLine {
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #1b1b1b;
+  margin: 0 15px;
+  padding: 15px;
+}
+.intro-content .CONTENT7 .layer .studentLine .studentPic {
+  float: left;
+  width: 28%;
+  height: auto;
+  margin: 1%;
+}
+.intro-content .CONTENT7 .layer .studentLine .studentPic img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT7 .layer .studentLine .studentPic {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT7 .layer .studentLine .studentBox {
+  float: left;
+  width: 68%;
+  height: auto;
+  margin: 1%;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT7 .layer .studentLine .studentBox {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT7 .layer .studentLine .studentBox .studentName {
+  float: left;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #1b1b1b;
+  margin-bottom: 5px;
+}
+.intro-content .CONTENT7 .layer .studentLine .studentBox .studentName img {
+  width: 5%;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+.intro-content .CONTENT7 .layer .studentLine .studentBox .studentdetail {
+  float: left;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 110px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #1b1b1b;
+  margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT7 .layer .studentLine .studentBox .studentdetail {
+    height: 135px;
+  }
+}
+.intro-content .CONTENT7 .layer .studentLine .studentBox .studentdetail p {
+  color: #362e2b;
+  margin-bottom: -1px;
+  font-weight: 500;
+}
+.intro-content .CONTENT7 .layer .studentLine .studentBox .studentMore a {
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  /*color: #ec6941;*/
+  margin-bottom: 5px;
+  cursor: pointer;
+  outline: 0;
+}
+.intro-content .CONTENT7 .layer .TeacherBoxButton {
+  position: relative;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  margin-top: 30px;
+  *zoom: 1;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 2;
+  /*color: #1b1b1b;*/
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 12px 0;
+  /*background-color: #ffc144;*/
+}
+.intro-content .CONTENT7 .layer .TeacherBoxButton span {
+  line-height: 3.6;
+  color: #1b1b1b;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT7 .layer .TeacherBoxButton {
+    width: 210px;
+    margin-top: 30px;
+  }
+}
+.intro-content .CONTENT7 .layer .TeacherBoxButton i {
+  position: absolute;
+  width: 150px;
+  top: 15px;
+  right: 100px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT7 .layer .TeacherBoxButton i {
+    width: 80px;
+  }
+}
+.intro-content .CONTENT8 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+.intro-content .CONTENT8 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+@media (max-width: 1440px) {
+  .intro-content .CONTENT8 .layer {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT8 .layer h2 {
+  font-size: 26px;
+  color: #1b1b1b;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT8 .layer h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT8 .layer h2 span {
+    display: block;
+  }
+}
+.intro-content .CONTENT8 .layer .fromh2 span {
+  display: inline-block !important;
+}
+.intro-content .CONTENT8 .layer .LiveBoxL {
+  width: 100%;
+  height: auto;
+}
+.intro-content .CONTENT8 .layer .LiveBoxL .LiveBoxM {
+  float: left;
+  width: 33.33%;
+  height: auto;
+  padding: 0 1%;
+}
+.intro-content .CONTENT8 .layer .LiveBoxL .LiveBoxM .LiveBox {
+  width: 100%;
+  height: auto;
+  -o-box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.5);
+  -webkit-box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.5);
+  box-shadow: 0px 0px 10px rgba(151, 151, 151, 0.5);
+  padding: 0 0 30px 0;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT8 .layer .LiveBoxL .LiveBoxM .LiveBox {
+    -o-box-shadow: 0px 0px 0px rgba(151, 151, 151, 0.5);
+    -webkit-box-shadow: 0px 0px 0px rgba(151, 151, 151, 0.5);
+    box-shadow: 0px 0px 0px rgba(151, 151, 151, 0.5);
+    border: 1px solid #c9c9c9;
+  }
+}
+.intro-content .CONTENT8 .layer .LiveBoxL .LiveBoxM .LiveBox img {
+  width: 100%;
+  height: auto;
+}
+.intro-content .CONTENT8 .layer .LiveBoxL .LiveBoxM .LiveBox .LiveBoxTitleA {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: center;
+  margin: 15px 0;
+  /*color: #ec6941;*/
+}
+.intro-content .CONTENT8 .layer .LiveBoxL .LiveBoxM .LiveBox .LiveBoxTitleB {
+  display: -webkit-box;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 75px;
+  /*font-family: 16px;*/
+  color: #1b1b1b;
+  line-height: 1.5;
+  padding: 0 15px 30px 15px;
+  text-align: justify;
+}
+.intro-content .CONTENT8 .layer .TeacherBoxButton {
+  position: relative;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  margin-top: 60px;
+  *zoom: 1;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 2;
+  /*color: #1b1b1b;*/
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 12px 0;
+  /*background-color: #ffc144;*/
+}
+.intro-content .CONTENT8 .layer .TeacherBoxButton span {
+  line-height: 3.6;
+  color: #1b1b1b;
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT8 .layer .TeacherBoxButton {
+    width: 210px;
+    margin-top: 30px;
+  }
+}
+.intro-content .CONTENT8 .layer i {
+  position: absolute;
+  width: 150px;
+  top: 15px;
+  right: 100px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+@media (max-width: 768px) {
+  .intro-content .CONTENT8 .layer i {
+    width: 80px;
+  }
+}
+@keyframes TestMove2 {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 2%;
+  }
+}
+@-webkit-keyframes TestMove2 {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 2%;
+  }
+}
+.intro-content .CONTENT9 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #362e2b;
+}
+.intro-content .CONTENT9 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+@media (max-width: 1440px) {
+  .intro-content .CONTENT9 .layer {
+    width: 100%;
+  }
+}
+.intro-content .CONTENT9 .layer h2 {
+  font-size: 26px;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .intro-content .CONTENT9 .layer h2 {
+    font-size: 24px;
+  }
+}
+.intro-content .CONTENT9 .layer .NumberPic {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.intro-content .CONTENT9 .layer .NumberPic img {
+  width: 30%;
+  height: auto;
+}
+.intro-content .CONTENT9 .layer .NumberPic .NumberRun {
+  height: 70px;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #fff100;
+  margin-bottom: -10px;
+}
+.intro-content .CONTENT9 .layer .NumberPic .NumberTitle {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fff100;
+  margin-bottom: 10px;
+}
+.intro-content .CONTENT9 .layer .NumberPic .NumberText {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+}
+.intro-content .CONTENT10 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.intro-content .CONTENT10 .layer {
+  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+@media (max-width: 1440px) {
+  .intro-content .CONTENT10 .layer {
+    width: 100%;
+  }
+}
+
+.intro-content .CONTENT10 .layer .otherBoxButton {
+  position: relative;
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  *zoom: 1;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 2;
+  color: #1b1b1b;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 12px 0;
+}
+.intro-content .CONTENT10 .layer .otherBoxButton span {
+  line-height: 3.6;
+  color: #1b1b1b;
+}
+.intro-content .CONTENT10 .layer .otherBoxButton i {
+  margin-right: 5px;
+}
+@media (max-width: 639px) {
+  .intro-content .CONTENT10 .layer .otherBoxButton {
+    width: 100%;
+  }
+}
+/* Teacher Cards List */
+.teacherCardsList {
+  background: rgba(0, 0, 0, 0.0375);
+  padding: 48px 0;
+}
+
+.teacherCardCover img {
+  max-width: 228px;
+  max-height: 228px;
+}
+@media (max-width: 767px) {
+  .teacherCardCover img {
+    margin-bottom: 50px;
+  }
+}
+
+.teacherCardDescription {
+  -webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+  padding: 135px 15px 15px 15px;
+  top: 109px;
+}
+
+.teacherName {
+  font-size: 24px;
+  margin: 0 0 12px 0;
+}
+
+.teacherNameBorder {
+  border-bottom: 1px solid #E0E0E0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 228px;
+}
+
+.teacherCardsList .coursesName {
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.teacherCardsList small,
+.teacherName small {
+  color: #4D4D4D;
+  font-size: 18px;
+  padding-left: 4px;
+}
+
+.teacherCard {
+  cursor: pointer;
+}
+
+.teacherCard a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.teacherCardInfo {
+  text-align: center;
+}
+
+.teachereCardMore {
+  float: right;
+  text-align: center;
+  height: 56px;
+  line-height: 56px;
+  width: 56px;
+}
+
+.teachereCardMore i {
+  color: rgba(0, 0, 0, 0.468);
+  font-size: 24px;
+}
+
+.teacherCard .card:hover {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Modal */
+#teacherCardModalCenter h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#teacherCardModal ul li {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+#teacherCardModal ul li p {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  font-weight: inherit;
+}
+
+#teacherCardModal .card-header {
+  background-color: #C0000A;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#teacherCardModal .card-header .title {
+  font-size: 17px;
+  color: #000;
+}
+
+#teacherCardModal .card-header .accicon {
+  float: right;
+  font-size: 16px;
+  width: 1.2em;
+  margin-top: -18px;
+}
+
+#teacherCardModalCenter .modalTool {
+  display: none;
+}
+
+.ai-programming .classificationBtn2/*, .visual-effects .classificationBtn2*/ {
+  position: relative;
+  width: 40%;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  /*.visual-effects .classificationBtn2,*/ .ai-programming .classificationBtn2 {
+    width: 60%;
+  }
+}
+@media (max-width: 479px) {
+  /*.visual-effects .classificationBtn2,*/ .ai-programming .classificationBtn2 {
+    width: 80%;
+  }
+}
+/*.visual-effects .classificationBtn2 i,*/ .ai-programming .classificationBtn2 i, .web-design .classificationBtn2 i {
+  position: absolute;
+  width: 120px;
+  top: 16px;
+  right: 50px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+@media (max-width: 1200px) {
+ /*.visual-effects .classificationBtn2 i,*/ .ai-programming .classificationBtn2 i, .web-design .classificationBtn2 i {
+    width: 80px;
+  }
+}
+@media (max-width: 1024px) {
+ /*.visual-effects .classificationBtn2 i,*/ .ai-programming .classificationBtn2 i, .web-design .classificationBtn2 i{
+    width: 140px;
+  }
+}
+@media (max-width: 900px) {
+/*.visual-effects .classificationBtn2 i,*/ .ai-programming .classificationBtn2 i, .web-design .classificationBtn2 i {
+    width: 100px;
+  }
+}
+@media (max-width: 767px) {
+/*.visual-effects .classificationBtn2 i,*/ .ai-programming .classificationBtn2 i, .web-design .classificationBtn2 i {
+    width: 130px;
+  }
+}
+@media (max-width: 500px) {
+/*.visual-effects .classificationBtn2 i,*/ .ai-programming .classificationBtn2 i, .web-design .classificationBtn2 i {
+    width: 80px;
+  }
+}
+
+.classificationBtn2 {
+  position: relative;
+  width: 80%;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+}
+.classificationBtn2 i {
+  position: absolute;
+  width: 100px;
+  top: 16px;
+  right: 50px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+@media (max-width: 1024px) {
+  .classificationBtn2 i {
+    width: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .classificationBtn2 i {
+    width: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .classificationBtn2 i {
+    width: 300px;
+  }
+}
+@media (max-width: 639px) {
+  .classificationBtn2 i {
+    width: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .classificationBtn2 i {
+    width: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .classificationBtn2 i {
+    width: 150px;
+  }
+}
+@media (max-width: 425px) {
+  .classificationBtn2 i {
+    width: 100px;
+  }
+}
+@media (max-width: 340px) {
+  .classificationBtn2 i {
+    width: 80px;
+  }
+}
+
+.visual-design .classificationBtn2, .programming .classificationBtn2, .app-creation .classificationBtn2, .cloud-computing .classificationBtn2, .pcguide .classificationBtn2, .visual-effects .classificationBtn2  {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+}
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .cloud-computing .classificationBtn2 i, .pcguide .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+  position: absolute;
+  width: 50px;
+  top: 16px;
+  right: 50px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+@media (max-width: 1024px) {
+ .visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .cloud-computing .classificationBtn2 i, .pcguide .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+    width: 20px;
+  }
+}
+@media (max-width: 900px) {
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .cloud-computing .classificationBtn2 i, .pcguide .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+    width: 30px;
+  }
+}
+@media (max-width: 767px) {
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .cloud-computing .classificationBtn2 i, .pcguide .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+    width: 300px;
+  }
+}
+@media (max-width: 639px) {
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .cloud-computing .classificationBtn2 i, .pcguide .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+    width: 250px;
+  }
+}
+@media (max-width: 600px) {
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .cloud-computing .classificationBtn2 i, .pcguide .classificationBtn2 i, .visual-effects .classificationBtn2 i{
+    width: 200px;
+  }
+}
+@media (max-width: 500px) {
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .cloud-computing .classificationBtn2 i, .pcguide .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+    width: 150px;
+  }
+}
+@media (max-width: 425px) {
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+    width: 100px;
+  }
+.cloud-computing .classificationBtn2 i { width: 40px;}
+.pcguide .classificationBtn2 i  { width: 60px;}
+}
+@media (max-width: 340px) {
+.visual-design .classificationBtn2 i, .programming .classificationBtn2 i, .app-creation .classificationBtn2 i, .visual-effects .classificationBtn2 i {
+    width: 80px;
+  }
+.cloud-computing .classificationBtn2 i { width: 20px;}
+.pcguide .classificationBtn2 i { width: 30px;}
+}
+
+.multimedia-animation .classificationBtn2 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+}
+.certified-remedial .classificationBtn2 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+}
+.multimedia-animation .classificationBtn2 i {
+  position: absolute;
+  width: 10px;
+  top: 16px;
+  right: 50px;
+  animation: TestMove2 1s infinite alternate;
+  /*IE*/
+  -moz-animation: TestMove2 1s infinite alternate;
+  /*FireFox*/
+  -webkit-animation: TestMove2 1s infinite alternate;
+  /*Chrome, Safari*/
+}
+.certified-remedial .classificationBtn2 i { width: 25px;}
+@media (max-width: 767px) {
+.multimedia-animation .classificationBtn2 i, .certified-remedial .classificationBtn2 i {
+    width: 400px;
+  }
+}
+@media (max-width: 639px) {
+.multimedia-animation .classificationBtn2 i, .certified-remedial .classificationBtn2 i {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+.multimedia-animation .classificationBtn2 i, .certified-remedial .classificationBtn2 i {
+    width: 250px;
+  }
+}
+@media (max-width: 500px) {
+.multimedia-animation .classificationBtn2 i, .certified-remedial .classificationBtn2 i {
+    width: 150px;
+  }
+}
+@media (max-width: 425px) {
+.multimedia-animation .classificationBtn2 i, .certified-remedial .classificationBtn2 i {
+    width: 100px;
+  }
+}
+@media (max-width: 340px) {
+.multimedia-animation .classificationBtn2 i, .certified-remedial .classificationBtn2 i {
+    width: 80px;
+  }
+}
+.all-career>.career:nth-child(even) { background-color: #e5e5e5;}
+.btn-group>.btn { flex: 1 1 0;}
+.btn.btn-secondary { display: flex; justify-content: center; align-items: center;}
+@media (max-width: 767px){ .btn.btn-secondary {flex-direction: column;}}
+/* IT 設計類學習導航 居中 */
+.nav.nav-pills.mb-4, .nav.nav-pills.mb-3 { display: flex; justify-content: center;}
+/* [室內設計] 依類別變換顏色---start */
+.interior-design .main-color, .interior-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.interior-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #ffc144;
+  color: #1b1b1b;
+}
+
+.interior-design .main-color.classificationBtn2:hover, .interior-design .main-color.classificationBtn2:active, .interior-design .main-color.doubtButton:hover, .interior-design .main-color.TeacherBoxButton:hover, .interior-design .main-color.navLinkTitle:hover { background: #EC6941;
+color: #ffffff;}
+
+.interior-design .doubt .main-color, .interior-design .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .interior-design .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color, .interior-design .intro-content .CONTENT3 .layer .doubt ul li i, .interior-design .intro-content .CONTENT5 .layer .doubt ul li i {
+  color: #ffc144;
+  background: transparent;
+}
+
+.interior-design .doubt .doubtText.main-color, .interior-design .studentMore .main-color, .interior-design .LiveBox .main-color, .interior-design .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color, .interior-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.interior-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color, .interior-design .intro-content .CONTENT3 .layer .doubt .doubtText.main-color, .interior-design .intro-content .CONTENT5 .layer .doubt .doubtText.main-color {
+  color: #ec6941;
+  background: transparent;
+}
+
+.interior-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.interior-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ffffff;
+  background: #ec6941;
+}
+
+.interior-design .intro-content .btn-secondary.main-color:hover {
+  color: #1b1b1b;
+  background-color: #ffc144;
+}
+.interior-design .intro-content .CONTENT2 .navLinkTitle.main-color:hover, 
+.interior-design .intro-content .CONTENT4 .navLinkTitle.main-color:hover {
+  color: #ffffff;
+  background: #ec6941;
+}
+.interior-design .intro-content .CONTENT2 .navLinkTitle.main-color, 
+.interior-design .intro-content .CONTENT4 .navLinkTitle.main-color {
+  background-color: #0d0d0d;
+}
+
+/* [室內設計] 依類別變換顏色---end */
+/* [室內設計] 依類別變換學習導航樣式---start */
+.interior-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.interior-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/architectural-interior-design/bgnav.svg);
+  background-color: #ffffff;
+}
+.interior-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.interior-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  width: auto;
+  height: 260px;
+  display: block;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/architectural-interior-design/navicon2.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.interior-design .intro-content .nav-pills .main-color.nav-link.active,
+.interior-design .intro-content .nav-pills .show > .main-color.nav-link, .interior-design .intro-content .nav-pills .main-color.nav-link:hover {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/architectural-interior-design/navicon1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+.interior-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.interior-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+    background-image: none;
+    background-color: transparent;
+    
+  }
+.interior-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.interior-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+.interior-design .intro-content .nav-pills .main-color.nav-link.active,
+.interior-design .intro-content .nav-pills .show > .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+}
+.interior-design .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.interior-design .intro-content .TOP .container .classCourse { width: 60%;}
+}
+/* [室內設計] 依類別變換學習導航樣式---end */
+/* [室內設計] 課程應用發展icon---start */
+.interior-design .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.interior-design .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/architectural-interior-design/home1.svg);
+}
+.interior-design .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.interior-design .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/architectural-interior-design/home2.svg);
+}
+.interior-design .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.interior-design .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/architectural-interior-design/electronics.svg);
+}
+.interior-design .intro-content .CONTENT1 .layer .content1Box p { color: #EC6941; background-color: #ffffff; border: 1px solid #EC6941;}
+/* [室內設計] 課程應用發展icon---end */
+/* [工業設計] 依類別變換顏色---start */
+.industrial-design .main-color, .industrial-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.industrial-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #93ADBE;
+  color: #ffffff;
+}
+
+.industrial-design .main-color.classificationBtn2:hover, .industrial-design .main-color.classificationBtn2:active, .industrial-design .main-color.doubtButton:hover, .industrial-design .main-color.TeacherBoxButton:hover { background: #416683;
+color: #ffffff;}
+.industrial-design .main-color.navLinkTitle:hover { color: #ffffff;  background: #B3211B;}
+.industrial-design .doubt .main-color,.industrial-design .intro-content .CONTENT3 .layer .doubt ul li i, .industrial-design .intro-content .CONTENT5 .layer .doubt ul li i {
+  color: #B3211B;
+  background: transparent;
+}
+ .industrial-design .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .industrial-design .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color { color: #93ADBE;
+  background: transparent;}
+.industrial-design .doubt .doubtText.main-color, .industrial-design .studentMore .main-color, .industrial-design .LiveBox .main-color, .industrial-design .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color, .industrial-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.industrial-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color, .industrial-design .intro-content .CONTENT3 .layer .doubt .doubtText.main-color, .industrial-design .intro-content .CONTENT5 .layer .doubt .doubtText.main-color {
+  color: #B3211B;
+  background: transparent;
+}
+
+.industrial-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.industrial-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ffffff;
+  background: #B3211B;
+}
+
+.industrial-design .intro-content .btn-secondary.main-color:hover {
+  color: #ffffff;
+  background-color: #93ADBE;
+}
+
+
+/* [工業設計] 依類別變換顏色---end */
+/* [工業設計] 依類別變換學習導航樣式---start */
+.industrial-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.industrial-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-color: transparent;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/industrial-design/industrial-wh.jpg);
+  background-repeat: repeat;
+  background-size: auto; 
+}
+.industrial-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.industrial-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  width: auto;
+  height: 240px;
+  display: block;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/industrial-design/industrial01.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.industrial-design .intro-content .nav-pills .main-color.nav-link.active,
+.industrial-design .intro-content .nav-pills .show > .main-color.nav-link, .industrial-design .intro-content .nav-pills .main-color.nav-link:hover {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/industrial-design/industrial01-r.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+.industrial-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.industrial-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+    background-image: none;
+    background-color: transparent;
+    
+  }
+.industrial-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.industrial-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+.industrial-design .intro-content .nav-pills .main-color.nav-link.active,
+.industrial-design .intro-content .nav-pills .show > .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+}
+.industrial-design .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.industrial-design .intro-content .TOP .container .classCourse { width: 60%;}
+}
+.industrial-design .classificationBtn2 i {
+  width: 40px;
+}
+/* [工業設計] 依類別變換學習導航樣式---end */
+/* [工業設計] 課程應用發展icon---start */
+.industrial-design .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.industrial-design .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/industrial-design/industrial1.svg);
+}
+.industrial-design .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.industrial-design .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/industrial-design/industrial2.svg);
+}
+.industrial-design .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.industrial-design .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/industrial-design/industrial3.svg);
+}
+.industrial-design .intro-content .CONTENT1 .layer .content1Box p { color: #416683; background-color: #ffffff; border: 1px solid #416683;}
+/* 按鈕範圍 */
+.industrial-design .intro-content .TOP .container .classification { width: 70%;}
+/* 學習動機右大圖 */
+.industrial-design  .intro-content .CONTENT1 .layer .content1BoxImg img { width: 65%; }
+@media (max-width: 767px){
+.industrial-design .intro-content .btn { font-size: 18px;}
+}
+/* [工業設計] 課程應用發展icon---end */
+/* [視覺設計] 依類別變換顏色---start */
+.visual-design .main-color {
+  background: rgb(177,59,199);
+  background: -moz-linear-gradient(left,  rgba(177,59,199,1) 0%, rgba(209,64,159,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(177,59,199,1) 0%,rgba(209,64,159,1) 100%);
+  background: linear-gradient(to right,  rgba(177,59,199,1) 0%,rgba(209,64,159,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b13bc7', endColorstr='#d1409f',GradientType=1 );
+  color: #ffffff;
+}
+.visual-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.visual-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active{ background: rgb(177,59,199); color: #ffffff;}
+.visual-design .intro-content .btn-secondary.main-color { background: #ffffff; color: #000000;}
+/*學習導航大標背景*/
+.visual-design .intro-content .CONTENT2 .navLinkTitle, .visual-design .intro-content .CONTENT4 .navLinkTitle { background: #0d0d0d;}
+.visual-design .main-color.classificationBtn2:hover, .visual-design .main-color.classificationBtn2:active, .visual-design .main-color.doubtButton:hover, .visual-design .main-color.TeacherBoxButton:hover { background: #f7d945; color: #b13bc7;}
+.visual-design .main-color.navLinkTitle:hover { background: #b13bc7; color: #f7d945;}
+
+.visual-design .doubt .main-color, .visual-design .intro-content .CONTENT3 .layer .doubt ul li i, .visual-design .intro-content .CONTENT5 .layer .doubt ul li i  {
+  color: #d1409f;
+  background: transparent;
+}
+.visual-design .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color, .visual-design .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color { color: #f7d945; background: transparent;}
+.visual-design .doubt .doubtText.main-color, .visual-design .studentMore .main-color, .visual-design .LiveBox .main-color, .visual-design .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color, .visual-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.visual-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color, .visual-design .intro-content .CONTENT3 .layer .doubt .doubtText.main-color, .visual-design .intro-content .CONTENT5 .layer .doubt .doubtText.main-color {
+  color: #d1409f;
+  background: transparent;
+}
+
+.visual-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.visual-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #f7d945;
+  background: #b13bc7;
+}
+
+.visual-design .intro-content .btn-secondary.main-color:hover {
+  color: #ffffff;
+  background-color: #b13bc7;
+}
+/* [視覺設計] 依類別變換顏色---end */
+/* [視覺設計] 依類別變換學習導航樣式---start */
+.visual-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.visual-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-color: transparent;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-design/visual-w.jpg);
+  background-repeat: repeat;
+  background-size: auto;  
+}
+.visual-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.visual-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  width: auto;
+  height: 240px;
+  display: block;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-design/visual02.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.visual-design .intro-content .nav-pills .main-color.nav-link.active,
+.visual-design .intro-content .nav-pills .show > .main-color.nav-link, .visual-design .intro-content .nav-pills .main-color.nav-link:hover {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-design/visual01-purple.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+.visual-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.visual-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+    background-image: none;
+    background-color: transparent;
+    
+  }
+.visual-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.visual-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+.visual-design .intro-content .nav-pills .main-color.nav-link.active,
+.visual-design .intro-content .nav-pills .show > .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+}
+.visual-design .intro-content .TOP .container .classCourse { width: 65%;}
+@media (max-width: 1051px) and (min-width: 769px) {
+.visual-design  .intro-content .TOP .container .classCourse { width: 40%;}
+}
+/* [視覺設計] 依類別變換學習導航樣式---end */
+/* [視覺設計] 課程應用發展icon---start */
+.visual-design .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.visual-design .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-design/visual1.svg);
+}
+.visual-design .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.visual-design .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-design/visual2.svg);
+}
+.visual-design .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.visual-design .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-design/visual3.svg);
+}
+.visual-design .intro-content .CONTENT1 .layer .content1Box p { color: #b13bc7; background-color: #ffffff; border: 1px solid #b13bc7;}
+/* 按鈕範圍 */
+.visual-design .intro-content .TOP .container .classification { width: 80%;}
+/* 連結 */
+.visual-design .content2Text a { color: #000000; border-bottom: 1px solid #b13bc7;}
+.visual-design .content2Text a:hover { border-bottom: 2px solid #b13bc7;}
+@media (max-width: 767px){
+.visual-design .intro-content .btn { font-size: 18px;}
+}
+/* [視覺設計] 課程應用發展icon---end */
+
+/* [網頁設計] 依類別變換顏色---start */
+.web-design .main-color, .web-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.web-design .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #0056ec;
+  color: #ffffff;
+}
+
+.web-design .main-color.classificationBtn2:hover, .web-design .main-color.classificationBtn2:active, .web-design .main-color.doubtButton:hover, .web-design .main-color.TeacherBoxButton:hover, .web-design .main-color.navLinkTitle:hover { background: #ef832b;color: #ffffff;}
+
+.web-design .doubt .main-color, .web-design .intro-content .CONTENT3 .layer .doubt ul li i, .web-design .intro-content .CONTENT5 .layer .doubt ul li i  {
+  color: #ef832b;
+  background: transparent;
+}
+.web-design .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .web-design .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color{
+  color: #ef832b;
+  background: transparent;
+}
+.web-design .doubt .doubtText.main-color, .web-design .studentMore .main-color, .web-design .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color, .web-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.web-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color, .web-design .intro-content .CONTENT3 .layer .doubt .doubtText.main-color, .web-design .intro-content .CONTENT5 .layer .doubt .doubtText.main-color {
+  color: #ef832b;
+  background: transparent;
+}
+.web-design .LiveBox .main-color {
+  color: #0056ec;
+  background: transparent;
+}
+.web-design .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.web-design .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ffffff;
+  background: #ef832b;
+}
+
+.web-design .intro-content .btn-secondary.main-color:hover {
+  color: #ffffff;
+  background-color: #ef832b;
+}
+/* [網頁設計] 依類別變換顏色---end */
+/* [網頁設計] 依類別變換學習導航樣式---start */
+.web-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.web-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-color: transparent;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/web-design/web-w.jpg);
+  background-repeat: repeat;
+  background-size: auto;  
+}
+.web-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.web-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  width: auto;
+  height: 240px;
+  display: block;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/web-design/web02-r.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.web-design .intro-content .nav-pills .main-color.nav-link.active,
+.web-design .intro-content .nav-pills .show > .main-color.nav-link, .web-design .intro-content .nav-pills .main-color.nav-link:hover {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/web-design/web01-r.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+.web-design .intro-content .CONTENT2 .layer .bgNav.main-color,
+.web-design .intro-content .CONTENT4 .layer .bgNav.main-color {
+    background-image: none;
+    background-color: transparent;
+    
+  }
+.web-design .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.web-design .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+.web-design .intro-content .nav-pills .main-color.nav-link.active,
+.web-design .intro-content .nav-pills .show > .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+}
+.web-design .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.web-design .intro-content .TOP .container .classCourse { width: 60%;}
+}
+.web-design .classificationBtn2 i {  width: 30px;}
+/* [網頁設計] 依類別變換學習導航樣式---end */
+/* [網頁設計] 課程應用發展icon---start */
+.web-design .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.web-design .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/web-design/js1.svg);
+}
+.web-design .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.web-design .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/web-design/js2.svg);
+}
+.web-design .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.web-design .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/web-design/js3.svg);
+}
+.web-design .intro-content .CONTENT1 .layer .content1Box p { color: #0056ec; background-color: #c8dbfb; border: 1px solid #0056ec;}
+/* 學習動機右大圖 */
+.web-design .intro-content .CONTENT1 .layer .content1BoxImg img { width: 70%; }
+/* 連結 */
+.web-design .content2Text a { color: #000000; border-bottom: 1px solid #0056ec;}
+.web-design .content2Text a:hover { border-bottom: 2px solid #0056ec;}
+/* [網頁設計] 課程應用發展icon---end */
+
+/* [3D多媒體動畫] 依類別變換顏色---start */
+.multimedia-animation .main-color {
+  background: rgb(245,64,85);
+  background: -moz-linear-gradient(left,  rgba(245,211,34,1) -40%, rgba(245,64,85) 100%);
+  background: -webkit-linear-gradient(left,  rgba(245,211,34,1) -40%, rgba(245,64,85) 100%);
+  background: linear-gradient(to right,  rgba(245,211,34,1) -40%,rgba(245,64,85) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F5D322', endColorstr='#F54055',GradientType=1 );
+  color: #ffffff;
+}
+.multimedia-animation .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.multimedia-animation .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active{ background: rgba(245,64,85); color: #ffffff;}
+.multimedia-animation .intro-content .btn-secondary.main-color { background: #ffffff; color: #000000;}
+/*學習導航大標背景*/
+.multimedia-animation .intro-content .CONTENT2 .navLinkTitle, .multimedia-animation .intro-content .CONTENT4 .navLinkTitle { background: #0d0d0d;}
+.multimedia-animation .main-color.classificationBtn2:hover, .multimedia-animation .main-color.classificationBtn2:active, .multimedia-animation .main-color.doubtButton:hover, .multimedia-animation .main-color.TeacherBoxButton:hover { background: #F54055; color: #ffffff;}
+.multimedia-animation .main-color.navLinkTitle:hover { background: #3A23B5; color: #F5D322;}
+
+.multimedia-animation .doubt .main-color, .multimedia-animation .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .multimedia-animation .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color, .multimedia-animation .intro-content .CONTENT3 .layer .doubt ul li i, .multimedia-animation .intro-content .CONTENT5 .layer .doubt ul li i  {
+  color: #F5D322;
+  background: transparent;
+}
+
+.multimedia-animation .doubt .doubtText.main-color, .multimedia-animation .studentMore .main-color, .multimedia-animation .LiveBox .main-color, .multimedia-animation .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color, .multimedia-animation .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.multimedia-animation .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color, .multimedia-animation .intro-content .CONTENT3 .layer .doubt .doubtText.main-color, .multimedia-animation .intro-content .CONTENT5 .layer .doubt .doubtText.main-color {
+  color: #3A23B5;
+  background: transparent;
+}
+
+.multimedia-animation .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.multimedia-animation .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #F5D322;
+  background: #3A23B5;
+}
+
+.multimedia-animation .intro-content .btn-secondary.main-color:hover {
+  color: #ffffff;
+  background-color: #F54055;
+}
+/* [3D多媒體動畫] 依類別變換顏色---end */
+/* [3D多媒體動畫] 依類別變換學習導航樣式---start */
+.multimedia-animation .intro-content .CONTENT2 .layer .bgNav.main-color,
+.multimedia-animation .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-color: transparent;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/multimedia-animation/3d-w.jpg);
+  background-repeat: repeat;
+  background-size: auto;  
+}
+.multimedia-animation .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.multimedia-animation .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  width: auto;
+  height: 270px;
+  display: block;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/multimedia-animation/3d02.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.multimedia-animation .intro-content .nav-pills .main-color.nav-link.active,
+.multimedia-animation .intro-content .nav-pills .show > .main-color.nav-link, .multimedia-animation .intro-content .nav-pills .main-color.nav-link:hover {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/multimedia-animation/3d01-r.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+.multimedia-animation .intro-content .CONTENT2 .layer .bgNav.main-color,
+.multimedia-animation .intro-content .CONTENT4 .layer .bgNav.main-color {
+    background-image: none;
+    background-color: transparent;
+    
+  }
+.multimedia-animation .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.multimedia-animation .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+.multimedia-animation .intro-content .nav-pills .main-color.nav-link.active,
+.multimedia-animation .intro-content .nav-pills .show > .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+}
+.multimedia-animation .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.multimedia-animation .intro-content .TOP .container .classCourse { width: 60%;}
+}
+.multimedia-animation .classificationBtn2 i {
+  width: 15px;
+}
+/* [3D多媒體動畫] 依類別變換學習導航樣式---end */
+/* [3D多媒體動畫] 課程應用發展icon---start */
+.multimedia-animation .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.multimedia-animation .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/multimedia-animation/3d1.svg);
+}
+.multimedia-animation .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.multimedia-animation .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/multimedia-animation/3d2.svg);
+}
+.multimedia-animation .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.multimedia-animation .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/multimedia-animation/3d3.svg);
+}
+.multimedia-animation .intro-content .CONTENT1 .layer .content1Box p { color: #F54055; background-color: #ffffff; border: 1px solid #F54055;}
+/* 按鈕範圍 */
+.multimedia-animation .intro-content .TOP .container .classification { width: 80%;}
+/* 學習導航字太多設定.. */
+.multimedia-animation .intro-content .CONTENT2 .navLinkText,
+.multimedia-animation .intro-content .CONTENT4 .navLinkText { text-overflow: ellipsis; white-space: nowrap;}
+/* 學習動機右大圖 */
+.multimedia-animation .intro-content .CONTENT1 .layer .content1BoxImg img { width: 60%; }
+@media (max-width: 767px){
+.multimedia-animation .intro-content .btn { font-size: 18px;}
+}
+/* [3D多媒體動畫] 課程應用發展icon---end */
+/* [影視特效] 依類別變換顏色---start */
+.visual-effects .main-color {
+  background: rgb(105,29,181);
+  background: -moz-linear-gradient(left,  rgba(186,37,159,1) -40%, rgba(105,29,181) 100%);
+  background: -webkit-linear-gradient(left,  rgba(186,37,159,1) -40%, rgba(105,29,181) 100%);
+  background: linear-gradient(to right,  rgba(186,37,159,1) -40%,rgba(105,29,181) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA259F', endColorstr='#691DB5',GradientType=1 );
+  color: #ffffff;
+}
+.visual-effects .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.visual-effects .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active{ background: rgba(105,29,181); color: #ffffff;}
+.visual-effects .intro-content .btn-secondary.main-color { background: #ffffff; color: #000000;}
+/*學習導航大標背景*/
+.visual-effects .intro-content .CONTENT2 .navLinkTitle, .visual-effects .intro-content .CONTENT4 .navLinkTitle { background: #0d0d0d;}
+.visual-effects .main-color.classificationBtn2:hover, .visual-effects .main-color.classificationBtn2:active, .visual-effects .main-color.doubtButton:hover, .visual-effects .main-color.TeacherBoxButton:hover { background: #BA259F; color: #ffffff;}
+.visual-effects .main-color.navLinkTitle:hover { background: #FB5655; color: #ffffff;}
+
+.visual-effects .doubt .main-color,.visual-effects .intro-content .CONTENT3 .layer .doubt ul li i, .visual-effects .intro-content .CONTENT5 .layer .doubt ul li i  {
+  color: #BA259F;
+  background: transparent;
+}
+.visual-effects .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .visual-effects .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color{
+  color: #FB5655;
+  background: transparent;
+}
+.visual-effects .doubt .doubtText.main-color, .visual-effects .studentMore .main-color, .visual-effects .LiveBox .main-color, .visual-effects .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color, .visual-effects .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.visual-effects .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color, .visual-effects .intro-content .CONTENT3 .layer .doubt .doubtText.main-color, .visual-effects .intro-content .CONTENT5 .layer .doubt .doubtText.main-color {
+  color: #FB5655;
+  background: transparent;
+}
+
+.visual-effects .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.visual-effects .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ffffff;
+  background: #FB5655;
+}
+
+.visual-effects .intro-content .btn-secondary.main-color:hover {
+  color: #ffffff;
+  background-color: #691DB5;
+}
+/* [影視特效] 依類別變換顏色---end */
+/* [影視特效] 依類別變換學習導航樣式---start */
+.visual-effects .intro-content .CONTENT2 .layer .bgNav.main-color,
+.visual-effects .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-color: transparent;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-effects/film-w.jpg);
+  background-repeat: repeat;
+  background-size: auto;  
+}
+.visual-effects .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.visual-effects .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  width: auto;
+  height: 240px;
+  display: block;
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-effects/film02.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 30px;
+}
+.visual-effects .intro-content .nav-pills .main-color.nav-link.active,
+.visual-effects .intro-content .nav-pills .show > .main-color.nav-link, .visual-effects .intro-content .nav-pills .main-color.nav-link:hover {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-effects/film01-r.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+.visual-effects .intro-content .CONTENT2 .layer .bgNav.main-color,
+.visual-effects .intro-content .CONTENT4 .layer .bgNav.main-color {
+    background-image: none;
+    background-color: transparent;
+    
+  }
+.visual-effects .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.visual-effects .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+.visual-effects .intro-content .nav-pills .main-color.nav-link.active,
+.visual-effects .intro-content .nav-pills .show > .main-color.nav-link {
+  background-image: none;
+  height: auto;
+  padding: 0;
+}
+}
+
+.visual-effects .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.visual-effects .intro-content .TOP .container .classCourse { width: 60%;}
+}
+/* [影視特效] 依類別變換學習導航樣式---end */
+/* [影視特效] 課程應用發展icon---start */
+.visual-effects .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.visual-effects .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-effects/film1.svg);
+}
+.visual-effects .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.visual-effects .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-effects/film2.svg);
+}
+.visual-effects .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.visual-effects .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/visual-effects/film3.svg);
+}
+.visual-effects .intro-content .CONTENT1 .layer .content1Box p { color: #BA259F; background-color: #ffffff; border: 1px solid #BA259F;}
+/* 學習動機右大圖 */
+.visual-effects .intro-content .CONTENT1 .layer .content1BoxImg img { width: 68%; }
+/* 學習導航字太多設定.. */
+.visual-effects .intro-content .CONTENT2 .navLinkText,
+.visual-effects .intro-content .CONTENT4 .navLinkText { text-overflow: ellipsis; white-space: nowrap;}
+/* [影視特效] 課程應用發展icon---end */
+
+
+/* [程式資料庫] 依類別變換顏色---start */
+.programming .main-color, .programming .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.programming .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #ffc144;
+  color: #1b1b1b;
+}
+
+.programming .main-color.classificationBtn2:hover, .programming .main-color.classificationBtn2:active, .programming .main-color.doubtButton:hover, .programming .main-color.TeacherBoxButton:hover { background: #3139A8; color: #ffffff;}
+
+.programming .main-color.navLinkTitle:hover { /*background: #3139A8;*/ color: #ffffff;}
+
+.programming .doubt .main-color, .programming .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .programming .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color {
+  color: #ffc144;
+  background: transparent;
+}
+
+.programming .doubt .doubtText.main-color, .programming .studentMore .main-color, .programming .LiveBox .main-color, .programming .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,
+.programming .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ec6941;
+  background: transparent;
+}
+
+.programming .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.programming .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ffc144;
+  
+}
+
+.programming .intro-content .btn-secondary.main-color:hover {
+  background-color: #4955f1;
+  color: #ffffff;
+}
+/* [程式資料庫] 依類別變換顏色---end */
+/* [程式資料庫] 依類別變換顏色---start */
+.programming .main-color, .programming .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.programming .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #4955f1;
+  color: #ffffff;
+}
+
+.programming .doubt .main-color {
+  color: #4955f1;
+  background: transparent;
+}
+.programming .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .programming .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color { color: #ffc144;}
+.programming .doubt .doubtText.main-color, .programming .studentMore .main-color, .programming .LiveBox .main-color, .programming .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,.programming .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #3139a8;
+  background: transparent;
+}
+
+.programming .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.programming .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  /*color: #ffffff;*/
+  background: #3139a8;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  
+}
+/* [程式資料庫] 依類別變換顏色---end */
+/* [程式資料庫] 依類別變換學習導航樣式---start */
+.programming .intro-content .CONTENT2 .layer .bgNav.main-color,
+.programming .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: none;
+  background-color: transparent;
+}
+
+.programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  /*height: 130px;*/
+  height: auto;
+  /*background-color: #776b9a;*/
+  -webkit-clip-path: polygon(95% 0, 100% 40%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  padding: 15px;
+}
+.programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: #3139A8;}
+
+@media (max-width: 767px) {
+.programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: transparent;}
+.programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+    background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+    height: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+.programming .intro-content .CONTENT2 .navLinkTitle, .programming .intro-content .CONTENT4 .navLinkTitle { background-color: transparent;}
+}
+.programming .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.programming .intro-content .CONTENT4 .navLinkTitle1.main-color {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 5px;
+  background: transparent;
+}
+@media (max-width: 768px) {
+.programming .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.programming .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 767px) {
+.programming .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.programming .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  }
+
+}
+.programming .intro-content .nav-pills .nav-link.active,
+.programming .intro-content .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #3139a8;
+  
+}
+.programming .intro-content .nav-pills .nav-link.active 
+.programming .intro-content .nav-pills .nav-link.active .navLinkTitle,
+.programming .intro-content .nav-pills .show > .nav-link .navLinkTitle {
+  background-color: #3139a8; 
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.programming .intro-content .nav-pills .nav-link.active .navLinkTitle1,
+.programming .intro-content .nav-pills .show > .nav-link .navLinkTitle1 {
+  color: #f7cb4f;
+}
+
+
+.programming .intro-content .nav-pills .nav-link.active .navLinkText,
+.programming .intro-content .nav-pills .show > .nav-link .navLinkText {
+  color: #fff;
+}
+.programming .intro-content .CONTENT2 .navLinkText,
+.programming .intro-content .CONTENT4 .navLinkText { color: #dadcf1; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; width : 270px; margin: 0 auto; height: 125px; padding: 10px 0;}
+/* [程式資料庫] 課程內容bar顏色變換 */
+.programming .intro-content .accordion .card-header.main-color {
+  background-color: #3139a8 !important;
+}
+.programming .intro-content .accordion .card.main-color {
+  border: 2px solid #3139a8;
+}
+.programming .card-body, .programming .collapse { background: #ffffff; color: #000000;}
+
+.programming .intro-content .TOP .container .classCourse, .visual-effects .intro-content .TOP .container .classCourse { width: 65%;}
+@media (max-width: 1051px) and (min-width: 769px) {
+.programming  .intro-content .TOP .container .classCourse, .visual-effects .intro-content .TOP .container .classCourse { width: 40%;}
+}
+
+
+/* [程式資料庫] 依類別變換學習導航樣式---end */
+/* [程式資料庫] 課程應用發展icon---start */
+.programming .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.programming .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/programming/programmer1.svg);
+}
+.programming .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.programming .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/programming/programmer2.svg);
+}
+.programming .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.programming .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/programming/programmer3.svg);
+}
+.programming .intro-content .CONTENT1 .layer .content1Box p { color: #4955F1; background-color: #ffffff; border: 1px solid #4955F1;}
+/* 按鈕範圍 */
+.programming .intro-content .TOP .container .classification { width: 80%;}
+/* 學習動機右大圖 */
+.programming .intro-content .CONTENT1 .layer .content1BoxImg img { width: 68%; }
+/* [程式資料庫] 課程應用發展icon---end */
+
+/* [AI程式] 依類別變換顏色---start */
+.ai-programming .main-color, .ai-programming .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.ai-programming .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: rgb(84,169,255);
+  background: -moz-linear-gradient(left,  rgba(84,169,255,1) 0%, rgba(125,104,236,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(84,169,255,1) 0%,rgba(125,104,236,1) 100%);
+  background: linear-gradient(to right,  rgba(84,169,255,1) 0%,rgba(125,104,236,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54a9ff', endColorstr='#7d68ec',GradientType=1 );
+  color: #ffffff;
+}
+
+.ai-programming .main-color.classificationBtn2:hover, .ai-programming .main-color.classificationBtn2:active, .ai-programming .main-color.doubtButton:hover, .ai-programming .main-color.TeacherBoxButton:hover { background: rgba(84,169,255,1); color: #ffffff;}
+
+.ai-programming .main-color.navLinkTitle:hover { /*background: #7C648C;*/ color: #ffffff;}
+.ai-programming .main-color.navLinkTitle { background: #54a9ff;}
+.ai-programming .doubt .main-color {
+  color: rgba(125,104,236,1);
+  background: transparent;
+}
+.ai-programming .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .ai-programming .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color { color: rgba(84,169,255,1); background: transparent;}
+.ai-programming .doubt .doubtText.main-color, .ai-programming .studentMore .main-color, .ai-programming .LiveBox .main-color, .ai-programming .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color, .ai-programming .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: rgba(84,169,255,1);
+  background: transparent;
+}
+
+.ai-programming .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.ai-programming .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ffffff;
+  background: #7d68ec;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+}
+.ai-programming .intro-content .btn-secondary.main-color:hover {
+  background-color: rgba(84,169,255,1);
+  color: #ffffff;
+}
+/* [AI程式] 依類別變換顏色---end */
+
+
+/* [AI程式] 依類別變換學習導航樣式---start */
+.ai-programming .intro-content .CONTENT2 .layer .bgNav.main-color,
+.ai-programming .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: none;
+  background-color: transparent;
+}
+
+.ai-programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.ai-programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  /*height: 130px;*/
+  height: auto;
+  /*background-color: #776b9a;*/
+  -webkit-clip-path: polygon(95% 0, 100% 40%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  padding: 15px;
+}
+.ai-programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link { background: #54a9ff;}
+.ai-programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover, .ai-programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover, .ai-programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link.active { background-color: #7d68ec;}
+.ai-programming .intro-content .CONTENT2 .navLinkText, .ai-programming .intro-content .CONTENT4 .navLinkText { color: rgba(256,256,256,0.75);}
+
+@media (max-width: 767px) {
+.ai-programming .intro-content .CONTENT2 .navLinkTitle, .ai-programming  .intro-content .CONTENT4 .navLinkTitle  
+  { clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);} 
+.ai-programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.ai-programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: transparent;}
+.ai-programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.ai-programming .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+    background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+    height: 100%;
+    padding: 0;
+  }
+  
+.ai-programming .intro-content .CONTENT2 .nav-pills .main-color.nav-link.active {background-color: transparent;}
+}
+@media (min-width: 768px) {
+.ai-programming .intro-content .CONTENT2 .navLinkTitle, .ai-programming .intro-content .CONTENT4 .navLinkTitle { background-color: transparent;}
+}
+.ai-programming .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.ai-programming .intro-content .CONTENT4 .navLinkTitle1.main-color {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 5px;
+  background: transparent;
+}
+@media (max-width: 768px) {
+.ai-programming .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.ai-programming .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 767px) {
+.ai-programming .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.ai-programming .intro-content .CONTENT4 .navLinkTitle1.main-color, {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  }
+
+}
+.ai-programming .intro-content .nav-pills .nav-link.active,
+.ai-programming .intro-content .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: rgba(84,169,255,1);
+  
+}
+.ai-programming .intro-content .nav-pills .nav-link.active 
+.ai-programming .intro-content .nav-pills .nav-link.active .navLinkTitle,
+.ai-programming .intro-content .nav-pills .show > .nav-link .navLinkTitle {
+  background-color: rgba(84,169,255,1); 
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.ai-programming .intro-content .nav-pills .nav-link.active .navLinkTitle1,
+.ai-programming .intro-content .nav-pills .show > .nav-link .navLinkTitle1 {
+  color: #ffffff;
+}
+
+
+.ai-programming .intro-content .nav-pills .nav-link.active .navLinkText,
+.ai-programming .intro-content .nav-pills .show > .nav-link .navLinkText {
+  color: #fff;
+}
+.ai-programming .intro-content .CONTENT2 .navLinkText,
+.ai-programming .intro-content .CONTENT4 .navLinkText { color: rgba (256,256,256,0.75); overflow : hidden; text-overflow : ellipsis; white-space : nowrap; width : 270px; margin: 0 auto; height: 125px; padding: 10px 0;}
+/* [AI程式] 課程內容bar顏色變換 */
+.ai-programming .intro-content .accordion .card-header.main-color {
+  background: rgb(84,169,255);
+  background: -moz-linear-gradient(left,  rgba(84,169,255,1) 0%, rgba(125,104,236,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(84,169,255,1) 0%,rgba(125,104,236,1) 100%);
+  background: linear-gradient(to right,  rgba(84,169,255,1) 0%,rgba(125,104,236,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54a9ff', endColorstr='#7d68ec',GradientType=1 );
+}
+.ai-programming .intro-content .accordion .card.main-color {
+  border: 1.25px solid #7d79ff;
+}
+.ai-programming .card-body, .ai-programming .collapse { background: #ffffff; color: #000000;}
+
+.ai-programming .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.ai-programming .intro-content .TOP .container .classCourse { width: 60%;}
+}
+/* [AI程式] 依類別變換學習導航樣式---end */
+
+/* [AI程式] 課程應用發展icon---start */
+.ai-programming .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.ai-programming .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/ai-programming/AI1.svg);
+}
+.ai-programming .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.ai-programming .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/ai-programming/AI2.svg);
+}
+.ai-programming .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.ai-programming .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/ai-programming/AI3.svg);
+}
+.ai-programming .intro-content .CONTENT1 .layer .content1Box p { color: #7d68ec; background-color: #ffffff; border: 1px solid #7d68ec;}
+/* h1 標題顏色 */
+.ai-programming .intro-content .TOP .container h1 {
+  color: #362e2b;
+}
+/* 按鈕箭頭 */
+.ai-programming .classificationBtn2 i {
+  width: 30px;
+}
+/* 學習動機右大圖 */
+.ai-programming .intro-content .CONTENT1 .layer .content1BoxImg img { width: 65%; }
+/* [AI程式] 課程應用發展icon---end */
+
+/* [手機app] 依類別變換顏色---start */
+.app-creation .main-color, .app-creation .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.app-creation .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #396BFD;
+  color: #ffffff;
+}
+
+.app-creation .main-color.classificationBtn2:hover, .app-creation .main-color.classificationBtn2:active, .app-creation .main-color.doubtButton:hover, .app-creation .main-color.TeacherBoxButton:hover { background: #56dbf6; color: #ffffff;}
+
+.app-creation .main-color.navLinkTitle:hover { /*background: #23A5D9;*/ color: #ffffff;}
+
+.app-creation .doubt .main-color, .app-creation .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .app-creation .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color {
+  color: #396BFD;
+  background: transparent;
+}
+
+.app-creation .doubt .doubtText.main-color, .app-creation .studentMore .main-color, .app-creation .LiveBox .main-color, .app-creation .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,
+.app-creation .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #56dbf6;
+  background: transparent;
+}
+
+.app-creation .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.app-creation .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #396BFD;
+  
+}
+
+.app-creation .intro-content .btn-secondary.main-color:hover {
+  background-color: #396BFD;
+  color: #ffffff;
+}
+/* [手機app] 依類別變換顏色---end */
+/* [手機app] 依類別變換顏色---start */
+.app-creation .main-color, .app-creation .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.app-creation .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #396BFD;
+  color: #ffffff;
+}
+
+.app-creation .doubt .main-color {
+  color: #56dbf6;
+  background: transparent;
+}
+.app-creation .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .app-creation .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color { color: #56dbf6;}
+.app-creation .doubt .doubtText.main-color, .app-creation .studentMore .main-color, .app-creation .LiveBox .main-color, .app-creation .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,.app-creation .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #396BFD;
+  background: transparent;
+}
+
+.app-creation .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.app-creation .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  /*color: #ffffff;*/
+  background: #56dbf6;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  
+}
+/* [手機app] 依類別變換顏色---end */
+
+/* [手機app] 依類別變換學習導航樣式---start */
+.app-creation .intro-content .CONTENT2 .layer .bgNav.main-color,
+.app-creation .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: none;
+  background-color: transparent;
+}
+
+.app-creation .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.app-creation .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  /*height: 130px;*/
+  height: auto;
+  /*background-color: #776b9a;*/
+  -webkit-clip-path: polygon(95% 0, 100% 40%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  padding: 15px;
+}
+.app-creation .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.app-creation .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: #56dbf6;}
+
+@media (max-width: 767px) {
+.app-creation .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.app-creation .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: transparent;}
+.app-creation .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.app-creation .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+    background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+    height: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+.app-creation .intro-content .CONTENT2 .navLinkTitle, .app-creation .intro-content .CONTENT4 .navLinkTitle { background-color: transparent;}
+}
+.app-creation .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.app-creation .intro-content .CONTENT4 .navLinkTitle1.main-color {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 5px;
+  background: transparent;
+}
+@media (max-width: 768px) {
+.app-creation .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.app-creation .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 767px) {
+.app-creation .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.app-creation .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  }
+
+}
+.app-creation .intro-content .nav-pills .nav-link.active,
+.app-creation .intro-content .nav-pills .show > .nav-link {
+  color: #ffffff;
+  background-color: #56dbf6;
+  
+}
+.app-creation .intro-content .nav-pills .nav-link.active 
+.app-creation .intro-content .nav-pills .nav-link.active .navLinkTitle,
+.app-creation .intro-content .nav-pills .show > .nav-link .navLinkTitle {
+  background-color: #56dbf6; 
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.app-creation .intro-content .nav-pills .nav-link.active .navLinkTitle1,
+.app-creation .intro-content .nav-pills .show > .nav-link .navLinkTitle1 {
+  color: #396BFD;
+}
+
+
+.app-creation .intro-content .nav-pills .nav-link.active .navLinkText,
+.app-creation .intro-content .nav-pills .show > .nav-link .navLinkText {
+  color: #396BFD;
+}
+.app-creation .intro-content .CONTENT2 .navLinkText,
+.app-creation .intro-content .CONTENT4 .navLinkText { color: #ffffff; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; width : 270px; margin: 0 auto; height: 125px; padding: 10px 0;}
+/* [手機app] 課程內容bar顏色變換 */
+.app-creation .intro-content .accordion .card-header.main-color {
+  background-color: #396BFD !important;
+}
+.app-creation .intro-content .accordion .card.main-color {
+  border: 2px solid #396BFD;
+}
+.app-creation .card-body, .app-creation .collapse { background: #ffffff; color: #000000;}
+
+.app-creation .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.app-creation .intro-content .TOP .container .classCourse { width: 60%;}
+}
+/* [手機app] 依類別變換學習導航樣式---end */
+
+/* [手機app] 課程應用發展icon---start */
+.app-creation .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.app-creation .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/app-creation/app1.svg);
+}
+.app-creation .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.app-creation .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/app-creation/app2.svg);
+}
+.app-creation .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.app-creation .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/app-creation/app3.svg);
+}
+.app-creation .intro-content .CONTENT1 .layer .content1Box p { color: #396BFD; background-color: #ffffff; border: 1px solid #396BFD;}
+/* 按鈕範圍 */
+.app-creation .intro-content .TOP .container .classification { width: 85%;}
+/* 學習動機右大圖 */
+.app-creation .intro-content .CONTENT1 .layer .content1BoxImg img { width: 68%; }
+/* [手機app] 課程應用發展icon---end */
+
+/* [網管] 依類別變換顏色---start */
+.cloud-computing .main-color, .cloud-computing .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.cloud-computing .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #4189A6;
+  color: #ffffff;
+}
+
+.cloud-computing .main-color.classificationBtn2:hover, .cloud-computing .main-color.classificationBtn2:active, .cloud-computing .main-color.doubtButton:hover, .cloud-computing .main-color.TeacherBoxButton:hover { background: #56B8D6; color: #ffffff;}
+
+.cloud-computing .main-color.navLinkTitle:hover { /*background: #355B8C;*/ color: #ffffff;}
+
+.cloud-computing .doubt .main-color, .cloud-computing .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .cloud-computing .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color {
+  color: #4189A6;
+  background: transparent;
+}
+
+.cloud-computing .doubt .doubtText.main-color, .cloud-computing .studentMore .main-color, .cloud-computing .LiveBox .main-color, .cloud-computing .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,
+.cloud-computing .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #56B8D6;
+  background: transparent;
+}
+
+.cloud-computing .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.cloud-computing .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #FFF1B5;
+  
+}
+
+.cloud-computing .intro-content .btn-secondary.main-color:hover {
+  background-color: #4189A6;
+  color: #ffffff;
+}
+/* [網管] 依類別變換顏色---end */
+/* [網管] 依類別變換顏色---start */
+.cloud-computing .main-color, .cloud-computing .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.cloud-computing .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #4189A6;
+  color: #ffffff;
+}
+
+.cloud-computing .doubt .main-color {
+  color: #56B8D6;
+  background: transparent;
+}
+.cloud-computing .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .cloud-computing .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color { color: #FFF1B5;}
+.cloud-computing .doubt .doubtText.main-color, .cloud-computing .studentMore .main-color, .cloud-computing .LiveBox .main-color, .cloud-computing .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,.cloud-computing .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #56B8D6;
+  background: transparent;
+}
+
+.cloud-computing .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.cloud-computing .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  /*color: #ffffff;*/
+  background: #56B8D6;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  
+}
+/* [網管] 依類別變換顏色---end */
+
+/* [網管] 依類別變換學習導航樣式---start */
+.cloud-computing .intro-content .CONTENT2 .layer .bgNav.main-color,
+.cloud-computing .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: none;
+  background-color: transparent;
+}
+
+.cloud-computing .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.cloud-computing .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  /*height: 130px;*/
+  height: auto;
+  /*background-color: #776b9a;*/
+  -webkit-clip-path: polygon(95% 0, 100% 40%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  padding: 15px;
+}
+.cloud-computing .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.cloud-computing .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: #56B8D6;}
+
+@media (max-width: 767px) {
+.cloud-computing .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.cloud-computing .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: transparent;}
+.cloud-computing .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.cloud-computing .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+    background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+    height: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+.cloud-computing .intro-content .CONTENT2 .navLinkTitle, .cloud-computing .intro-content .CONTENT4 .navLinkTitle { background-color: transparent;}
+}
+.cloud-computing .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.cloud-computing .intro-content .CONTENT4 .navLinkTitle1.main-color {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 5px;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+.cloud-computing .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.cloud-computing .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+
+}
+@media (max-width: 375px) {
+/* 新增實體+線上區塊 start */	
+  .intro-content .TeachingBox .contentBox .detailTwoBox .one {
+    width: 100%;
+    text-align: center;
+  }
+  .intro-content .TeachingBox {
+		margin-top: -30px;
+  } 
+  .intro-content .CONTENT1 .layer {
+		padding-top: 60px;
+  }
+  .intro-content .TeachingBox .contentBox .detailTwoBox .two img {
+    margin-top: 0px;
+  }
+  .intro-content .TeachingBox .contentBox .detailTwoBox .two {
+    width: 100%;
+    text-align: center;
+  }
+  .intro-content .TeachingBox .contentBox .detailTwoBox .three {
+    width: 100%;
+    text-align: center;
+  }
+  .intro-content .TeachingBox .contentBox .detailTwoBox {
+    margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  .intro-content .TeachingBox .contentBox .detailTwoBox:last-child{
+	border-bottom: 0px;
+	padding-bottom: 0px;
+  } 
+  /* 新增實體+線上區塊 end */	
+}
+@media (max-width: 767px) {
+.cloud-computing .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.cloud-computing .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  }
+
+}
+.cloud-computing .intro-content .nav-pills .nav-link.active,
+.cloud-computing .intro-content .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #56B8D6;
+  
+}
+.cloud-computing .intro-content .nav-pills .nav-link.active 
+.cloud-computing .intro-content .nav-pills .nav-link.active .navLinkTitle,
+.cloud-computing .intro-content .nav-pills .show > .nav-link .navLinkTitle {
+  background-color: #FFF1B5; 
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.cloud-computing .intro-content .nav-pills .nav-link.active .navLinkTitle1,
+.cloud-computing .intro-content .nav-pills .show > .nav-link .navLinkTitle1 {
+  color: #FFF1B5;
+}
+
+
+.cloud-computing .intro-content .nav-pills .nav-link.active .navLinkText,
+.cloud-computing .intro-content .nav-pills .show > .nav-link .navLinkText {
+  color: #ffffff;
+}
+.cloud-computing .intro-content .CONTENT2 .navLinkText,
+.cloud-computing .intro-content .CONTENT4 .navLinkText { color: #ffffff; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; width : 270px; margin: 0 auto; height: 125px; padding: 10px 0;}
+/* [網管] 課程內容bar顏色變換 */
+.cloud-computing .intro-content .accordion .card-header.main-color {
+  background-color: #4189A6 !important;
+}
+.cloud-computing .intro-content .accordion .card.main-color {
+  border: 2px solid #4189A6;
+}
+.cloud-computing .card-body, .cloud-computing .collapse { background: #ffffff; color: #000000;}
+
+.cloud-computing .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.cloud-computing .intro-content .TOP .container .classCourse { width: 60%;}
+}
+/* [網管] 依類別變換學習導航樣式---end */
+
+/* [網管] 課程應用發展icon---start */
+.cloud-computing .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.cloud-computing .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/cloud-computing/web1.svg);
+}
+.cloud-computing .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.cloud-computing .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/cloud-computing/web2.svg);
+}
+.cloud-computing .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.cloud-computing .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/cloud-computing/web3.svg);
+}
+.cloud-computing .intro-content .CONTENT1 .layer .content1Box p { color: #355B8C; background-color: #ffffff; border: 1px solid #355B8C;}
+/* 按鈕範圍 */
+.cloud-computing .intro-content .TOP .container .classification { width: 85%;}
+/* 學習動機右大圖 */
+.cloud-computing .intro-content .CONTENT1 .layer .content1BoxImg img { width: 65%; }
+@media (max-width: 767px){
+.cloud-computing .intro-content .btn { font-size: 18px;}
+
+
+}
+/* [網管] 課程應用發展icon---end */
+
+/* [辦公室應用] 依類別變換顏色---start */
+.pcguide .main-color, .pcguide .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.pcguide .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #ffd5a2;
+  color: #122640;
+}
+
+.pcguide .main-color.classificationBtn2:hover, .pcguide .main-color.classificationBtn2:active, .pcguide .main-color.doubtButton:hover, .pcguide .main-color.TeacherBoxButton:hover { background: #fff3c5; color: #122640;}
+
+.pcguide .main-color.navLinkTitle:hover { /*background: #F29F80;*/ color: #122640;}
+
+.pcguide .doubt .main-color, .pcguide .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .pcguide .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color {
+  color: #ffd5a2;
+  background: transparent;
+}
+
+.pcguide .doubt .doubtText.main-color, .pcguide .studentMore .main-color, .pcguide .LiveBox .main-color, .pcguide .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,
+.pcguide .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #ffd5a2;
+  background: transparent;
+}
+
+.pcguide .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.pcguide .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #122640;
+  
+}
+
+.pcguide .intro-content .btn-secondary.main-color:hover {
+  background-color: #ffd5a2;
+  color: #122640;
+}
+/* [辦公室應用] 依類別變換顏色---end */
+/* [辦公室應用] 依類別變換顏色---start */
+.pcguide .main-color, .pcguide .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.pcguide .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #ffd5a2;
+  color: #122640;
+}
+
+.pcguide .doubt .main-color {
+  color: #ffd5a2;
+  background: transparent;
+}
+.pcguide .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .pcguide .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color { color: #fff3c5;}
+.pcguide .doubt .doubtText.main-color, .pcguide .studentMore .main-color, .pcguide .LiveBox .main-color, .pcguide .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,.pcguide .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #122640;
+  background: transparent;
+}
+
+.pcguide .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.pcguide .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  /*color: #122640;*/
+  background: #fff3c5;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  
+}
+/* [辦公室應用] 依類別變換顏色---end */
+
+/* [辦公室應用] 依類別變換學習導航樣式---start */
+.pcguide .intro-content .CONTENT2 .layer .bgNav.main-color,
+.pcguide .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: none;
+  background-color: transparent;
+}
+
+.pcguide .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.pcguide .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  /*height: 130px;*/
+  height: auto;
+  /*background-color: #776b9a;*/
+  -webkit-clip-path: polygon(95% 0, 100% 40%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  padding: 15px;
+}
+.pcguide .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.pcguide .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: #fff3c5;}
+
+@media (max-width: 767px) {
+.pcguide .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.pcguide .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: transparent;}
+.pcguide .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.pcguide .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+    background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+    height: 100%;
+    padding: 0;
+  }
+.pcguide .main-color.navLinkTitle { color: #122640;}
+}
+@media (min-width: 768px) {
+.pcguide .intro-content .CONTENT2 .navLinkTitle, .pcguide .intro-content .CONTENT4 .navLinkTitle { background-color: transparent;}
+}
+.pcguide .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.pcguide .intro-content .CONTENT4 .navLinkTitle1.main-color {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 5px;
+  background: transparent;
+}
+@media (max-width: 768px) {
+.pcguide .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.pcguide .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+/* 新增實體+線上區塊 start */	
+  .intro-content .TeachingBox {
+		margin-top: -40px;
+  } 
+/* 新增實體+線上區塊 end */
+}
+@media (max-width: 767px) {
+.pcguide .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.pcguide .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  }
+
+}
+.pcguide .intro-content .nav-pills .nav-link.active,
+.pcguide .intro-content .nav-pills .show > .nav-link {
+  color: #122640;
+  background-color: #fff3c5;
+  
+}
+.pcguide .intro-content .nav-pills .nav-link.active 
+.pcguide .intro-content .nav-pills .nav-link.active .navLinkTitle,
+.pcguide .intro-content .nav-pills .show > .nav-link .navLinkTitle {
+  background-color: #F29F80; 
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.pcguide .intro-content .nav-pills .nav-link.active .navLinkTitle1,
+.pcguide .intro-content .nav-pills .show > .nav-link .navLinkTitle1 {
+  color: #122640;
+}
+
+
+.pcguide .intro-content .nav-pills .nav-link.active .navLinkText,
+.pcguide .intro-content .nav-pills .show > .nav-link .navLinkText {
+  color: #122640;
+}
+.pcguide .intro-content .CONTENT2 .navLinkText,
+.pcguide .intro-content .CONTENT4 .navLinkText { color: #122640; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; width : 270px; margin: 0 auto; height: 125px; padding: 10px 0;}
+/* [辦公室應用] 課程內容bar顏色變換 */
+.pcguide .intro-content .accordion .card-header.main-color {
+  background-color: #fff3c5 !important;
+}
+.pcguide .intro-content .accordion .card.main-color {
+  border: 2px solid #fff3c5;
+}
+.pcguide .intro-content .accordion .mb-0.py-2 { color: #122640;}
+.pcguide .card-body, .pcguide .collapse { background: #ffffff; color: #000000;}
+
+.pcguide .intro-content .TOP .container .classCourse { width: 65%;}
+@media (max-width: 1051px) and (min-width: 769px) {
+.pcguide  .intro-content .TOP .container .classCourse { width: 40%;}
+}
+/* [辦公室應用] 依類別變換學習導航樣式---end */
+
+/* [辦公室應用] 課程應用發展icon---start */
+.pcguide .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.pcguide .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/pcguide/office1.svg);
+}
+.pcguide .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.pcguide .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/pcguide/office2.svg);
+}
+.pcguide .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.pcguide .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/pcguide/office3.svg);
+}
+.pcguide .intro-content .CONTENT1 .layer .content1Box p { color: #122640; background-color: #fff3c5; border: 1px solid #122640;}
+/* 按鈕範圍 */
+.pcguide .intro-content .TOP .container .classification { width: 85%;}
+/* 學習動機右大圖 */
+.pcguide .intro-content .CONTENT1 .layer .content1BoxImg img { width: 65%; }
+/* [辦公室應用] 課程應用發展icon---end */
+
+/* [認證輔導] 依類別變換顏色---start */
+.certified-remedial .main-color, .certified-remedial .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.certified-remedial .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #b32775;
+  color: #ffffff;
+}
+
+.certified-remedial .main-color.classificationBtn2:hover, .certified-remedial .main-color.classificationBtn2:active, .certified-remedial .main-color.doubtButton:hover, .certified-remedial .main-color.TeacherBoxButton:hover { background: #47030b; color: #ffffff;}
+
+.certified-remedial .main-color.navLinkTitle:hover { /*background: #8C2E51;*/ color: #C4EAF2;}
+
+.certified-remedial .doubt .main-color, .certified-remedial .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .certified-remedial .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color {
+  color: #b32775;
+  background: transparent;
+}
+
+.certified-remedial .doubt .doubtText.main-color, .certified-remedial .studentMore .main-color, .certified-remedial .LiveBox .main-color, .certified-remedial .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,
+.certified-remedial .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #47030b;
+  background: transparent;
+}
+
+.certified-remedial .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.certified-remedial .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #fcdf7a;
+  
+}
+
+.certified-remedial .intro-content .btn-secondary.main-color:hover {
+  background-color: #b32775;
+  color: #ffffff;
+}
+/* [認證輔導] 依類別變換顏色---end */
+/* [認證輔導] 依類別變換顏色---start */
+.certified-remedial .main-color, .certified-remedial .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled).active,
+.certified-remedial .intro-content .btn-secondary.main-color:not(:disabled):not(.disabled):active {
+  background: #b32775;
+  color: #ffffff;
+}
+
+.certified-remedial .doubt .main-color {
+  color: #b32775;
+  background: transparent;
+}
+.certified-remedial .intro-content .CONTENT9 .layer .NumberPic .NumberRun.main-color, .certified-remedial .intro-content .CONTENT9 .layer .NumberPic .NumberTitle.main-color { color: #fcdf7a;}
+.certified-remedial .doubt .doubtText.main-color, .certified-remedial .studentMore .main-color, .certified-remedial .LiveBox .main-color, .certified-remedial .intro-content .CONTENT6 .layer .TeacherBoxFrameBox a .TeacherBoxFrameBoxBox .teachereCardMore .main-color,.certified-remedial .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  color: #47030b;
+  background: transparent;
+}
+
+.certified-remedial .intro-content .nav-pills .nav-link.active .navLinkTitle.main-color,
+.certified-remedial .intro-content .nav-pills .show > .nav-link .navLinkTitle.main-color {
+  /*color: #C4EAF2;*/
+  background: #47030b;
+  clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  
+}
+/* [認證輔導] 依類別變換顏色---end */
+
+/* [認證輔導] 依類別變換學習導航樣式---start */
+.certified-remedial .intro-content .CONTENT2 .layer .bgNav.main-color,
+.certified-remedial .intro-content .CONTENT4 .layer .bgNav.main-color {
+  background-image: none;
+  background-color: transparent;
+}
+
+.certified-remedial .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.certified-remedial .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+  overflow: hidden;
+  display: block;
+  width: auto;
+  /*height: 130px;*/
+  height: auto;
+  /*background-color: #776b9a;*/
+  -webkit-clip-path: polygon(95% 0, 100% 40%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(95% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  padding: 15px;
+}
+.certified-remedial .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.certified-remedial .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: #47030b;}
+
+@media (max-width: 767px) {
+.certified-remedial .intro-content .CONTENT2 .nav-pills .main-color.nav-link:hover,
+.certified-remedial .intro-content .CONTENT4 .nav-pills .main-color.nav-link:hover {background-color: transparent;}
+.certified-remedial .intro-content .CONTENT2 .nav-pills .main-color.nav-link,
+.certified-remedial .intro-content .CONTENT4 .nav-pills .main-color.nav-link {
+    background-color: transparent;
+    -webkit-clip-path: none;
+    -o-clip-path: none;
+    -ms-clip-path: none;
+    clip-path: none;
+    height: 100%;
+    padding: 0;
+  }
+.certified-remedial .intro-content .CONTENT2 .navLinkTitle { writing-mode: vertical-lr; line-height: 1.6;}
+}
+@media (min-width: 768px) {
+.certified-remedial .intro-content .CONTENT2 .navLinkTitle, .certified-remedial .intro-content .CONTENT4 .navLinkTitle { background-color: transparent;}
+}
+.certified-remedial .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.certified-remedial .intro-content .CONTENT4 .navLinkTitle1.main-color {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 5px;
+  background: transparent;
+}
+@media (max-width: 768px) {
+.certified-remedial .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.certified-remedial .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 767px) {
+.certified-remedial .intro-content .CONTENT2 .navLinkTitle1.main-color,
+.certified-remedial .intro-content .CONTENT4 .navLinkTitle1.main-color {
+    border-radius: 0;
+    padding: 2px 15px 10px 13.5px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  }
+
+}
+.certified-remedial .intro-content .nav-pills .nav-link.active,
+.certified-remedial .intro-content .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #47030b;
+  
+}
+.certified-remedial .intro-content .nav-pills .nav-link.active 
+.certified-remedial .intro-content .nav-pills .nav-link.active .navLinkTitle,
+.certified-remedial .intro-content .nav-pills .show > .nav-link .navLinkTitle {
+  background-color: #8C2E51; 
+  -webkit-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -o-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  -ms-clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.certified-remedial .intro-content .nav-pills .nav-link.active .navLinkTitle1,
+.certified-remedial .intro-content .nav-pills .show > .nav-link .navLinkTitle1 {
+  color: #fcdf7a;
+}
+
+
+.certified-remedial .intro-content .nav-pills .nav-link.active .navLinkText,
+.certified-remedial .intro-content .nav-pills .show > .nav-link .navLinkText {
+  color: #fff;
+}
+.certified-remedial .intro-content .CONTENT2 .navLinkText,
+.certified-remedial .intro-content .CONTENT4 .navLinkText { color: #ffffff; overflow : hidden; text-overflow : ellipsis; white-space : nowrap; width : 270px; margin: 0 auto; height: 125px; padding: 10px 0;}
+/* [認證輔導] 課程內容bar顏色變換 */
+.certified-remedial .intro-content .accordion .card-header.main-color {
+  background-color: #47030b !important;
+}
+.certified-remedial .intro-content .accordion .card.main-color {
+  border: 2px solid #47030b;
+}
+.certified-remedial .card-body, .certified-remedial .collapse { background: #ffffff; color: #000000;}
+.certified-remedial .intro-content .TOP .container .classCourse { width: 50%;}
+@media (max-width: 400px) {
+.certified-remedial .intro-content .TOP .container .classCourse { width: 60%;}
+}
+/* [認證輔導] 依類別變換學習導航樣式---end */
+
+/* [認證輔導] 課程應用發展icon---start */
+.certified-remedial .intro-content .CONTENT3 .layer .doubt .doubtImg01,
+.certified-remedial .intro-content .CONTENT5 .layer .doubt .doubtImg01 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/certified-remedial/certification1.svg);
+}
+.certified-remedial .intro-content .CONTENT3 .layer .doubt .doubtImg02,
+.certified-remedial .intro-content .CONTENT5 .layer .doubt .doubtImg02 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/certified-remedial/certification2.svg);
+}
+.certified-remedial .intro-content .CONTENT3 .layer .doubt .doubtImg03,
+.certified-remedial .intro-content .CONTENT5 .layer .doubt .doubtImg03 {
+  background-image: url(https://www.pcschool.com.tw/updimg/act/CourseCatalog/certified-remedial/certification3.svg);
+}
+.certified-remedial .intro-content .CONTENT1 .layer .content1Box p { color: #47030b; background-color: #ffffff; border: 1px solid #47030b;}
+@media (max-width: 767px){
+.certified-remedial .intro-content .btn { font-size: 18px;}
+}
+/* 按鈕範圍 */
+.certified-remedial .intro-content .TOP .container .classification { width: 80%;}
+/* 學習動機右大圖 */
+.certified-remedial .intro-content .CONTENT1 .layer .content1BoxImg img { width: 65%; }
+/* [認證輔導] 課程應用發展icon---end */
+
+/* 課程特色 4大張圖-- start */
+.tabsFontBox {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+.tabsFontBox .tabsFontBoxBox {
+  float: left;
+  width: 98% !important;
+  height: 500px;
+  border: 1px solid #c9c9c9;
+  background-color: #fff;
+  margin: 0 1%;
+  margin-bottom: 30px;
+}
+@media (max-width: 1440px) {
+  .tabsFontBox .tabsFontBoxBox {
+    height: 420px;
+  }
+}
+@media (max-width: 767px) {
+  .tabsFontBox .tabsFontBoxBox {
+    /*height: 100%;*/
+  }
+}
+.tabsFontBox .tabsFontBoxBox img {
+  width: 100%;
+  height: auto;
+}
+.tabsFontBox .tabsFontBoxBox .tabsFontBoxTitleA {
+  font-weight: 500;
+  text-align: center;
+  margin: 30px 0 15px 0;
+  /*color: #1b1b1b;*/
+  font-size: 18px;
+}
+.tabsFontBox .tabsFontBoxBox .tabsFontBoxTitleA img {
+  width: 8%;
+  height: auto;
+  margin-right: 5px;
+}
+.tabsFontBox .tabsFontBoxBox .tabsFontBoxTitleB {
+  display: block;
+  overflow: hidden;
+  padding: 0 25px 15px 25px;
+  font-size: 16px;
+  line-height: 1.6;
+  /*color: #1b1b1b;*/
+  text-align: justify;
+  text-align-last: left;
+}
+@media (max-width: 768px){
+.tabsFontBox .tabsFontBoxBox .tabsFontBoxTitleB {
+  font-size: 14px;
+}
+}
+/* 課程特色 4大張圖-- end */

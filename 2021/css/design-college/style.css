@@ -1,0 +1,2984 @@
+@charset "utf-8";
+
+/* CSS Document */
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: none !important;
+}
+
+.intro-content {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-image: url(../images/bg2.jpg);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 0.5%;
+}
+
+.startBlog {
+  margin-top: -15px;
+}
+
+/* .intro-content:target:before {
+  content: "";
+  display: block;
+  height: 50px;
+} */
+
+/* --主視覺-------------------------------------*/
+#topHeader {
+  display: block;
+  overflow: hidden;
+  background: linear-gradient(90deg, #26b6db, #009e96, #a541ff);
+  width: 100%;
+  height: auto;
+  animation: hue-rotate 3s linear infinite;
+  padding: 30px 30px 0 30px;
+}
+
+@keyframes hue-rotate {
+  0% {
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+  }
+
+  25% {
+    background-position: 0% 0%;
+    background-size: 200% 200%;
+  }
+
+  50% {
+    background-position: 0% 50%;
+    background-size: 200% 200%;
+  }
+
+  75% {
+    background-position: 100% 0%;
+    background-size: 200% 200%;
+  }
+
+  100% {
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+  }
+}
+
+#topHeader .WRAPPER {
+  position: relative;
+  width: 90%;
+  height: auto;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 8%
+}
+
+.headerLeft img {
+  position: absolute;
+  display: block;
+  width: 40%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.headerRight img {
+  position: absolute;
+  display: block;
+  width: 77%;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.headerTitle h1 {
+  width: 100%;
+  font-size: 3.0rem;
+  font-weight: 500;
+  line-height: 1.3;
+  padding: 15px 50px;
+  text-align: right;
+  color: white;
+}
+
+.headerTitle h1 span {
+  width: 100%;
+  font-size: 2.35rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: right;
+  color: white;
+}
+
+.headerTitle h2 {
+  width: 100%;
+  font-size: 3.0rem;
+  font-weight: 600;
+  line-height: 1.3;
+  padding: 15px 50px;
+  text-align: right;
+  color: white;
+}
+
+.headerTitle h2 span {
+  width: 100%;
+  font-size: 2.35rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: right;
+  color: white;
+}
+
+.headerTitleMini {
+  width: 100%;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  padding: 15px 50px;
+  text-align: right;
+  color: white;
+  font-weight: 400;
+}
+
+.headerTitleMini br {
+  display: none;
+}
+
+.headerPageTool {
+  float: right;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#10054d+0,3d065f+70,45108a+100 */
+  background: rgb(212, 91, 142);
+  /* Old browsers */
+  background: -moz-linear-gradient(top left, bottom right, rgb(246, 4, 249, 1) 0%, rgba(255, 113, 254, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top left, bottom right, rgb(246, 4, 249, 1) 0%, rgba(255, 113, 254, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgb(246, 4, 249, 1) 0%, rgba(255, 113, 254, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f604f9', endColorstr='#ff71fe', GradientType=0);
+  /* IE6-9 */
+  -webkit-box-shadow: 0 0 10px #313131;
+  -moz-box-shadow: 0 0 10px #313131;
+  box-shadow: 0 0 10px #313131;
+  position: relative;
+  width: 260px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 50px;
+  margin-bottom: 18%;
+}
+
+.headerPageTool a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.15rem;
+  border: 2px solid transparent;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
+
+.headerPageTool i {
+  animation: slide 1s ease-in-out infinite;
+  margin-left: 3px;
+}
+
+.headerPageTool a:hover {
+  border: 2px solid rgb(246, 4, 249, 1.0);
+  background: #fff;
+  color: rgb(246, 4, 249, 1.0);
+
+}
+
+@keyframes slide {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
+/* --導覽列-------------------------------------*/
+.topNav {
+  width: 100%;
+  height: auto;
+  background-color: #373737;
+}
+
+.topNav .WRAPPER {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  padding: 15px 0;
+}
+
+.topNav .WRAPPER .coverInfo ul {
+  margin-bottom: 0;
+}
+
+.modal-backdrop.show {
+  opacity: .8 !important;
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-list {
+  overflow: visible;
+}
+
+.topNav .WRAPPER .nav-item:focus,
+.topNav .WRAPPER .nav-item:hover {
+  background: transparent;
+}
+
+.topNav .WRAPPER .nav-item .dropdown-menu {
+  display: none;
+}
+
+.topNav .WRAPPER .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.topNav .WRAPPER .nav-item .dropdown-menu {
+  margin-top: 0;
+}
+
+.topNav .WRAPPER .nav-item .nav-link:focus,
+.topNav .WRAPPER .nav-item .nav-link:hover {
+  color: #00e8ad !important;
+  fill: #00e8ad;
+}
+
+.nav-link-A.active {
+  color: #00e8ad;
+  fill: #00e8ad;
+}
+
+.topNavBtn1 {
+  position: relative;
+}
+
+.topNavBtn1 a {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.3;
+  text-align: center;
+  fill: #fff;
+}
+
+.topNavBtn1 a svg {
+  padding: 2px;
+  margin-top: -5px;
+  margin-left: -15px;
+}
+
+.topNavBtn2 {
+  position: relative;
+}
+
+.topNavBtn2 a {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.topNavBtn2 a svg {
+  padding: 2px;
+  margin-top: -5px;
+  margin-left: -15px;
+  fill: #fff;
+}
+
+.topNavBtn2 a:link,
+.topNavBtn2 a:link svg {
+  color: #fff;
+  fill: #fff;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+
+.topNavBtn2 a:visited,
+.topNavBtn2 a:visited svg {
+  color: #fff;
+  fill: #fff;
+}
+
+.topNavBtn2 a:active,
+.topNavBtn2 a:active svg {
+  color: #00e8ad;
+  fill: #00e8ad;
+}
+
+.topNavBtn2 a:hover,
+.topNavBtn2 a:hover svg {
+  color: #00e8ad;
+  fill: #00e8ad;
+}
+
+.topNav .WRAPPER .dropdown-menu a {
+  background-image: none;
+  font-size: 1rem;
+  color: #1b1b1b;
+  line-height: 1.3;
+  text-align: left;
+  padding-left: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #b7b1d3;
+}
+
+.topNav .WRAPPER .dropdown-menu a:last-child {
+  border-bottom: none;
+}
+
+.topNav .WRAPPER .dropdown-menu a:focus,
+.topNav .WRAPPER .dropdown-menu a:hover {
+  background-image: none;
+  color: #00e8ad;
+}
+
+.topNav .WRAPPER .dropdown-menu {
+  border: 0px solid transparent;
+  border-top: 4px solid #00e8ad;
+  border-radius: 0;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+.topNav .WRAPPER .dropdown-menu.show {
+  display: block;
+  margin-top: 0;
+}
+
+.topNav .WRAPPER .nav-link {
+  padding: .6rem .3rem;
+}
+
+.topNavBtnLine {
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 50%;
+  background: #fff;
+  top: 10px;
+  right: 0;
+  bottom: 0;
+}
+
+.topNavBtnLine1 {
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  right: 0;
+}
+
+.coverInfo {
+  overflow-x: scroll;
+  overflow: overlay;
+}
+
+.coverInfo ul {
+  list-style: none;
+  display: -webkit-box;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.coverInfo::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.coverInfo::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.coverInfo::-webkit-scrollbar-button {
+  background-color: transparent;
+}
+
+.menu-panel {
+  display: block;
+  width: 184px;
+  font-weight: 100;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  /* padding: 5px; */
+}
+
+.menu-panel-A {
+  display: block;
+  position: sticky;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  font-weight: 100;
+  background-color: rgba(51, 51, 51, 0.9);
+  z-index: 799;
+  opacity: 0;
+  transition: all 0.2s ease;
+  top: 0;
+  left: 0;
+}
+
+.menu-panel-A ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  left: 50%;
+  top: 1%;
+  transform: translate(-50%);
+}
+
+.menu-panel-A ul li {
+  height: 13%;
+  line-height: 1.8;
+}
+
+.menuheight {
+  height: 9% !important;
+}
+
+.menuheight1 {
+  height: 11% !important;
+}
+
+.menu-panel-A ul li ul {
+  padding-top: 2%;
+}
+
+.menu-panel-A ul li ul li {
+  height: 2%;
+  text-align: center;
+}
+
+.menu-panel-A p {
+  margin: 0;
+  padding-bottom: 50%;
+}
+
+.menu-panel-A a:link {
+  color: #fff;
+  fill: #fff;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+
+.menu-panel-A a:visited {
+  color: #fff;
+  fill: #fff;
+  /*teal*/
+}
+
+.menu-panel-A a:active {
+  color: #00e8ad;
+  fill: #00e8ad;
+}
+
+.menu-panel-A a:hover {
+  color: #00e8ad;
+  fill: #00e8ad;
+}
+
+.topNavAll {
+  position: absolute;
+  display: none;
+  background-color: #373737;
+  font-size: 1.125rem;
+  color: #fff !important;
+  line-height: 1.3;
+  padding: 8px 10px;
+  border-left: 2px solid #fff;
+  cursor: pointer;
+  top: 26%;
+  right: 0;
+  z-index: 11;
+}
+
+.topNavAll i {
+  font-size: 0.875rem;
+  padding-left: 5px;
+}
+
+.sticky {
+  position: fixed;
+  top: 56px;
+  width: 100%;
+  z-index: 15;
+}
+
+.sticky+.classMain {
+  padding-top: 60px;
+}
+
+.main-menu {}
+
+.main-menu .nav li a {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main-menu .nav li a:hover {
+  color: #00e8ad;
+}
+
+.main-menu .nav li {
+  margin-bottom: 15px;
+}
+
+.nav-button {
+  position: absolute;
+  z-index: 15;
+  height: 42px;
+  display: none;
+  width: 50px;
+  padding: 12px;
+  background-color: #373737;
+  font-size: 1.125rem;
+  color: #fff !important;
+  line-height: 1.3;
+  padding: 9px 10px;
+  border-left: 2px solid #fff;
+  top: 15px;
+  right: -30px;
+}
+
+.flex-center {
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* --名言-------------------------------------*/
+.saying {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.saying .WRAPPER {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 60px 0;
+}
+
+.saying .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 30px 15px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+
+.sayingBg {
+  width: 90%;
+  height: auto;
+  background-image: url(../images/brackets.png);
+  background-size: 70% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.sayingText {
+  width: 100%;
+  height: auto;
+  background: -webkit-gradient(linear, top, bottom, from(#6048a4), to(#cb5b9a));
+  background: linear-gradient(to bottom, #6048a4, #cb5b9a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  text-shadow: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: center;
+  padding: 15px;
+}
+
+.sayingText span {
+  font-weight: 500;
+}
+
+
+.sayingFocusBox {
+  width: 90%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.sayingFocusBoxPic {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 50px;
+  left: 80px;
+}
+
+.sayingFocusLeft {
+  float: left;
+  width: 25%;
+  height: 100%;
+  font-size: 7.5rem;
+  font-weight: bolder;
+  color: #b7b1d3;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.sayingFocusRight {
+  position: relative;
+  float: left;
+  width: 65%;
+  border-top: #715cdc solid 2px;
+  border-right: #715cdc solid 2px;
+  border-bottom: #715cdc solid 2px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 50px 0 100px;
+}
+
+.sayingFocusRight h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #715cdc;
+}
+
+.sayingFocusRight span {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #1b1b1b;
+  text-align: justify;
+  text-align-last: left;
+  font-weight: 400;
+}
+
+.sayingFocusRightTop {
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #715cdc;
+  top: 0;
+  left: 0;
+}
+
+.sayingFocusRightBottom {
+  position: absolute;
+  width: 2px;
+  background: #715cdc;
+  left: 0;
+  bottom: 0;
+}
+
+.sayingBtn {
+  display: block;
+  overflow: hidden;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#10054d+0,3d065f+70,45108a+100 */
+  background: rgb(212, 91, 142);
+  /* Old browsers */
+  background: -moz-linear-gradient(top left, bottom right, rgb(246, 4, 249, 1) 0%, rgba(255, 113, 254, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top left, bottom right, rgb(246, 4, 249, 1) 0%, rgba(255, 113, 254, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgb(246, 4, 249, 1) 0%, rgba(255, 113, 254, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f604f9', endColorstr='#ff71fe', GradientType=0);
+  /* IE6-9 */
+  -webkit-box-shadow: 0 0 10px #313131;
+  -moz-box-shadow: 0 0 10px #313131;
+  box-shadow: 0 0 10px #313131;
+  position: relative;
+  width: 260px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.sayingBtn a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 500;
+  border: 2px solid transparent;
+  letter-spacing: 0.2rem;
+}
+
+.sayingBtn i {
+  animation: slide 1s ease-in-out infinite;
+  margin-left: 3px;
+}
+
+.sayingBtn a:hover {
+  border: 2px solid rgb(246, 4, 249, 1.0);
+  background: #fff;
+  color: rgb(246, 4, 249, 1.0);
+}
+
+.saying .WRAPPER .card {
+  background-color: transparent;
+}
+
+.sayingBtnPadding {
+  padding: 0 200px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* --按鈕-------------------------------------*/
+#writesMain {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.writesMain {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.writesMain .WRAPPER {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 50px 0;
+}
+
+.writesMain .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px 0 15px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+
+.backgroundWhite {
+  background-color: #ffffff;
+}
+
+/* --課程內容-------------------------------------*/
+
+.classMain {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/bg3.jpg);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 0.5%;
+}
+
+.classMain .WRAPPER {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 60px 0;
+}
+
+.classMain .WRAPPER h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+
+.classMain .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+
+.classMainClose {
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.classMain .WRAPPER .modal-content {
+  flex-direction: row-reverse;
+  padding: 15px 0;
+}
+
+.classMain .WRAPPER .modal-header {
+  padding: 0;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.classMain .WRAPPER .classTitle p {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 400;
+}
+
+.classMain .WRAPPER .classTitle p br {
+  display: block;
+}
+
+.classMain .WRAPPER .classTitle p span {
+  color: #715CDC;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2.5;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none !important;
+}
+
+.classMain .WRAPPER .classTitle p span:hover {
+  text-decoration: underline;
+}
+
+.classMain .WRAPPER .modal-body .close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+.classMainBox {
+  display: block;
+  overflow: hidden;
+  width: 90%;
+  height: auto;
+  background: #fff;
+  border-radius: 15px;
+  padding: 50px;
+  margin: 30px auto;
+}
+
+.classMainBox ul {
+  padding: 50px 50px 5px 50px;
+  text-align: justify;
+}
+
+.classMainBox p {
+  padding: 0 50px;
+}
+
+.classMainBox p a {
+  display: block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  line-height: 1.6;
+  color: #715CDC;
+}
+
+.classMainBox .row ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.classMainBox .row ul li::before {
+  content: "•";
+  color: #fd64ff;
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -0.5em;
+}
+
+.classMainUnit {
+  width: 100%;
+  height: auto;
+}
+
+.classMainSub {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  padding: 15px;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 1rem;
+}
+
+.classMainLine {
+  width: 50%;
+  height: 2px;
+  background: #715CDC;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.classMainSub2 {
+  font-size: 1.65rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.6;
+  font-weight: 500;
+  text-align: center;
+}
+
+.classMainSub3 {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: left;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.classMain .slick-list {
+  overflow: visible !important;
+}
+
+.classMainBox2 {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px !important;
+}
+
+.classMainBox3 {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.slick_area {
+  width: calc(100% + 30px);
+  margin: 0 -25px 0 -15px;
+}
+
+.classMainBoxFrame {
+  width: 98% !important;
+  height: 730px;
+  padding: 15px;
+  margin: 1% 0 1% 0;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.classMainBoxFrameA {
+  width: 98% !important;
+  height: 450px;
+  padding: 15px;
+  margin: 1% 0 1% 0;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.classMainBoxFrameB {
+  width: 98% !important;
+  height: 700px;
+  padding: 15px;
+  margin: 1% 0 1% 0;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.classMainBoxFrameC {
+  overflow: hidden;
+  width: 58% !important;
+  height: 100%;
+  padding: 15px;
+  margin: 1% auto;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.classMainBoxFrame ul li ul li,
+.classMainBoxFrameA ul li ul li,
+.classMainBoxFrameB ul li ul li,
+.classMainBoxFrameC ul li ul li {
+  font-size: 13px !important;
+}
+
+.classMainBoxFramePic {
+  float: left;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e5e5e5;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.classMainBoxFramePicA {
+  float: left;
+  display: block;
+  overflow: hidden;
+  width: 50%;
+  height: auto;
+  border: 1px solid #e5e5e5;
+  border-radius: 15px;
+}
+
+.classMainBoxFrameTitle {
+  width: 100%;
+  height: auto;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 10px;
+  /* letter-spacing: 0.075rem; */
+}
+
+.classMainBoxFrame ul,
+.classMainBoxFrameA ul,
+.classMainBoxFrameB ul,
+.classMainBoxFrameC ul {
+  list-style-image: url(../images/icon_arrow.png);
+  margin-left: 0.5em;
+  font-size: 1rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.classMainBoxFrameC ul {
+  float: left;
+  width: 48%;
+  padding-left: 50px;
+}
+
+.classMainBoxFrame ul li,
+.classMainBoxFrameA ul li,
+.classMainBoxFrameB ul li,
+.classMainBoxFrameC ul li {
+  margin-bottom: 8px;
+}
+
+.classMain .slick-slide {
+  padding: 0;
+}
+
+.classMain .slick-list {
+  margin: 0 3em;
+}
+
+.classMainBoxFrame ul li ul li,
+.classMainBoxFrameA ul li ul li,
+.classMainBoxFrameB ul li ul li {
+  list-style-image: none;
+  font-size: 1rem;
+  margin-bottom: 0;
+  list-style-type: circle !important;
+}
+
+.slick-prev {
+  top: 45%;
+  left: 30px;
+  z-index: 3;
+}
+
+.slick-next {
+  top: 45%;
+  right: 40px;
+  z-index: 4;
+}
+
+.slick-prev:before {
+  /* content: '\f104';
+  font-family: FontAwesome; */
+  color: black;
+  font-size: 2.2rem;
+  /* line-height: 1;
+  text-shadow: black 0.1em 0.1em 0.2em; */
+}
+
+.slick-next:before {
+  /* content: '\f105'; */
+  /* font-family: FontAwesome; */
+  color: black;
+  font-size: 2.2rem;
+  /* line-height: 1; */
+  /* text-shadow: black 0.1em 0.1em 0.2em; */
+}
+
+/* --熱門體驗講座-------------------------------------*/
+
+.ExperienceMain {
+  width: 100%;
+  height: auto;
+  background: #715CDC;
+}
+
+.ExperienceMain .WRAPPER {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 60px 0;
+}
+
+.ExperienceMain .WRAPPER .PicSize {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.ExperienceMain .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+  color: #fff;
+}
+
+.ExperienceMainFrameLeft {
+  display: block;
+  float: left;
+  width: 60%;
+  height: auto;
+}
+
+.ExperienceMainFrameRight {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+.ExperienceTitle {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.ExperienceMainBox {
+  display: block;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 15px
+}
+
+.ExperienceMainBoxMini {
+  display: block;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 15px
+}
+
+.ExperienceMainFrameRight .col:nth-child(1),
+.ExperienceMainFrameRight .col:nth-child(2) {
+  display: none;
+}
+
+.ExperienceMainBoxLeft {
+  display: block;
+  overflow: hidden;
+  float: left;
+  width: 50%;
+  height: 250px;
+}
+
+.ExperienceMainBoxRight {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 235px;
+  padding: 5px 15px 0 15px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-style: normal;
+  text-align: left;
+}
+
+.ExperienceMainBoxRightTitle {
+  position: relative;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 76px;
+  height: 76px;
+}
+
+.ExperienceMainBoxRightTime {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #36419d;
+  font-style: oblique;
+  padding: 15px 30px 0 0;
+}
+
+.ExperienceMainBoxRightSchool {
+  position: relative;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #36419d;
+  padding: 40px 0 0 0;
+}
+
+.ExperienceMainBoxRightSchool i {
+  color: #f609f9;
+  margin-right: 3px;
+}
+
+.ExperienceMainBoxRightDate {
+  position: absolute;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #36419d;
+  font-style: oblique;
+  left: 20px;
+  bottom: 0;
+}
+
+.ExperienceMainBoxRightDate span {
+  font-size: 2.25rem;
+}
+
+.ExperienceMainBoxRightFree {
+  position: absolute;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  color: white;
+  font-family: Arial;
+  font-style: oblique;
+  -webkit-text-stroke: 1px #f609f9;
+  text-shadow: -3px 0px 0px rgba(0, 0, 0, 0.3);
+  right: 20px;
+  bottom: -8px;
+}
+
+.ExperienceMainBoxRightFree i {
+  font-size: 1.875rem;
+  color: #f609f9;
+  padding-left: 5px;
+}
+
+.ExperienceMainBoxLeft2 {
+  float: left;
+  width: 40%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-top: 15px;
+}
+
+.ExperienceMainBoxRight2 {
+  position: relative;
+  float: left;
+  width: 59%;
+  height: 160px;
+  padding: 15px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-style: normal;
+  text-align: left;
+}
+
+.ExperienceMainBoxCenter {
+  width: 100%;
+  height: 160px;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-image: url(../images/hot-workshop-4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ExperienceMainBoxCenterBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 58px 15px;
+}
+
+.ExperienceMainBoxRightSchool2 {
+  position: absolute;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #36419d;
+  text-align: left;
+  bottom: 10%;
+  left: 5%;
+}
+
+.ExperienceMainBoxRightSchool2 i {
+  color: #f609f9;
+  margin-right: 3px;
+}
+
+.ExperienceMainBoxRightTime2 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.ExperienceMainBoxRightLine {
+  float: left;
+  width: 1px;
+  height: 131px;
+  background-color: #b7b1d3;
+  margin: 15px 0;
+}
+
+.ExperienceMainBoxRightDate2 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #36419d;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.ExperienceMainBoxRightDate2 span {
+  letter-spacing: 3px;
+}
+
+.ExperienceMainBoxRightDate2 p {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #36419d;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.ExperienceMainBoxRightDate2 p span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f609f9;
+}
+
+.ExperienceMainBoxRightFree2 {
+  position: absolute;
+  width: 100%;
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.3;
+  color: #fff;
+  text-align: right;
+  font-family: Arial;
+  font-style: oblique;
+  -webkit-text-stroke: 1px #f609f9;
+  text-shadow: -3px 0px 0px rgba(0, 0, 0, 0.3);
+  right: 20px;
+  bottom: 8px;
+}
+
+.ExperienceMainBoxRightFree2 i {
+  font-size: 1.7rem;
+  color: #f609f9;
+  padding-left: 5px;
+}
+
+.ExperienceMainBoxCenterText {
+  position: relative;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-style: oblique;
+}
+
+.ExperienceMainBoxCenterText1 {
+  position: relative;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  color: #36419d;
+  text-align: center;
+  font-family: Arial;
+  font-style: oblique;
+  padding-top: 100px;
+}
+
+.ExperienceMainBt {
+  display: block;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+.ExperienceMainFrameBottom {
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+}
+
+/* --師資介紹-------------------------------------*/
+
+.teacherMain {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-image: url(../images/bg3.jpg);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 0.5%;
+  padding-bottom: 60px;
+}
+
+.teacherMain .WRAPPER {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 60px 0;
+}
+
+.teacherMain .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+
+.teacherMainBox {
+  overflow: hidden;
+  max-width: 100vw;
+  width: 100%;
+  height: auto;
+}
+
+.teacherMainIntroduce {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 96% !important;
+  height: 450px;
+  margin: 2% 1%;
+  background-color: #fff;
+  border-radius: 15px;
+  font-size: 1rem;
+  line-height: 1.3;
+  text-align: center;
+  padding-bottom: 35px;
+  color: #737373;
+  cursor: pointer;
+}
+
+.teacherMainIntroduce img {
+  width: 100%;
+  height: auto;
+  transition: transform 1s ease;
+  margin-bottom: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.teacherMainIntroduce img:hover {
+  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+}
+
+.teacherMainIntroduce p {
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #1b1b1b;
+}
+
+.teacherMainIntroduce .font {
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.teacherMainIntroduce span {
+  position: absolute;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #715cdc;
+  bottom: 15px;
+  right: 15px;
+}
+
+.teacherMain .WRAPPER .modal-body .close {
+  color: #000 !important;
+}
+
+.teacherModel {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  margin-left: 2px;
+}
+
+.teacherModel p {
+  float: left;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+  padding: 15px 0;
+}
+
+.teacherModelName {
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+.teacherModelLine {
+  width: 80%;
+  height: 1px;
+  background-color: #d6d6d6;
+  margin: 0 auto;
+}
+
+.teacherModelSeries {
+  width: 100%;
+  font-size: 1.125rem;
+  line-height: 1.3;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.teacherModelBox {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+[data-toggle="collapse"] .fa:before {
+  content: "\f106";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f107";
+}
+
+.teacherModel .card {
+  margin-bottom: 15px;
+}
+
+.teacherModel .card-header {
+  background: #715cdc;
+}
+
+.teacherModel .card-header i {
+  float: right;
+  padding-top: 6px;
+}
+
+.teacherModel .card-header .btn-link,
+.teacherModel .card-header .btn-link:hover {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 5px;
+  text-align: left;
+  letter-spacing: 1rem;
+}
+
+.teacherModel .table td {
+  color: #333333;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+#teacher01ModalCenter .modal-dialog,
+#teacher02ModalCenter .modal-dialog,
+#teacher03ModalCenter .modal-dialog,
+#teacher04ModalCenter .modal-dialog,
+#teacher05ModalCenter .modal-dialog,
+#teacher06ModalCenter .modal-dialog,
+#teacher07ModalCenter .modal-dialog,
+#teacher08ModalCenter .modal-dialog {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+#teacher01ModalCenter .modal-header,
+#teacher02ModalCenter .modal-header,
+#teacher03ModalCenter .modal-header,
+#teacher04ModalCenter .modal-header,
+#teacher05ModalCenter .modal-header,
+#teacher06ModalCenter .modal-header,
+#teacher07ModalCenter .modal-header,
+#teacher08ModalCenter .modal-header {
+  position: relative;
+}
+
+#teacher01ModalCenter .modal-content,
+#teacher02ModalCenter .modal-content,
+#teacher03ModalCenter .modal-content,
+#teacher04ModalCenter .modal-content,
+#teacher05ModalCenter .modal-content,
+#teacher06ModalCenter .modal-content,
+#teacher07ModalCenter .modal-content,
+#teacher08ModalCenter .modal-content {
+  border: 0px;
+}
+
+/* --完備的學習環境-------------------------------------*/
+
+.SurroundingsMain {
+  width: 100%;
+  height: auto;
+  background: #715CDC;
+}
+
+.SurroundingsMain .WRAPPER {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 60px 0;
+}
+
+.SurroundingsMain .WRAPPER .PicSize {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  margin-bottom: 60px;
+}
+
+.SurroundingsMain .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.25rem;
+}
+
+/* --成功幫助多位學員圓夢-------------------------------------*/
+
+.TraineeMain {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/bg3.jpg);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 0.5%;
+}
+
+.TraineeMain .WRAPPER {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 60px 0;
+}
+
+.TraineeMain .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-align: center;
+  letter-spacing: 0.25rem;
+}
+
+.TraineeMainBox {
+  overflow: hidden;
+  max-width: 100vw;
+  width: 100%;
+  height: 100%;
+}
+
+.TraineeMainBoxSub {
+  float: left;
+  display: block;
+  overflow: hidden;
+  width: 48%;
+  height: 100%;
+  padding: 1%;
+  margin-bottom: 15px;
+}
+
+.TraineeMainBoxLeft {
+  float: left;
+  width: 30%;
+  height: auto;
+  padding: 15px;
+}
+
+.TraineeMainBoxRight {
+  float: left;
+  width: 70%;
+  height: auto;
+  padding: 15px;
+}
+
+.TraineeMainBoxRight p {
+  font-size: 1.45rem;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #1b1b1b;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.TraineeMainBoxRight p i {
+  font-size: 1rem;
+  color: #715cdc;
+  margin-right: 5px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg)
+}
+
+.TraineeMainBoxRight font {
+  font-weight: 500;
+}
+
+.TraineeMainBoxRight span {
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #1b1b1b;
+  text-align: justify;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.TraineeMainBoxRightMore a {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #1b1b1b;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.TraineeMainBoxRightMore a:hover {
+  color: #23ef9d;
+}
+
+/* --作品欣賞-------------------------------------*/
+
+.WorksMain {
+  width: 100%;
+  height: auto;
+  background: #715CDC;
+}
+
+.WorksMain .WRAPPER {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1280px;
+  padding: 60px 0;
+}
+
+.WorksMain .WRAPPER h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 30px 15px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.25rem;
+}
+
+.WorksMainBox {
+  overflow: hidden;
+  max-width: 100vw;
+  width: 100%;
+  height: 100%;
+}
+
+.WorksMainBoxImg {
+  float: left;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin: 1%;
+  background-color: #313131;
+}
+
+.WorksMainBoxImg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.WorksMainBoxImg:nth-child(1) {
+  display: block;
+  overflow: hidden;
+  width: 63%;
+  height: 527px;
+}
+
+.WorksMainBoxImg:nth-child(2),
+.WorksMainBoxImg:nth-child(3) {
+  overflow: hidden;
+  width: 30%;
+  height: 250px;
+}
+
+.WorksMainBoxImg:nth-child(4),
+.WorksMainBoxImg:nth-child(5),
+.WorksMainBoxImg:nth-child(6),
+.WorksMainBoxImg:nth-child(7),
+.WorksMainBoxImg:nth-child(8) {
+  display: none;
+}
+
+.WorksMainBoxImg h3 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 15px;
+  font-size: 1.15rem;
+  line-height: 1.3;
+  font-weight: 300;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+/* --電腦版型2-------------------------------------*/
+@media screen and (max-width: 1440px) {
+  #topHeader .WRAPPER {
+    width: 100%;
+    padding-top: 16%;
+  }
+
+  .headerRight img {
+    width: 90%;
+  }
+
+  .ExperienceMainBoxLeft2 {
+    padding-top: 30px;
+  }
+
+  .ExperienceMainBoxRightLine {
+    height: 128px;
+  }
+
+  .ExperienceMainBoxRight2 {
+    height: 162px;
+  }
+
+}
+
+/* --電腦版型3-------------------------------------*/
+@media screen and (max-width: 1024px) {
+  .intro-content {
+    background-size: 1%;
+  }
+
+  #topHeader .WRAPPER {
+    width: 100%;
+    padding-top: 12%;
+  }
+
+  .headerLeft img {
+    top: 15%;
+  }
+
+  .headerRight img {
+    width: 100%;
+  }
+
+  .headerTitle h1 {
+    padding: 15px 10px;
+  }
+
+  .headerTitle h2 {
+    padding: 15px 10px;
+  }
+
+  .headerTitleMini {
+    font-weight: 400;
+    padding: 5px 10px;
+  }
+
+  .headerPageTool {
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .topNav .WRAPPER {
+    width: 100%;
+  }
+
+  .topNav .WRAPPER .nav-item .dropdown-menu {
+    margin-top: 15px;
+  }
+
+  .topNavBtn1 a {
+    background-position: 5px center;
+  }
+
+  .sayingBg {
+    background-size: 80% 100%;
+  }
+
+  .sayingFocusLeft {
+    font-size: 110px;
+  }
+
+  .sayingFocusRight {
+    width: 66%;
+    padding: 15px 15px 15px 80px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .sayingFocusBoxPic {
+    width: 40%;
+    height: 40%;
+    top: 40px;
+    left: 20px;
+  }
+
+  .classMainBox {
+    width: 95%;
+  }
+
+  .classMainBox ul {
+    padding: 40px 40px 5px 40px;
+  }
+
+  .classMainBox p {
+    padding: 0 30px;
+  }
+
+  /* .classMainBoxFrame {
+    height: 710px;
+  } */
+
+  .classMainBoxFrameA {
+    height: 430px;
+  }
+
+  .classMainBoxFrameB {
+    height: 680px;
+  }
+
+  .slick_area {
+    width: calc(100% + 10px);
+    margin: 0;
+  }
+
+  .slick-prev {
+    left: 15px;
+  }
+
+  /* .slick-next {
+    right: 15px;
+  } */
+
+  .ExperienceMainBoxRight {
+    width: 50%;
+    height: 180px;
+    padding: 0 15px;
+  }
+
+  .ExperienceMainBoxRightSchool {
+    padding: 5px 0;
+  }
+
+  .ExperienceMainBoxRightTime {
+    padding: 0 30px 0 0;
+  }
+
+  .ExperienceMainBoxRightDate {
+    bottom: 5px;
+  }
+
+  .ExperienceMainBoxLeft {
+    height: 180px;
+  }
+
+  .ExperienceMainBoxLeft2 {
+    padding-top: 5px;
+  }
+
+  .ExperienceMainBoxRightLine {
+    height: 100px;
+    margin: 5px 0;
+  }
+
+  .ExperienceMainBoxRight2 {
+    height: 115px;
+    padding: 0 15px;
+  }
+
+  .ExperienceMainBoxCenter {
+    height: 115px;
+  }
+
+  .ExperienceMainBoxCenterBg {
+    padding: 38px 15px;
+  }
+
+  .ExperienceMainBoxRightFree {
+    font-size: 1.875rem;
+    bottom: 40px;
+  }
+
+  .ExperienceMainBoxRightFree i {
+    font-size: 1.7rem;
+  }
+
+  .ExperienceMainBoxRightSchool2 {
+    bottom: 7%;
+  }
+
+  .ExperienceMainBoxRightFree2 {
+    bottom: 0;
+  }
+
+  .teacherMainIntroduce {
+    height: 360px;
+  }
+
+  .teacherMainIntroduce img {
+    margin-bottom: 15px;
+  }
+
+  .WorksMainBoxImg:nth-child(1) {
+    height: 400px;
+  }
+
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3) {
+    height: 191px;
+  }
+
+  .ExperienceMainBoxCenterText1 {
+    padding-top: 70px;
+  }
+}
+
+/* --平板版型1-------------------------------------*/
+@media screen and (max-width: 991px) {
+  .intro-content {
+    padding-top: 35px;
+  }
+
+  #topHeader .WRAPPER {
+    padding-top: 0;
+  }
+
+  .headerTitle h1 {
+    margin-top: 5%;
+  }
+
+  .headerTitle h2 {
+    margin-top: 5%;
+  }
+
+  .sayingFocusBox {
+    height: 300px;
+  }
+
+  .sayingFocusLeft {
+    padding-top: 15%;
+  }
+
+  .sayingFocusBoxPic {
+    top: 15%;
+    left: 10px;
+  }
+
+  .ExperienceMainFrameLeft {
+    height: 175px;
+  }
+
+  .ExperienceMainBoxRightTime {
+    padding: 15px 30px 0 0;
+  }
+
+  .ExperienceMainBoxRightTitle {
+    font-size: 1.125rem;
+  }
+
+  .ExperienceMainBoxLeft {
+    height: 175px;
+  }
+
+  .ExperienceMainBoxRight {
+    height: 174px;
+  }
+
+  .ExperienceMainBoxRightDate {
+    font-size: 0.875rem;
+  }
+
+  .ExperienceMainBoxRightDate span {
+    font-size: 1.5rem;
+  }
+
+  .ExperienceMainBoxRightFree {
+    font-size: 1.75rem;
+    bottom: 40px;
+  }
+
+  .ExperienceMainBoxRight2 {
+    height: 105px;
+  }
+
+  .ExperienceMainBoxCenter {
+    height: 105px;
+  }
+
+  .ExperienceMainBoxCenterBg {
+    padding: 32px 15px;
+  }
+
+  .ExperienceMainBoxRightFree2 {
+    font-size: 1.875rem;
+  }
+
+  .WorksMainBoxImg:nth-child(1) {
+    height: 390px;
+  }
+
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3) {
+    height: 186px;
+  }
+
+  .sayingBtnPadding {
+    padding: 0 100px;
+  }
+
+}
+
+/* --平板版型2-------------------------------------*/
+@media screen and (max-width: 768px) {
+  .intro-content {
+    background-size: 2%;
+    padding-top: 50px;
+  }
+
+  .headerTitle h1 {
+    margin-top: 0;
+  }
+
+  .headerTitle h2 {
+    margin-top: 0;
+  }
+
+  .topNavBtnLine {
+    top: 10px;
+  }
+
+  /* .classMainBoxFrame {
+    height: 600px;
+  } */
+
+  .classMainBoxFrameA {
+    height: 450px;
+  }
+
+  .classMainBoxFrameC {
+    width: 95% !important;
+  }
+
+  .classMainBoxFramePicA {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+  .classMainBoxFrameC ul {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .sayingFocusBoxPic {
+    width: 40%;
+    height: 40%;
+    top: 95px;
+    left: 10px;
+  }
+
+  .sayingBg {
+    background-size: 100% 100%;
+  }
+
+  .sayingFocusLeft {
+    font-size: 90px;
+    padding-top: 1%;
+  }
+
+  .sayingFocusRight {
+    width: 65%;
+    padding: 15px 15px 15px 50px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+  }
+
+  .sayingFocusRightTop {
+    height: 80px;
+  }
+
+  .modal-dialog {
+    max-width: 800px;
+  }
+
+  .classMainBox ul {
+    padding: 0 0 15px 0;
+  }
+
+  .classMainBox p {
+    padding: 0;
+  }
+
+  .classMain .WRAPPER .classTitle p br {
+    display: none;
+  }
+
+  .ExperienceMainFrameLeft,
+  .ExperienceMainFrameRight {
+    width: 48%;
+    margin: 0 1%;
+  }
+
+  .ExperienceMainBoxLeft {
+    display: none;
+  }
+
+  .ExperienceMainBoxRight {
+    width: 100%;
+  }
+
+  .ExperienceMainBoxRightFree {
+    bottom: 2px;
+  }
+
+  .teacherMainIntroduce {
+    height: 290px;
+    font-size: 1rem;
+  }
+
+  .teacherMainIntroduce p {
+    font-size: 1.25rem;
+  }
+
+  .TraineeMainBoxSub {
+    width: 47%;
+  }
+
+  .TraineeMainBoxLeft {
+    width: 100%;
+  }
+
+  .TraineeMainBoxRight {
+    width: 100%;
+  }
+
+  .TraineeMainBoxRight p {
+    font-size: 1.25rem;
+  }
+
+  .TraineeMainBoxRight span {
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-line-clamp: 6;
+  }
+
+  .WorksMainBoxImg:nth-child(1) {
+    width: 63%;
+    height: 300px;
+  }
+
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3) {
+    width: 33%;
+    height: 143px;
+  }
+
+}
+
+/* --手機版型1-------------------------------------*/
+@media screen and (max-width: 767px) {
+  #topHeader .WRAPPER {
+    height: 900px;
+  }
+
+  .headerRight img {
+    position: relative;
+  }
+
+  .headerLeft img {
+    display: none;
+  }
+
+  .headerTitle h1 {
+    text-align: center;
+  }
+
+  .headerTitle h2 {
+    text-align: center;
+  }
+
+  .headerTitleMini {
+    text-align: center;
+  }
+
+  .headerTitleMini br {
+    display: block;
+  }
+
+  .headerPageTool {
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .headerPageTool a {
+    font-size: 1rem;
+  }
+
+  .section {
+    display: block;
+  }
+
+  .menu-panel {
+    width: 130px;
+  }
+
+  .nav-button {
+    display: block;
+  }
+
+  .coverInfo:nth-child(2) {
+    margin-top: 5px;
+    margin-right: 30px;
+  }
+
+  .topNavBtnLine {
+    display: none;
+  }
+
+  .topNavBtnLine1 {
+    display: none;
+  }
+
+  .topNav .WRAPPER .nav-item:hover .dropdown-menu {
+    display: none;
+  }
+
+  .topNavAll {
+    display: block;
+  }
+
+  .sayingFocusBox {
+    width: 100%;
+  }
+
+  .sayingFocusBoxPic {
+    width: 25%;
+    height: 25%;
+    top: 15px;
+    left: 50px;
+  }
+
+  .sayingFocusLeft {
+    font-size: 150px;
+    padding-top: 1%;
+  }
+
+  .sayingBtnPadding {
+    padding: 0;
+  }
+
+  .classMainBoxFrame {
+    height: 920px;
+  }
+
+  .classMainBoxFrameA {
+    height: 690px;
+  }
+
+  .classMainBoxFrameB {
+    height: 840px;
+  }
+
+  .TraineeMainBoxSub {
+    width: 98%;
+  }
+
+  .teacherMainIntroduce {
+    height: 450px;
+  }
+
+  .teacherModelBox {
+    padding: 0;
+  }
+
+  .teacherModel .card-header .btn-link,
+  .teacherModel .card-header .btn-link:hover {
+    font-size: 1.25rem;
+  }
+
+  .teacherModel .table td {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .WorksMainBoxImg {
+    width: 98% !important;
+  }
+
+  .WorksMainBoxImg h3 {
+    font-size: 0.875rem;
+  }
+
+  .WorksMainBoxImg:nth-child(1),
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3) {
+    width: 63%;
+    height: 400px;
+  }
+
+  .ExperienceMainBoxCenterText1 {
+    padding-top: 60px;
+  }
+
+}
+
+/* --手機版型2--------------------------------------*/
+@media screen and (max-width: 639px) {
+  #topHeader .WRAPPER {
+    height: 800px;
+  }
+
+  .topNav .WRAPPER .dropdown-menu.show {
+    margin-top: 1rem;
+  }
+
+  .classMainBoxFrame {
+    height: 820px;
+  }
+
+  .classMainBoxFrameA {
+    height: 610px;
+  }
+
+  .classMainBoxFrameB {
+    height: 750px;
+  }
+
+  .sayingFocusBox {
+    height: 200px;
+  }
+
+  .sayingFocusBoxPic {
+    width: 20%;
+    height: 20%;
+    top: 50px;
+    left: 90px;
+  }
+
+  .sayingFocusLeft {
+    font-size: 110px;
+    padding-top: 1%;
+    text-align: center;
+  }
+
+  .sayingFocusRightTop {
+    height: 40px;
+  }
+
+  .sayingBtn {
+    width: 180px;
+  }
+
+  .ExperienceMainFrameLeft {
+    display: none;
+  }
+
+  .ExperienceMainFrameRight {
+    width: 100%;
+    margin: 0;
+  }
+
+  .ExperienceMainFrameRight .col:nth-child(1),
+  .ExperienceMainFrameRight .col:nth-child(2) {
+    display: block;
+  }
+
+  .ExperienceMainFrameBottom {
+    padding: 0 15px;
+  }
+
+  .teacherMainIntroduce {
+    height: 400px;
+  }
+
+  .WorksMainBoxImg:nth-child(1),
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3),
+  .WorksMainBoxImg:nth-child(4),
+  .WorksMainBoxImg:nth-child(5),
+  .WorksMainBoxImg:nth-child(6),
+  .WorksMainBoxImg:nth-child(7),
+  .WorksMainBoxImg:nth-child(8) {
+    width: 98%;
+    height: 325px;
+  }
+
+  .WorksMainBoxImg:nth-child(4),
+  .WorksMainBoxImg:nth-child(5),
+  .WorksMainBoxImg:nth-child(6),
+  .WorksMainBoxImg:nth-child(7),
+  .WorksMainBoxImg:nth-child(8) {
+    display: block;
+  }
+
+  .ExperienceMainBoxCenterBg {
+    padding: 32px 15px;
+  }
+}
+
+/* --手機版型3-------------------------------------*/
+@media screen and (max-width: 479px) {
+  /* .intro-content {
+    margin-top: -10px;
+  } */
+
+  #topHeader {
+    padding: 15px 15px 0 15px;
+  }
+
+  #topHeader .WRAPPER {
+    height: 680px;
+  }
+
+  .headerTitle h1 {
+    font-size: 2.5rem;
+  }
+
+  .headerTitle h1 span {
+    font-size: 1.65rem;
+  }
+
+  .headerTitle h2 {
+    font-size: 2.5rem;
+  }
+
+  .headerTitle h2 span {
+    font-size: 1.65rem;
+  }
+
+  .headerTitleMini {
+    font-size: 1rem;
+  }
+
+  .headerTitleMini br {
+    display: block;
+  }
+
+  .topNav .WRAPPER .dropdown-menu a {
+    padding-top: 5px;
+  }
+
+  .headerPageTool {
+    width: 60%;
+  }
+
+  .topNav .WRAPPER .dropdown-menu.show {
+    margin-top: -2px;
+  }
+
+  .classMainBoxFrame {
+    height: 750px;
+  }
+
+  .classMainBoxFrameA {
+    height: 500px;
+  }
+
+  .classMainBoxFrameB {
+    height: 650px;
+  }
+
+  .coverInfo {
+    padding: 0 15px;
+  }
+
+  .menu-panel {
+    width: 100px;
+  }
+
+  .sayingFocusBoxPic {
+    width: 30%;
+    height: 30%;
+    top: 60px;
+    left: 20px;
+  }
+
+  .sayingBg {
+    background-size: 100% 80%;
+  }
+
+  .sayingText {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+
+  .teacherMainIntroduce {
+    height: 320px;
+  }
+
+  .WorksMainBoxImg:nth-child(1),
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3),
+  .WorksMainBoxImg:nth-child(4),
+  .WorksMainBoxImg:nth-child(5),
+  .WorksMainBoxImg:nth-child(6),
+  .WorksMainBoxImg:nth-child(7),
+  .WorksMainBoxImg:nth-child(8) {
+    height: 228px;
+  }
+
+  .teacherMainIntroduce p {
+    font-size: 1.125rem;
+  }
+
+  .teacherMainIntroduce .font {
+    font-size: 0.875rem;
+    padding: 0;
+  }
+
+  .ExperienceMainBoxCenterBg {
+    padding: 34px 15px;
+  }
+
+}
+
+/* --手機版型4-------------------------------------*/
+@media screen and (max-width: 425px) {
+  #topHeader .WRAPPER {
+    height: 650px;
+  }
+
+  .teacherMainIntroduce {
+    height: 300px;
+  }
+
+  .WorksMainBoxImg:nth-child(1),
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3),
+  .WorksMainBoxImg:nth-child(4),
+  .WorksMainBoxImg:nth-child(5),
+  .WorksMainBoxImg:nth-child(6),
+  .WorksMainBoxImg:nth-child(7),
+  .WorksMainBoxImg:nth-child(8) {
+    height: 190px;
+  }
+
+  .saying .WRAPPER h2,
+  .classMain .WRAPPER h2,
+  .classMain .WRAPPER h1,
+  .writesMain .WRAPPER h2,
+  .ExperienceMain .WRAPPER h2,
+  .teacherMain .WRAPPER h2,
+  .SurroundingsMain .WRAPPER h2,
+  .TraineeMain .WRAPPER h2,
+  .WorksMain .WRAPPER h2 {
+    font-size: 1.55rem;
+    letter-spacing: 0.15rem;
+  }
+
+  .classMain .WRAPPER .classTitle p,
+  .ExperienceTitle {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .classMain .WRAPPER .classTitle p span {
+    font-size: .9rem;
+  }
+
+  .classMainSub2 {
+    font-size: 1.45rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .classMainSub {
+    font-size: 1.15rem;
+    letter-spacing: .85rem;
+  }
+
+  .classMainBoxFrame {
+    height: 710px;
+  }
+
+  .classMainBoxFrameA {
+    height: 460px;
+  }
+
+  .classMainBoxFrameB {
+    height: 700px;
+  }
+
+  .classMainBoxFrameTitle {
+    font-size: 1.25rem;
+    letter-spacing: 0;
+  }
+
+  .classMainBox img {
+    padding-top: 2rem;
+  }
+
+  .sayingBtn {
+    width: 290px;
+  }
+
+}
+
+/* --手機版型5-------------------------------------*/
+@media screen and (max-width: 375px) {
+  #topHeader .WRAPPER {
+    height: 600px;
+  }
+
+  .headerTitle h1 {
+    font-size: 2.1rem;
+    margin-top: 1.5rem;
+  }
+
+  .headerTitle h1 span {
+    font-size: 1.4rem;
+  }
+
+  .headerTitle h2 {
+    font-size: 2.1rem;
+    margin-top: 1.5rem;
+  }
+
+  .headerTitle h2 span {
+    font-size: 1.4rem;
+  }
+
+  .headerTitleMini {
+    font-size: 1rem;
+  }
+
+  .sayingFocusBoxPic {
+    width: 35%;
+    height: 35%;
+    top: 95px;
+    left: 0;
+  }
+
+  .sayingFocusLeft {
+    font-size: 90px;
+  }
+
+  .sayingFocusRight {
+    padding: 15px 15px 15px 30px;
+  }
+
+  .teacherMainIntroduce {
+    width: 94% !important;
+    height: 265px;
+    margin: 2% 3%;
+  }
+
+  .ExperienceMainBoxRightFree2 {
+    font-size: 1.125rem;
+    bottom: 5px;
+  }
+
+  .ExperienceMainBoxRightFree2 i {
+    font-size: 1rem;
+  }
+
+  .WorksMainBoxImg:nth-child(1),
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3),
+  .WorksMainBoxImg:nth-child(4),
+  .WorksMainBoxImg:nth-child(5),
+  .WorksMainBoxImg:nth-child(6),
+  .WorksMainBoxImg:nth-child(7),
+  .WorksMainBoxImg:nth-child(8) {
+    height: 163px;
+  }
+
+}
+
+/* --手機版型6 -------------------------------------*/
+@media screen and (max-width: 320px) {
+  .sayingFocusBoxPic {
+    top: 130px;
+  }
+
+  .sayingFocusLeft {
+    font-size: 80px;
+  }
+
+  .sayingFocusRight {
+    padding: 15px 15px 15px 30px;
+  }
+
+  .classMainSub3 {
+    text-align: center;
+  }
+
+  .teacherMainIntroduce {
+    height: 250px;
+    font-size: 0.875rem;
+  }
+
+  .WorksMainBoxImg:nth-child(1),
+  .WorksMainBoxImg:nth-child(2),
+  .WorksMainBoxImg:nth-child(3),
+  .WorksMainBoxImg:nth-child(4),
+  .WorksMainBoxImg:nth-child(5),
+  .WorksMainBoxImg:nth-child(6),
+  .WorksMainBoxImg:nth-child(7),
+  .WorksMainBoxImg:nth-child(8) {
+    height: 128px;
+  }
+
+  .ExperienceMainBoxRightTitle {
+    font-size: 0.875rem;
+    -webkit-line-clamp: 3;
+  }
+
+  .classMainBoxFrame {
+    height: 720px;
+  }
+
+  .classMainBoxFrameA {
+    height: 400px;
+  }
+
+  .classMainBoxFrameB {
+    height: 750px;
+  }
+
+}
