@@ -671,15 +671,15 @@ a:hover {
 .sayingFocusRight {
   position: relative;
   float: left;
-  width: 65%;
-  border-top: #715cdc solid 2px;
-  border-right: #715cdc solid 2px;
-  border-bottom: #715cdc solid 2px;
+  width: 73%;
+  border-top: 2px solid #715cdc;
+  border-right: 2px solid #715cdc;
+  border-bottom: 2px solid #715cdc;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 50px 0 100px;
+  padding: 40px 50px 60px 70px;
 }
 
 .sayingFocusRight h3 {
@@ -690,7 +690,7 @@ a:hover {
   color: #715cdc;
 }
 
-.sayingFocusRight span {
+/* .sayingFocusRight span {
   display: block;
   font-size: 1rem;
   line-height: 1.6;
@@ -699,6 +699,20 @@ a:hover {
   text-align: justify;
   text-align-last: left;
   font-weight: 400;
+} */
+
+.sayingFocusRight ul {
+    list-style: disc;
+}
+
+.sayingFocusRight ul li {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+  /* margin-bottom: 30px; */
+  color: #1b1b1b;
+  text-align: justify;
+  text-align-last: left;
 }
 
 .sayingFocusRightTop {
