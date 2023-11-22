@@ -14,7 +14,9 @@
     
     <!-- Gjun Web CSS -->
     <link href="2021/css/style_gjun-2021.css?v=20210916" rel="stylesheet">
-
+    <link href="2021/css/navbar-patch.css?v=20231122" rel="stylesheet">
+    
+<!-- 
     <script type="application/ld+json">
 [{
   "@context": "http://schema.org",
@@ -37,17 +39,17 @@
     "https://www.youtube.com/user/GjunChannel"
   ]
 }]
-    </script>
+    </script> -->
 
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
+    <!-- <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
                     new Date().getTime(), event: 'gtm.js'
             }); var f = d.getElementsByTagName(s)[0],
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TPQ8RC');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-TPQ8RC');</script> -->
     <!-- End Google Tag Manager -->
 <meta property="og:title" content="巨匠電腦｜程式,設計課程首選電腦補習班,直播課程更方便" /><meta property="og:site_name" content="巨匠電腦" /><meta name="keywords" content="巨匠電腦,電腦補習班,學電腦,電腦課程,巨匠電腦評價,在職進修,線上 直播課程" /><meta property="og:description" content="巨匠電腦補習班,學電腦超簡單!提供各種程式設計,設計課程,以及全方位電腦證照考試輔導.並提供線上,線下課程規劃,是您學電腦課程最佳選擇!" /><meta name="description" content="巨匠電腦補習班,學電腦超簡單!提供各種程式設計,設計課程,以及全方位電腦證照考試輔導.並提供線上,線下課程規劃,是您學電腦課程最佳選擇!" /><meta property="og:image" content="https://www.pcschool.com.tw/fbshare.jpg" /><meta name="image" content="https://www.pcschool.com.tw/fbshare.jpg" /><meta property="og:type" content="website" /><meta property="og:url" content="https://www.pcschool.com.tw" /><meta property="fb:app_id" content="485150688254489" /></head>
 <body onunload="">
@@ -97,20 +99,21 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm'
 
 
         
-<style>
+<!-- <style>
     .navbar .dropdown-menu {
        transition-delay: 750ms;
     }
-</style>
-<nav class="navbar navbar-expand-xl navbar-dark shadow-sm gjunHeaderBg fixed-top" id="navbar_top">
+</style> -->
+<nav class="navbar navbar-expand-xl navbar-dark shadow-sm gjunHeaderBg fixed-top navbar-patch" id="navbar_top">
     <div class="container">
-        <div class="dtLogo35">
+        <!-- <div class="dtLogo35">
             <a class="navbar-brand" href="/">
                 <img src="2021/images/logo.png" alt="巨匠電腦-電腦補習班,學電腦"></a>
-        </div>
+        </div> -->
         <a class="navbar-brand dtLogo" href="/">
-            <img src="2021/images/logo.png" alt="巨匠電腦-電腦補習班,學電腦"></a>
-        <a class="avbar-toggler btn btnSearch searchBtn d-block d-xl-none" href="javascript:void(0)">
+            <img src="2021/images/logo.png" alt="巨匠電腦-電腦補習班,學電腦">
+        </a>
+        <a class="navbar-toggler btn btnSearch searchBtn d-block d-xl-none" href="javascript:void(0)">
             <i class="fas fa-search"></i>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gjun-user"
@@ -342,10 +345,10 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm'
                 </li> -->
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/branch-school">分校據點</a>
+                    <a class="nav-link" href="/pcschool-teachers">百大名師</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/pcschool-teachers">百大名師</a>
+                    <a class="nav-link" href="/branch-school">分校據點</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-3" role="button"
@@ -588,7 +591,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm'
                 </li>
             </ul>
         </div>
-        <div class="collapse navbar-collapse" id="gjun-user">
+        <div class="collapse navbar-collapse collapse-user" id="gjun-user">
             <ul class="navbar-nav ml-auto d-xl-none">
                 <li class="nav-item">
                     <a class="nav-link" href="/purchase-list">課程劃位</a>
@@ -816,7 +819,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm'
 <!-- 窩課360 Courses End -->
 
     
-<link href="2021/uc/ucHPToolbar/css/style_slider.css?=20220915" rel="stylesheet" />
+<!-- <link href="2021/uc/ucHPToolbar/css/style_slider.css?=20220915" rel="stylesheet" />
 
 
 <script>
@@ -833,7 +836,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm'
     function closepopupWin() {
         $('.popupWin').modal('hide');
     }
-</script>
+</script> -->
 
         <script src="js/lazysizes.min.js"></script>
         <script>

@@ -42,6 +42,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(".searchBtn").click(function () {
         $(".searchPanel").slideToggle();
+        $(this).toggleClass("bg-active")
     });
 });
 
