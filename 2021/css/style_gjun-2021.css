@@ -649,7 +649,7 @@ a:focus {
 	margin-top: 7px;
 }
 
-/* 銝𦠜䲮憭批誨��𡃏憚�偘alt�黸��� */
+/* 上方大廣告輪播alt隱藏 */
 .slick-indexAD img {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -2809,22 +2809,22 @@ a:focus {
         opacity: 0;
     }
 
-    /*��嘥�讠𠶖�� �𤩺�𤾸漲銝�0*/
+    /*初始状态 透明度为0*/
     40% {
         opacity: 0;
     }
 
-    /*餈�腹�𠶖�� �𤩺�𤾸漲銝�0*/
+    /*过渡状态 透明度为0*/
     100% {
         opacity: 1;
     }
 
-    /*蝏𤘪�毺𠶖�� �𤩺�𤾸漲銝�1*/
+    /*结束状态 透明度为1*/
 }
 
 @-webkit-keyframes fade-in {
 
-    /*���笆webkit���瓲*/
+    /*针对webkit内核*/
     0% {
         opacity: 0;
     }
@@ -3061,7 +3061,7 @@ a:focus {
         margin: 0 auto;
     }
 
-    /*摮詨摱閬贝��*/
+    /*學員見證*/
     .liveCoursesClassBox .card-text {
         padding-right: 0;
         -webkit-line-clamp: 5;
@@ -3075,7 +3075,7 @@ a:focus {
     .liveCoursesClassBox .card-title {
         margin-top: -58px;
     }
-
+    
     /* 四大學習保證
     */
     .gjunWeb2021-Content-learnPromise {
@@ -3273,7 +3273,7 @@ a:focus {
     .videoLearnClassBox {
         height: 400px;
     }
-    
+
     /* 四大學習保證 */
     /* .learnPromiseClassBox {
         height: 400px;
@@ -3294,7 +3294,7 @@ a:focus {
         left: 15px;
     }
 
-    /*����䔶�匧之��敹�*/
+    /*品牌三大理念*/
     .card-body {
         padding: 0.5rem 1rem;
     }
@@ -3319,7 +3319,7 @@ a:focus {
         margin: 3px auto;
     }
 
-    /*�梢�隤脩��*/
+    /*熱門課程*/
     .gjunWeb2021-blockTitle {
         font-size: 22px;
     }
@@ -3333,7 +3333,7 @@ a:focus {
         left: 120px;
     }
 
-    /*銝剝�詨鱓皛曇遘*/
+    /*中選單滾軸*/
     .hotCoursesBox .nav-tabs,
     .freeClassBox .nav-tabs {
         flex-wrap: nowrap;
@@ -3356,14 +3356,14 @@ a:focus {
         border-bottom: 3px solid #436df5;
     }
 
-    /*��𧢲凒憭�*/
+    /*看更多*/
     .gjunWeb2021-blockTitle .more-class {
         font-size: 16px;
         top: 6px;
         right: 18px;
     }
 
-    /*摮貊�鍦�誩㭘*/
+    /*學習問卷*/
     .learningMap .gjunWeb2021-blockTitle {
         font-size: 24px;
         letter-spacing: 0.1rem;
@@ -3382,7 +3382,7 @@ a:focus {
         font-size: 20px;
     }
 
-    /*摮貊�鍦�芸𨋍*/
+    /*學習優勢*/
     .videoLearnBox .card-title {
         font-size: 22px;
     }
@@ -3392,7 +3392,7 @@ a:focus {
         line-height: 1.35;
     }
 
-    /*摮詨摱閬贝��*/
+    /*學員見證*/
     .liveCoursesClassBox .card-text {
         font-size: 16px;
         line-height: 1.5;
@@ -3414,7 +3414,7 @@ a:focus {
         margin-top: 8px;
     }
 
-    /*all����𧢲�蠘憚�偘蝒�*/
+    /*all的手機輪播窗*/
     .slick-indexAD .slick-list,
     .slick-seminarClass {
         padding: 0;

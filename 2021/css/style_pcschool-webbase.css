@@ -12,7 +12,7 @@ body {
 }
 
 .gjunHeaderBg .container, .gjunHeaderBg .dropdown-menu .container {
-  max-width: 1440px;/* 撠舘汗��堒云�𩑈 ��惩祝�軼ontainer -colette */
+  max-width: 1440px;/* 導覽列太長 加寬其container -colette */
 }
 
 .container {
@@ -36,7 +36,7 @@ body {
   padding-right: 0 !important;
 }
 
-/* ���拳�峕艶璅∠�𦠜���� */
+/* 燈箱背景模糊效果 */
 .modal-open .modal {
   backdrop-filter: blur(5px);
 }
@@ -341,7 +341,7 @@ body {
   position: relative;
 }
 
-/*blog擐㚚���撠暹見撘�*/
+/*blog首頁頁尾樣式*/
 .footerAD {
   background: #FFFFFF;
   height: 95px;
@@ -369,7 +369,7 @@ body {
   text-decoration: none;
 }
 
-/*blog擐㚚���撠暹見撘�*/
+/*blog首頁頁尾樣式*/
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
@@ -629,10 +629,10 @@ body {
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 0;
-  /*padding-bottom: 10px; 銵典鱓靽格㺿*/
+  /*padding-bottom: 10px; 表單修改*/
   padding-bottom: 5px;
   text-align: center;
-  /*margin-top: 1.5rem; 銵典鱓靽格㺿*/
+  /*margin-top: 1.5rem; 表單修改*/
   margin-top: 5px;
 }
 
@@ -656,12 +656,12 @@ span.textBreak {
   margin: 10px auto;
 }
 
-/*   銵典鱓靽格㺿*/
+/*   表單修改*/
 .formbox .form-group {
   margin-bottom: 0.5rem !important;
 }
 
-/*   銵典鱓靽格㺿end*/
+/*   表單修改end*/
 .formBox .form-group input,
 .formBox .form-group select {
   border-top: none;
@@ -681,7 +681,7 @@ span.textBreak {
   padding-left: 13px !important;
 }
 
-/*lightbox銵典鱓��敹恍�毺蒈�交�厰�� start*/
+/*lightbox表單、快速登入按鈕 start*/
 .submitBtn {
   background: #d9444b !important;
   color: #FFFFFF;
@@ -698,13 +698,13 @@ span.textBreak {
   background: #bd2130 !important;
 }
 
-/*doreen_20220329_�鰵憓�*/
+/*doreen_20220329_新增*/
 .submitBtn a.sB_a, .submitBtn a.sB_a:hover, .submitBtn a.sB_a:focus{
 	color: #ffffff !important;
 }
 
-/*lightbox銵典鱓��敹恍�毺蒈�交�厰�� end*/
-/*銵典鱓靽格㺿*/
+/*lightbox表單、快速登入按鈕 end*/
+/*表單修改*/
 span.textBreak-note {
   display: inline-block;
   /*margin-top: 6px;*/
@@ -718,7 +718,7 @@ span.textBreak-note {
   color: #FFFFFF;
   font-size: 18px;
   padding: 4px 0;
-  /*敹恍�毺蒈�乓���蠘�嗪�����厰��*/
+  /*快速登入、感謝頁的按鈕*/
 }
 
 .submitBtn a:hover,
@@ -805,7 +805,7 @@ span.textBreak-note {
 }
 
 
-/* 銵典鱓靽格㺿 */
+/* 表單修改 */
 .card-body-form {
   padding: 0;
 }
@@ -814,13 +814,13 @@ span.textBreak-note {
   padding: 0px 0px 0px 30px;
 }
 
-/* �蠘�嗪�����栞�� */
+/* 感謝頁的間距 */
 .thanku .form-Info {
   margin: auto;
   padding: 15px 40px;
 }
 
-/* �蒈�仿�����栞�� */
+/* 登入頁的間距 */
 .loginBox .form-Info {
   padding: 0 30px;
 }
@@ -881,8 +881,8 @@ span.textBreak-note {
   flex-basis: 60%;
 }
 
-/* 銵典鱓靽格㺿end */
-/* 銵典鱓modal start */
+/* 表單修改end */
+/* 表單modal start */
 #myModal .modal-content {
   /*background: transparent;*/
   border: none;
@@ -916,13 +916,13 @@ iframe {
   border-radius: 5px;
 }
 
-/* 銵典鱓modal end */
-/* �𢰧�湧俈�𢥫 start */
+/* 表單modal end */
+/* 右側防疫 start */
 .btnProtection {
   position: fixed;
   right: 10px;
   bottom: 210px;
-  /*�箔��𦆮�坾蝭��砍�𠰴�銝𦠜��*/
+  /*為了放春節公告往上提*/
   z-index: 901;
   width: 150px;
   height: auto;
@@ -981,8 +981,8 @@ iframe {
   padding: 0.5px 0 0 1px;
 }
 
-/* �𢰧�湧俈�𢥫 end */
-/*�蒈�仿��鰵憓�*/
+/* 右側防疫 end */
+/*登入頁新增*/
 .modal-body-login {
   max-height: 600px !important;
 }
@@ -1104,8 +1104,8 @@ iframe {
   margin-bottom: 0.8rem;
 }
 
-/*�蒈�仿��鰵憓� end*/
-/* 20220119敹恍�毺蒈��,�蠘�嗪�*/
+/*登入頁新增 end*/
+/* 20220119快速登入,感謝頁*/
 .button {
   position: relative;
   display: flex;
@@ -1327,7 +1327,7 @@ iframe {
   text-align: left;
 }
 
-/* 20220119敹恍�毺蒈��,�蠘�嗪�__end*/
+/* 20220119快速登入,感謝頁__end*/
 /* Responsive Setting */
 @media only screen and (max-width: 1199.98px) {
 
@@ -1352,7 +1352,7 @@ iframe {
   }
 }
 
-/* 銵典鱓modal end */
+/* 表單modal end */
 
 /* Responsive Setting */
 @media screen and (max-width: 1280px) {
@@ -1459,7 +1459,7 @@ iframe {
 
   .navbar-nav .nav-link {
     padding-left: 0.25rem;
-    /* ��𧢲�毺���詨鱓撌血�游�漤��*/
+    /* 手機版選單左側對齊*/
   }
 
   .navbar .dropdown-menu .nav-item a {
@@ -1516,7 +1516,7 @@ iframe {
   }
 }
 
-/* 銵典鱓modal end */
+/* 表單modal end */
 @media only screen and (max-width: 1040px) {
 
   /* Header */
@@ -1582,7 +1582,7 @@ iframe {
     padding-left: 0.2rem;
   }
 
-  /* 銵典鱓modal start */
+  /* 表單modal start */
   .modal-dialog {
     /*width: 60%;*/
     max-width: 1050px;
@@ -1593,7 +1593,7 @@ iframe {
     height: 432px;
   }
 
-  /* 銵典鱓modal start */
+  /* 表單modal start */
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -1629,7 +1629,7 @@ iframe {
     font-size: 16px;
   }
 
-  /*blog擐㚚���撠暹見撘�*/
+  /*blog首頁頁尾樣式*/
   .footerAD {
     height: 188px;
     margin-bottom: 4rem;
@@ -1644,7 +1644,7 @@ iframe {
     border: 1px solid;
   }
 
-  /*blog擐㚚���撠暹見撘�*/
+  /*blog首頁頁尾樣式*/
   span.textBreak-note {
     /*display: inline-block;*/
     /*margin-top: 6px;*/
@@ -1721,7 +1721,7 @@ iframe {
     margin: 0 auto;
   }
 
-  /*銵典鱓靽格㺿*/
+  /*表單修改*/
   .formBox .form-Info {
     padding: 10px 30px;
   }
@@ -1738,7 +1738,7 @@ iframe {
     padding: 0;
   }
 
-  /*銵典鱓靽格㺿end*/
+  /*表單修改end*/
 
 }
 
@@ -1876,7 +1876,7 @@ iframe {
     padding-right: 5px;
   }
 
-/* ��㕑府�糓�蠘�嗪���icon */
+/* 應該是感謝頁的icon */
   .login-img {
     display: none;
   }
@@ -1908,7 +1908,7 @@ iframe {
     display: none;
   }
 
-  /*銵典鱓靽格㺿*/
+  /*表單修改*/
   .cs-left {
     font-size: 0.9rem;
   }
