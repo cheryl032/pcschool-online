@@ -5,50 +5,109 @@ becuze style_pcschool-webbase.css not only for navbar
 */
 
 .navbar-patch#navbar_top {
-    /* padding-right: 1rem !important; */
+    height: 58px;
 }
-
+/* 
 .navbar-patch#navbar_top .navbar-brand {}
-
+ */
 .itemName {
     color:#b19293;
-    border-bottom: 1px solid;
+    color: #000;
+    /* border-bottom: 1px solid; */
     padding-bottom: 3px;
 }
 
-.navbar-patch#navbar_top > .container {
-    position: relative;
+.navbar-patch > .container {
     /* flex-wrap: nowrap; */
     justify-content: end;
 }
-.navbar-patch#navbar_top .dropdown-menu {
-    transition-delay: 300ms;
+.navbar-patch .dropdown-menu {
+    transition: all 0s ease-in-out 0s !important;
+    transition-delay: 500ms;
  }
-.navbar-patch#navbar_top .dropdown-menu .container {
-    
-}
+ 
+/* .navbar-patch .dropdown-menu .container {} */
 
 .navbar .dropdown-menu {
     background-color: #f0eded;
     box-shadow: 0 2px 5px #3d3d3d2b;
 }
 
-.navbar .nav-item .nav-link, .navbar .nav-item .nav-link {
+.navbar .nav-item {
+    padding: 0;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 1.282rem 0.345rem;
     transition: .3s ease;
 }
-.navbar .nav-item:hover .nav-link, .navbar .nav-item .nav-link:hover {
-    color: #c7c7c7 !important;
+
+.navbar .nav-item > .nav-link:hover {
+    /* color: #ddd !important; */
+    background-color: #00000020;
 }
 
+.dropdown-menu .nav-link {
+    color: #001a6f !important;
+}
+/* .navbar .nav-item .dropdown-menu .nav-item .nav-link:hover {} */
+/* .navbar .nav-item.dropdown.show {
+    background-color: #d9333a;
+} */
 
+/* on large and mini device different icons */
+.navbar .nav-item.searchBtn {}
+.navbar .nav-item.searchBtn .btn {
+    display: block;
+    padding: 1.063rem 0.907rem; /* w42 x h58 */
+    border-width: 0px;
+}
+.searchBtn.bg-active {
+    background-color: #ffffff50;
+}
 
+/* @media screen and (max-width: 1280px) {
+    .navbar-nav .nav-link {
+      padding: 1rem 0.5rem;
+      padding-right: 0.907rem !important;
+      font-size: 14.5px;
+    }
+} */
+@media (max-width: 1280px) and (min-width: 1199.98px) {
+    .navbar-nav .nav-link {
+      padding: 1rem 0.5rem;
+      padding-right: 0.907rem !important;
+      font-size: 14.5px;
+    }
+}
+
+/* breakpoint and up - mega */
+@media screen and (min-width: 1199.98px) {
+    /* shows the dropdown menu on hover */
+    /* .navbar .dropdown:hover .dropdown-menu,
+    .navbar .dropdown .dropdown-menu:hover {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    } */
+
+    /* .navbar .dropdown.show .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s linear;
+    } */
+}
+
+/* breakpoint and down - mini */
 @media only screen and (max-width: 1199.98px) {
     .navbar-patch#navbar_top {
+        height: auto;
+    }
+    .navbar-patch {
         padding: 0.5rem 15px !important;
     }
-    .navbar .dtLogo35 {
-        
-    }
+
     .navbar .navbar-brand {
         position: relative;
         top: 0;
@@ -58,15 +117,21 @@ becuze style_pcschool-webbase.css not only for navbar
         width: auto;
     }
 
-    .navbar-patch#navbar_top > .container {
+    .navbar-patch > .container {
+        position: relative;
         /* justify-content: flex-start; */
     }
-    .navbar-patch#navbar_top .dropdown-menu .container {
+    .navbar-patch .dropdown-menu .container {
         /* flex-wrap: wrap;
         justify-content: space-around; */
-        background-color: #37373747;
+        background-color: #53535345;
     }
 
+    .navbar-patch .dropdown-menu .container .mx-auto {
+        width: 100%;
+    }
+
+    /* on large and mini device different */
     .searchBtn:hover, .searchBtn:focus, .gjun-student:hover, .gjun-student:focus, .navbar-toggler:hover, .navbar-toggler:focus {
         opacity: 0.85;
         transition: .3s ease;
@@ -77,9 +142,9 @@ becuze style_pcschool-webbase.css not only for navbar
         right: inherit !important;
         top: inherit;
     }
-    .searchBtn.bg-active {
+    /* .searchBtn.bg-active {
         background-color: #ffffff50;
-    }
+    } */
 
     .gjun-student {
         position: relative;
@@ -110,8 +175,17 @@ becuze style_pcschool-webbase.css not only for navbar
     }
 
     .navbar .nav-item {
-        padding: 0;
-        border-bottom: 1px solid #d9333a;
+        /* padding: 0; */
+        /* border-bottom: 1px solid #d9333a; */
+    }
+
+    .navbar .dropdown-menu .nav-item {
+        padding-bottom: 2px !important;
+    }
+
+    .navbar .dropdown-menu .nav-item .nav-link {
+        background: #ffc9cb24;
+        border-bottom-width: 0px;
     }
 
     .navbar .nav-item.show {
@@ -124,10 +198,14 @@ becuze style_pcschool-webbase.css not only for navbar
         transition: .3s ease;
     }
 
+    .navbar-nav > .nav-item .nav-link {
+        border-bottom: 1px solid #ffffff30;
+    }
+
     .navbar-nav .nav-item .nav-link:hover,
     .navbar-nav .nav-item .nav-link:focus {
         /* color: #C2000A !important; */
-        background-color: #ffffff40 !important;
+        background-color: #ffffff30 !important;
     }
     .collapse-user .navbar-nav .nav-item .nav-link {
         color: rgb(255, 255, 187);
@@ -135,5 +213,9 @@ becuze style_pcschool-webbase.css not only for navbar
     .collapse-user .navbar-nav .nav-item .nav-link:hover,
     .collapse-user .navbar-nav .nav-item .nav-link:focus {
         color: rgb(255, 255, 187) !important;
+    }
+
+    .itemName {
+        color: #ffb6b8;
     }
 }
