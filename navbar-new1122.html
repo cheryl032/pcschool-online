@@ -14,7 +14,6 @@
     
     <!-- Gjun Web CSS -->
     <link href="2021/css/style_gjun-2021.css?v=20210916" rel="stylesheet">
-    <link href="2021/css/navbar-patch.css?v=20231122" rel="stylesheet">
     
 <!-- 
     <script type="application/ld+json">
@@ -104,28 +103,32 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm'
        transition-delay: 750ms;
     }
 </style> -->
-<nav class="navbar navbar-expand-xl navbar-dark shadow-sm gjunHeaderBg fixed-top navbar-patch" id="navbar_top">
+<nav class="navbar navbar-expand-xl navbar-dark shadow-sm gjunHeaderBg fixed-top nav-main" id="navbar_top">
     <div class="container">
         <!-- <div class="dtLogo35">
             <a class="navbar-brand" href="/">
                 <img src="2021/images/logo.png" alt="巨匠電腦-電腦補習班,學電腦"></a>
         </div> -->
+        
         <a class="navbar-brand dtLogo" href="/">
             <img src="2021/images/logo.png" alt="巨匠電腦-電腦補習班,學電腦">
         </a>
-        <a class="navbar-toggler btn btnSearch searchBtn d-block d-xl-none" href="javascript:void(0)">
-            <i class="fas fa-search"></i>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gjun-user"
-            aria-controls="gjun-user" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-user gjun-student"
-                onclick="javascript:document.getElementById('gjun-user').style.display='';document.getElementById('navbarSupportedContent').style.display='none';"></i>
-        </button>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-            onclick="javascript:document.getElementById('gjun-user').style.display='none';document.getElementById('navbarSupportedContent').style.display='';">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="nav-main-mini-icons d-flex d-xl-none">
+            <a class="navbar-toggler btn btnSearch searchBtn d-block d-xl-none" href="javascript:void(0)">
+                <i class="fas fa-search"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gjun-user"
+                aria-controls="gjun-user" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-user gjun-student"
+                    onclick="javascript:document.getElementById('gjun-user').style.display='';document.getElementById('navbarSupportedContent').style.display='none';"></i>
+            </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                onclick="javascript:document.getElementById('gjun-user').style.display='none';document.getElementById('navbarSupportedContent').style.display='';">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                
