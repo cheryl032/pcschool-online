@@ -139,7 +139,7 @@ body {
 }
 
 .nav-main .dropdown-menu {
-  transition: all 0s ease-in-out 0s !important;
+  transition: all 0s ease-in-out 0s;
   transition-delay: 500ms;
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .nav-main .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.95) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
   border: none;
   border-radius: 0 0;
   /*box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;*/
@@ -324,7 +324,7 @@ Responsive Setting start
     display: block;
     visibility: visible;
     opacity: 1;
-    transition: visibility 0s, opacity 0.3s linear;
+    transition: visibility 0.4s, opacity 0.3s ease-in-out;
   }
 
   .nav-main .navbar-nav .nav-link {
