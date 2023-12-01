@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+    .btnProtection {
+      position: fixed;
+      right: 10px;
+      bottom: 150px;
+      z-index: 901;
+      width: 150px;
+      height: auto;
+      background-image: url("../images/protection.svg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      /*background-size: 100% 100%;*/
+      padding: 15px 0;
+    }
+
+    .btnProtection p {
+      background-color: #fff;
+      width: 83%;
+      height: 100%;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1.85;
+      color: #1b1b1b;
+      text-align: center;
+      vertical-align: middle;
+      padding: 15px 5px;
+      margin-top: 120px;
+      margin-left: 12px;
+      border-bottom: #404040 2px solid;
+    }
+
+    .btnProtection p a {
+      color: #1b1b1b;
+	  display: block;
+    }
+
+    .btnProtection p a:hover {
+      color: #c2000a;
+ 	  font-weight: bold;
+    }
+
+    .btnClose {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      font-size: 13px;
+      font-weight: normal;
+      line-height: 1.3;
+      color: darkgray;
+      background-color: #fff;
+      border: darkgray 1px solid;
+      border-radius: 50%;
+      cursor: pointer;
+      text-align: center;
+      z-index: 992;
+      padding: 0;
+      top: 30px;
+      right: 5%;
+      cursor: pointer;
+    }
+
