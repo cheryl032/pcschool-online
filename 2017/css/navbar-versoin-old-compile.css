@@ -424,6 +424,10 @@ nav {}
     max-height: 70vh;
     margin-top: 0.2rem;
   }
+  .nav-old-wrapper .navbar-collapse.in {
+    overflow-y: auto !important;
+    display: block !important;
+  }
   .nav-old-wrapper .navbar-nav .nav-link {
     padding-left: 0.25rem;
     /* 手機版選單左側對齊*/
@@ -585,8 +589,7 @@ nav {}
   padding: 0 !important;
   margin: 0 !important;
   width: 100% !important;
-  height: 100% !important;
-  overflow-x: hidden;
+  height: 100%;
 }
 .nav-old-wrapper .navbar-old .navbar-nav {
   float: none;
@@ -636,16 +639,15 @@ nav {}
 .nav-old-wrapper .nav-main .navbar-toggler-icon, .nav-old-wrapper .gjun-student, .nav-old-wrapper .btnSearch {
   font-size: 20px;
 }
-@media screen and (min-width: 1199.98px) {
-  .nav-old-wrapper .nav-old-wrapper .nav-main .dropdown-menu {
-    top: 58px;
-  }
-}
 @media only screen and (max-width: 1199.98px) {
   .nav-old-wrapper .navbar-old .navbar-nav {
     width: 100%;
   }
   .nav-old-wrapper .nav-main.nav-old .dropdown-menu .nav-item .nav-link {
+    display: block;
+  }
+
+  .nav-old-wrapper .open>.dropdown-menu {
     display: block;
   }
 }/*# sourceMappingURL=navbar-versoin-old-compile.css.map */
