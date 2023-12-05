@@ -3,31 +3,7 @@
 Navbar for old version bootstrap 3 */
 
 
-body {
-  background-color: rgb(92, 68, 46);
-}
-
-/* * {
-  outline: 1px solid rgb(155, 101, 40);
-} */
-
-
-/*!
- * Bootstrap Reboot v4.6.2 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
- */
-
- /*# sourceMappingURL=bootstrap-basic1201.css.map */
-
-
-
-
-
-
-/* form bs4 */
+/* from bs4 */
 
 /* from html use class of bs 4 */
 /* .navbar-brand {}
@@ -72,11 +48,7 @@ nav {}
 
 
 
-
-
-
-
-
+.nav-old-wrapper {
 
 /* 
    navbar for new page 
@@ -583,7 +555,7 @@ Responsive Setting start
     /*        background-color: rgba(255, 255, 255, 1.0);*/
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
     /*        color: #4D4D4D;*/
-    top: 55px;
+    top: 50px;
   }
 
   .searchBtnStart {
@@ -676,10 +648,16 @@ Responsive Setting end
 /* 
    navbar for old page 
    (not include index page)
-   blocked for old css eg. defaultMaster.css, bootstrap 336
+   BLOCKED FOR OLD CSS eg. defaultMaster.css, bootstrap 336
    2023.12
    ------ start ------
 */
+
+.nav-old-wrapper {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -724,6 +702,7 @@ Responsive Setting end
   margin: 0 !important;
   width: 100% !important;
   height: 100% !important;
+  overflow-x: hidden;
 }
 
 .navbar-old .navbar-nav {
@@ -759,6 +738,11 @@ Responsive Setting end
 
 .searchPanel {
   font-size: 1rem;
+  background-color: rgba(77,77, 77,0.95);
+  display: none;
+  width: 100%;
+  padding-bottom: 15px;
+  position: absolute;
 }
 .searchPanel .btn, .searchPanel input, .searchPanel .form-control {
   font-size: 16px;
@@ -779,6 +763,11 @@ Responsive Setting end
   font-size: 20px;
 }
 
+@media screen and (min-width: 1199.98px) {
+  .nav-old-wrapper .nav-main .dropdown-menu {
+    top: 58px;
+  }
+}
 
 @media only screen and (max-width: 1199.98px) {
   .navbar-old .navbar-nav {
@@ -793,12 +782,12 @@ Responsive Setting end
 }
 
 
-
-
 /* 
    navbar for old page 
    (not include index page)
-   blocked for old css eg. defaultMaster.css, bootstrap 336
+   BLOCKED FOR OLD CSS eg. defaultMaster.css, bootstrap 336
    2023.12
    ------ end ------
 */
+}
+
