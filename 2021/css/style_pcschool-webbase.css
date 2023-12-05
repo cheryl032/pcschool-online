@@ -90,6 +90,11 @@ body {
   justify-content: end;
 }
 
+.navbar-collapse.collapse-user {
+  display: none !important;
+}
+
+
 /* brand logo */
 .nav-main .dtLogo img {
   width: 80%;
