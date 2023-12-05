@@ -2565,7 +2565,7 @@ body {
   opacity: 0;
 }
 .nav-old-wrapper .collapse:not(.show) {
-  display: none;
+  display: none !important;
 }
 .nav-old-wrapper .collapsing {
   position: relative;
