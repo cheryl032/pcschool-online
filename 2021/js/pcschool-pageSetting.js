@@ -435,7 +435,7 @@ $('.slick-moreTeachers .slick-wrapper').slick({
     ]
 });
 
-$('.liveCoursesClassBox01 .slick-wrapper').slick({
+$('.storyClassBox01 .slick-wrapper').slick({
     slidesToShow: 6,
     settings: 'unslick',
     responsive: [{

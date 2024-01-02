@@ -568,13 +568,16 @@ a:focus {
     margin-top: -110px;
 }
 
-.gjunWeb2021-Content.first-sec {
+.gjunWeb2021-Content.sec-even {
     background: #f5f4f8;
 }
 
 .gjunWeb2021-Content {
     padding: 32px 0;
+}
 
+.gjunWeb2021-Content:nth-child(even) {
+    background: #f5f4f8;
 }
 
 .gjunWeb2021-blockTitle {
@@ -1116,7 +1119,7 @@ a:focus {
     opacity: 0.75;
 }
 
-/* Seminar Content */
+/* Seminar Content (use untile 1221229) */
 .seminarContentBox .slick-container .slick-wrapper .slick-prev {
     left: -45px !important;
     z-index: 1;
@@ -1212,6 +1215,8 @@ a:focus {
 }
 
 /* Free Class */
+.navTabGroup {}
+
 .freeClassBox .nav-tabs {
     border-bottom: 2px solid #bfbfbf;
     margin: 0 18px;
@@ -1269,7 +1274,7 @@ a:focus {
 
 .freeClassBox .tab-content {
     padding: 15px;
-    background: #fff;
+    /* background: #fff; */
 }
 
 .freeClassBox ul {
@@ -1293,44 +1298,44 @@ a:focus {
     padding: 4px 10px;
 }
 
-/* Video Learning & Live Courses */
+/* Video Learning (?) & Live Courses & student story */
 .videoLearnClassBox,
-.liveCoursesBox {
+.storyBox {
     width: 100%;
     height: 100%;
 }
 
 .videoLearnBox a:hover,
-.liveCoursesBox a:hover {
+.storyBox a:hover {
     text-decoration: none;
 }
 
-.liveCoursesBox .card {
+.storyBox .card {
     border: 1px solid #d8dee3;
 }
 
-.liveCoursesClassBox .card-text.story-title { 
+.storyClassBox .card-text.story-title { 
 	-webkit-line-clamp: 1;
 	min-height: 1rem;
 	margin-bottom: .85rem;
 	font-weight: 600;
 }
 
-.liveCoursesBox .slick-dots {
+.storyBox .slick-dots {
     margin: 14px 0;
     position: static;
 }
 
-.liveCoursesBox .slick-dots li button:before {
+.storyBox .slick-dots li button:before {
 	color: #C2000A;
 }
 
-.liveCoursesBox .slick-container .slick-wrapper .slick-prev {
+.storyBox .slick-container .slick-wrapper .slick-prev {
     left: -15px !important;
     z-index: 1;
 }
 
-.liveCoursesBox .slick-container .slick-wrapper .slick-next {
+.storyBox .slick-container .slick-wrapper .slick-next {
     right: 0px !important;
     z-index: 1;
 }
@@ -1353,12 +1358,12 @@ a:focus {
 }
 
 .videoLearnBox .card:hover,
-.liveCoursesBox .card:hover {
+.storyBox .card:hover {
     /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15); */
 }
 
 .videoLearnBox .card img,
-.liveCoursesBox .card img {
+.storyBox .card img {
     background-position: center center;
     background-size: cover;
     height: 100%;
@@ -1368,12 +1373,12 @@ a:focus {
 }
 
 .videoLearnBox .card-body,
-.liveCoursesBox .card-body {
+.storyBox .card-body {
     height: 100%;
 }
 
 .videoLearnBox .card-title,
-.liveCoursesBox .card-title {
+.storyBox .card-title {
     color: rgba(44, 67, 79, 1.0);
     display: -webkit-box;
     font-size: 24px;
@@ -1391,7 +1396,7 @@ a:focus {
 }
 
 .videoLearnBox .card-text,
-.liveCoursesBox .card-text {
+.storyBox .card-text {
     color: rgba(0, 0, 0, 0.56);
     font-size: 16px;
     line-height: 26px;
@@ -1399,7 +1404,7 @@ a:focus {
 }
 
 .videoLearnBox .card-detail,
-.liveCoursesBox .card-detail {
+.storyBox .card-detail {
     bottom: 15px;
     font-size: 13px;
     float: right;
@@ -1408,7 +1413,7 @@ a:focus {
 }
 
 .videoLearnBox .card-detail i,
-.liveCoursesBox .card-detail i {
+.storyBox .card-detail i {
     padding: 3px;
 }
 
@@ -1429,9 +1434,8 @@ a:focus {
 
 /* 四大學習保證
  */
- .gjunWeb2021-Content-learnPromise {
-    /* background-color: #f5f4f8;
-    background-color: #fffcf6; */
+ .gjunWeb2021-Content.gjunWeb2021-Content-learnPromise {
+    background-color: #ffffff;
     background-image: url(../images/picbg.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -2020,12 +2024,12 @@ a:focus {
 }
 
 .specialOffersBox .card:hover,
-.liveCoursesBox .card:hover {
+.storyBox .card:hover {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
 }
 
 .specialOffersBox .card img,
-.liveCoursesBox .card img {
+.storyBox .card img {
     background-position: center center;
     background-size: cover;
     height: 100%;
@@ -2034,12 +2038,12 @@ a:focus {
 }
 
 .specialOffersBox .card-body,
-.liveCoursesBox .card-body {
+.storyBox .card-body {
     height: 100%;
 }
 
 .specialOffersBox .card-title,
-.liveCoursesBox .card-title {
+.storyBox .card-title {
     color: rgba(44, 67, 79, 1.0);
     display: -webkit-box;
     font-size: 19px;
@@ -2054,7 +2058,7 @@ a:focus {
 }
 
 .specialOffersBox .card-text,
-.liveCoursesBox .card-text {
+.storyBox .card-text {
     color: rgba(0, 0, 0, 0.56);
     display: -webkit-box;
     line-height: 24px;
@@ -2067,12 +2071,12 @@ a:focus {
     -webkit-box-orient: vertical;
 }
 
-.liveCoursesBox .card-text span {
+.storyBox .card-text span {
     font-weight: 900;
 }
 
 .videoLearnBox .card-detail,
-.liveCoursesBox .card-detail,
+.storyBox .card-detail,
 .freeCoursesContentBox .card-detail {
     bottom: 15px;
     font-size: 13px;
@@ -2082,7 +2086,7 @@ a:focus {
 }
 
 .specialOffersBox .card-detail i,
-.liveCoursesBox .card-detail i,
+.storyBox .card-detail i,
 .freeCoursesContentBox .card-detail i {
     padding: 3px;
 }
@@ -3032,7 +3036,7 @@ a:focus {
 }
 
 @media screen and (min-width: 992px){
-		.liveCoursesBox .slick-slide.slick-active {
+		.storyBox .slick-slide.slick-active {
 			width: 50% !important;
 		}
 	}
@@ -3062,17 +3066,17 @@ a:focus {
     }
 
     /*學員見證*/
-    .liveCoursesClassBox .card-text {
+    .storyClassBox .card-text {
         padding-right: 0;
         -webkit-line-clamp: 5;
     }
 
-    .liveCoursesClassBox .card img {
+    .storyClassBox .card img {
         width: 40%;
         float: right;
     }
 
-    .liveCoursesClassBox .card-title {
+    .storyClassBox .card-title {
         margin-top: -58px;
     }
     
@@ -3098,7 +3102,7 @@ a:focus {
     .videoLearnBox .slick-dots {
         top: 70px;
     }
-	.liveCoursesBox .liveCoursesClassBox {
+	.storyBox .storyClassBox {
 		padding: 0 7.5px;
 	}
 
@@ -3212,12 +3216,12 @@ a:focus {
 
     /* Special Offers */
     .specialOffersBox .card-title,
-    .liveCoursesBox .card-title {
+    .storyBox .card-title {
         min-height: inherit;
     }
 
     .specialOffersBox .card-text,
-    .liveCoursesBox .card-text {
+    .storyBox .card-text {
         min-height: inherit;
     }
 
@@ -3393,19 +3397,19 @@ a:focus {
     }
 
     /*學員見證*/
-    .liveCoursesClassBox .card-text {
+    .storyClassBox .card-text {
         font-size: 16px;
         line-height: 1.5;
         padding-right: 0;
         -webkit-line-clamp: 6;
     }
 
-    .liveCoursesClassBox .card img {
+    .storyClassBox .card img {
         width: 50%;
         float: right;
     }
 
-    .liveCoursesClassBox.card-title {
+    .storyClassBox.card-title {
         margin-top: -40px;
     }
 
