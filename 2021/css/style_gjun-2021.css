@@ -1037,7 +1037,7 @@ a:focus {
 }
 
 /* IT 360 Courses */
-.it360ClassCard a:hover {
+/* .it360ClassCard a:hover {
     text-decoration: none;
 }
 
@@ -1117,7 +1117,7 @@ a:focus {
 .it360ClassCard .classCourse i {
     padding-right: 6px;
     opacity: 0.75;
-}
+} */
 
 /* Seminar Content (use untile 1221229) */
 .seminarContentBox .slick-container .slick-wrapper .slick-prev {
@@ -1434,7 +1434,7 @@ a:focus {
 
 /* 四大學習保證
  */
- .gjunWeb2021-Content.gjunWeb2021-Content-learnPromise {
+ /* .gjunWeb2021-Content.gjunWeb2021-Content-learnPromise {
     background-color: #ffffff;
     background-image: url(../images/picbg.svg);
     background-size: contain;
@@ -1462,8 +1462,6 @@ a:focus {
 .learnPromiseBox .card img {
     background-position: center center;
     background-size: cover;
-    /* height: 100%;
-    min-height: 148px; */
     object-fit: cover;
     border-radius: 0.25rem !important;
     position: relative;
@@ -1487,7 +1485,7 @@ a:focus {
     line-height: 26px;
     padding-right: 10px;
     padding-bottom: 10px;
-}
+} */
 
 
 
@@ -1608,6 +1606,10 @@ a:focus {
 }
 
 /* Teaching Channel */
+.gjunWeb2021-Content:has(.teachingChannelBox) {
+    background-color: #f5f4f8;
+}
+
 .teachingChannelBox .slick-container .slick-wrapper .slick-prev {
     left: -45px !important;
     z-index: 1;
@@ -2865,9 +2867,9 @@ a:focus {
 }
 
 /* latest news */
-.latestNewsBox {
+.gjunWeb2021-Content.latestNewsBox {
     display: block;
-    /*background-color: #e9f1f7;*/
+    background-color: #ffffff;
     /* padding-top: 50px;
     padding-bottom: 80px; */
 }
@@ -3082,7 +3084,7 @@ a:focus {
     
     /* 四大學習保證
     */
-    .gjunWeb2021-Content-learnPromise {
+    /* .gjunWeb2021-Content-learnPromise {
         background-image: none;
     }
 
@@ -3091,7 +3093,7 @@ a:focus {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: top left;
-    }
+    } */
 
 	.socialBtn {
         display: none !important;
@@ -3174,9 +3176,9 @@ a:focus {
         line-height: 48px;
     }
 	/* worker360 */
-	.it360CoursesBox .slick-it360Class {
+	/* .it360CoursesBox .slick-it360Class {
 		margin-bottom: 30px;
-	}
+	} */
 	/* seminar */
 	.seminarContentBox .slick-seminarClass {
 		margin-bottom: 30px;
