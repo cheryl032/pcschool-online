@@ -1,0 +1,1405 @@
+/* 
+fix v2023 old pages
+*/
+
+/*  */
+/* fix: bootstrap3 */
+@media (max-width: 767px) {
+
+  .col-xs-1,
+  .col-sm-1,
+  .col-md-1,
+  .col-lg-1,
+  .col-xs-2,
+  .col-sm-2,
+  .col-md-2,
+  .col-lg-2,
+  .col-xs-3,
+  .col-sm-3,
+  .col-md-3,
+  .col-lg-3,
+  .col-xs-4,
+  .col-sm-4,
+  .col-md-4,
+  .col-lg-4,
+  .col-xs-5,
+  .col-sm-5,
+  .col-md-5,
+  .col-lg-5,
+  .col-xs-6,
+  .col-sm-6,
+  .col-md-6,
+  .col-lg-6,
+  .col-xs-7,
+  .col-sm-7,
+  .col-md-7,
+  .col-lg-7,
+  .col-xs-8,
+  .col-sm-8,
+  .col-md-8,
+  .col-lg-8,
+  .col-xs-9,
+  .col-sm-9,
+  .col-md-9,
+  .col-lg-9,
+  .col-xs-10,
+  .col-sm-10,
+  .col-md-10,
+  .col-lg-10,
+  .col-xs-11,
+  .col-sm-11,
+  .col-md-11,
+  .col-lg-11,
+  .col-xs-12,
+  .col-sm-12,
+  .col-md-12,
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+/* .col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  width: 100%;
+} */
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 3px 0;
+}
+
+
+/*  */
+input[type="submit"].bgOrange {
+  background-color: #e6230a !important;
+  color: #ffffff !important;
+  margin: 15px auto 24px;
+  outline-width: 0px;
+    border-width: 0px;
+}
+
+input[type="submit"].bgOrange:hover,
+input[type="submit"].bgOrange:focus {
+  background-color: #b31c08 !important;
+  color: #ffffff !important;
+}
+
+/* .d-none {
+  display: none !important;
+} */
+@media (min-width: 1200px) {
+  .d-lg-flex {
+      display: -ms-flexbox !important;
+      display: -webkit-box !important;
+      display: flex !important;
+  }
+}
+
+
+body::-webkit-scrollbar {
+  display: initial;/* 燈箱有不明卷軸*/
+}
+
+/**************************
+我的個人資料 /about-me    strat
+*****************************/
+.tableItem3 {}
+
+.tableItem3 .form-inline .d-flex {
+  flex-wrap: wrap;
+}
+
+/* .tableItem3 .col-md-12 {
+  width: 100%;
+} */
+.tableItem3 input[type="submit"] {
+  margin: 4% 2% 7%;
+  background-color: #E6230A !important;
+  color: #ffffff !important;
+  border-width: 0px;
+  padding: 8px;
+  font-weight: bolder;
+}
+
+.container-fluid {
+  min-height: 47vh;
+}
+
+/* copy from about-me page */
+body.logining {
+  position: fixed;
+  left: 0;
+  width: calc(100% - 16px);
+}
+
+.redStar {
+  color: #e60012;
+}
+
+.form-inline2 input,
+.form-inline2 select {
+  margin-bottom: 10px;
+}
+
+@media (max-width:768px) {
+
+  .form-inline3 input,
+  .form-inline3 select {
+    margin-bottom: 10px;
+  }
+
+  .maxWidth90 {
+    max-width: 80%;
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  .marginTop10 {
+    margin-top: 10px;
+  }
+}
+
+.auto-style1 {
+  height: 138px;
+}
+
+.auto-style2 {
+  margin-bottom: 15px;
+  height: 138px;
+}
+
+.LineBtn {
+  float: none;
+  background-color: #00b900;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  max-width: 240px;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px 50px 5px 50px;
+  border: 0 none;
+}
+
+.LineBtn img {
+  width: 18%;
+  height: auto;
+}
+
+.button_system {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  line-height: 20px;
+  font-size: 16px;
+  min-width: 100px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 2.5px 0px;
+  border-radius: 25px;
+  transition: all 0.2s ease 0s;
+}
+
+.button_system:last-child {
+  margin-right: 0px;
+}
+
+.button_system:not(.cancel):hover {
+  top: -2.5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
+  /*color: #ff954d;*/
+}
+
+.button_system.cancel:hover {
+  top: -2.5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
+  color: #ff954d;
+}
+
+.button_system.focus {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 149, 77);
+}
+
+.button_system.cancel {
+  color: #ff954d;
+  background: #fff;
+  border: #ff954d 1px solid;
+}
+
+/* .d-none {
+  display: none!important;
+}
+.d-flex{
+  display: flex;
+} */
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.ml-sm-2 {
+  margin: 2px;
+}
+
+.py-2 {
+  padding: 2px;
+}
+
+.ml-4 {
+  margin-left: 6px;
+}
+
+.check_button {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.check_button .check {
+  color: #16C1AD;
+  font-size: 13px;
+  min-width: fit-content;
+  align-self: center;
+}
+
+.check_button .not_check {
+  color: #AAAAAA;
+  font-size: 13px;
+  min-width: fit-content;
+  align-self: center;
+}
+
+.check_button .not_check img,
+.check_button .check img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+/**************************
+我的個人資料 /about-me    end
+*****************************/
+
+
+
+
+/**************************
+學員上課簽到 /signin   strat
+*****************************/
+/*    /2017/css/qrcode/main.css   */
+/**************************
+學員上課簽到 /signin   end
+*****************************/
+
+
+/**************************
+電腦技能一學就會 /video-learning   strat
+*****************************/
+.section-livecourse .btnFBShare {
+  border: 2px solid #1B4CAE;
+    color: #1B4CAE;
+    padding: 5px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transform: .3s ease;
+}
+.section-livecourse .btnFBShare:hover,
+.section-livecourse .btnFBShare:focus {
+  background-color: #1B4CAE;
+  color: #ffffff;
+}
+/**************************
+電腦技能一學就會 /video-learning   end
+*****************************/
+
+
+
+
+
+
+/**************************
+共用 /default2.master 模版:
+電腦Live直播講堂 /livecourse,
+電腦技能一學就會 /video-learning,
+聯絡我們 /contact-us
+滿意度調查(課程服務問卷填寫) /questionnaire,
+我的課表 /calendar
+
+NOTES: .section-livecourse
+strat
+*****************************/
+.section-livecourse {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+.section-livecourse h2 {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.panel5Item {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+.panel5ItemTitle,
+.panel5ItemText {
+  color: black;
+  text-align: center;
+  height: 50px;
+  line-height: 25px;
+  overflow: hidden;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.panel5Item:after {
+  content: '\e114';
+  font-family: 'Glyphicons Halflings';
+  color: #00CCCC;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  top: 0;
+}
+
+.section-livecourse {
+  padding-top: 90px;
+}
+.section-livecourse .submitBtn {}
+
+/* fix: 我的課表,課程行事曆 */
+.section-livecourse .nav-tabs > li {
+  width: unset !important;
+}
+.section-livecourse .nav-tabs > li > a {
+  padding: 5px 10px;
+}
+
+/* fix: 滿意度調查(課程服務問卷填寫) */
+.member-wrapper .member-q .course-q .intro h2 {
+  display: flex;
+    flex-wrap: wrap;
+}
+.member-wrapper .member-q .course-q .intro h2 span {
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* 設定顯示 1 行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 學員公告 /school-bulletin start */
+.section-livecourse .row-schoolBulletin {}
+.section-livecourse .row-schoolBulletin .btn {
+  border: 1px solid #aaa;
+  padding: 5px 15px;
+}
+.section-livecourse .row-schoolBulletin .dropdown-toggle::after {
+  content: none;
+}
+.section-livecourse .row-schoolBulletin .itemWrapper {
+  border: 1px solid #dadada;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: border .3s ease-in;
+}
+.section-livecourse .row-schoolBulletin .itemWrapper:hover,
+.section-livecourse .row-schoolBulletin .itemWrapper:focus {
+  border-color: #1251cf;
+}
+.section-livecourse .row-schoolBulletin .table1date {
+  margin: 10px 0px 15px 0px;
+}
+.section-livecourse .row-schoolBulletin .table1more {
+  margin: 5px 0 5px 0;
+  background-color: #fff;
+  display: block;
+  padding: 8px 10px;
+  text-align: right;
+  position: relative;
+}
+.section-livecourse .row-schoolBulletin .table1more:before {
+  width: 100%;
+  content: '';
+  position: absolute;
+  height: 30px;
+  left: 0;
+  top: -30px;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+}
+
+/* inside modal */
+#formdataWrapper {
+  line-height: 1.6;
+}
+#formdataWrapper .panel2Header {
+  color: #333333;
+  margin-bottom: 12px;
+}
+#formdataWrapper #postContent {}
+#formdataWrapper table td {
+  border: 1px solid #dddddd;
+  line-height: 1.8;
+}
+
+/* NOTES: fix 和學員權益說明頁共用 .table1in-page, 學員權益說明沒有.itemWrapper */
+.itemWrapper .table1in-page {
+  cursor: pointer;
+  /* font-size: 20px; */
+  height: 85px;
+  overflow: hidden;
+}
+
+/* NOTES: defaultMaster.css 也有 */
+#formdataWrapper .postContent {}
+.panel2Wrapper {
+  width: 100%;
+}
+
+/* 學員公告 /school-bulletin end */
+
+
+
+
+
+/* 學員權益說明 /customer-rights */
+.section-livecourse .row-customerRights {
+  padding-bottom: 90px;
+}
+
+
+
+
+/******我的課表 /calendar   strat ***/
+#classList .datalistItem {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 20px 5px;
+}
+
+  #classList .datalistItem:nth-child(odd) {
+      background-color: lightgray;
+  }
+
+  #classList .datalistItem:nth-child(even) {
+      background-color: khaki;
+  }
+
+.calendar {
+  text-align: center;
+}
+
+  .calendar td {
+      background-color: white;
+      color: black;
+  }
+
+  .calendar a {
+      border: 1px solid red;
+      color: black;
+      border-radius: 5px;
+      display: block;
+  }
+
+  .datalistItem a[name^="jumper"] {
+      position:relative;
+      top:-60px;
+  }
+
+  .couresesCollection input {
+      display:none;
+  }
+
+  .seemon-wrapper .day {
+      cursor: default;
+  }
+
+  .section-livecourse .couresesDateBottomgroup .navbar-nav{
+    width:100%;
+    position:relative;  
+    text-align: center;
+    margin:0 0 30px 0;
+    padding-top: 10px;
+    float: none;
+    display: block; /* fix: nav-footer-v2023-old.css, .navbar-nav */
+  }
+  
+  .section-livecourse .COURESES .card .row {   /* fix: 我的課表 /calendar */
+    display: block;
+  }
+
+/******我的課表 /calendar   end ***/
+
+
+/******就業獎學金 /career-reward   start ***/
+
+.section-livecourse table {
+  /* width: 100% !important; */
+  max-width: 100% !important;
+  /* font-family: "Noto Sans TC", "微軟正黑體", "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+/* 申請辦法*/
+.row-careerReward {}
+.row-careerReward a {}
+.row-careerReward .t1 a {
+  font-family: "Noto Sans TC", "微軟正黑體", "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: fit-content;
+  padding: 8px 15px;
+  border-radius: 10px;
+  margin: 2% 0;
+  border: 2px solid #1B4CAE;
+  color: #1B4CAE !important;
+  font-size: 16px;
+}
+.row-careerReward .t1 a:hover,
+.row-careerReward .t1 a:focus {
+  background-color: #1B4CAE !important;
+  color: #ffffff !important;
+}
+
+/* 我要申請 */
+.row-scholarshipApply {
+  justify-content: center;
+}
+
+/******就業獎學金 /career-reward   end ***/
+
+/**************************
+共用 /default2.master 模版:
+電腦Live直播講堂 /livecourse,
+電腦技能一學就會 /video-learning,
+聯絡我們 /contact-us
+滿意度調查(課程服務問卷填寫) /questionnaire,
+我的課表 /calendar
+
+NOTES: .section-livecourse
+end
+*****************************/
+
+
+
+
+
+
+/**************************
+聯絡我們 /contact-us  strat
+*****************************/
+.section-contact .submitBtn {}
+
+
+/**************************
+聯絡我們 /contact-us  end
+*****************************/
+
+
+/**************************
+課程查詢 /courses  start
+*****************************/
+
+/*  from /2015/css/onlineClassMark.css - start */
+.onlineClassMark {
+	border: 2px solid #008dc2;
+	border-radius: 24px 24px;
+	color: #008dc2 !important;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 2px 0;
+	text-align: center;
+	width: 70%;
+}
+.onlineClassMark a {
+	color: #008dc2 !important;
+}
+.onlineClassMark:hover {
+	background: #008dc2;
+	color: #FFFFFF !important;
+}
+.onlineClassMark a:hover {
+	color: #FFFFFF !important;
+}
+.onlineClassMark i {
+	padding-right: 5px;
+}
+.onlineClassNote {
+	color: #008dc2 !important;
+	font-size: 15px;
+	padding-right: 5px;
+}
+.onlineClassNote-book {
+	margin-left: -25px;
+}
+.onlineClassDisplay {
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+}
+
+.couresesInformationPicTeacherNewsflow {
+	min-height: 215px;
+}
+
+/* --撟單踎�����2-------------------------------------*/
+@media screen and (max-width: 768px) {
+    .couresesInformationPicTeacherNewsflow {
+        min-height: inherit;
+    }
+}
+/*  from /2015/css/onlineClassMark.css - end */
+
+/* from https://beta3w.pcschool.com.tw/2015/inqclass/css/layout.css - start */
+.course-section { 
+	padding: 0 0;/*增加多元學習模式區塊,需滿版故更新*/
+}
+
+.rwd-table {
+  min-width: 100%;
+ width: 100%;
+ }
+ /*增加多元學習模式區塊樣式 start*/
+.contentBG {
+  background: #f5f4f8;
+  background: linear-gradient(180deg, rgba(245,244,248,1) 0%, rgba(245,244,248,1) 35%, rgba(255,255,255,1) 100%);
+}
+
+.allRound {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  -webkit-text-size-adjust: none;
+}
+
+.allRound .subTitle {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #434343;
+  text-align: center;
+  margin-bottom: 15px
+}
+
+.allRound .subTitle p {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.allRound .WRAPPER {
+  /*background: #fff;*/
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 15px 15px 0px 15px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.row-for-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.allRound .row-for-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 0;
+}
+
+.allRound .WRAPPER .card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  border: #d8dee3 1px solid;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.allRound .WRAPPER .card .card-body {
+  display: block;
+  /* overflow: hidden; */
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #df2012;
+  padding: 15px;
+}
+
+.allRound .WRAPPER .card .card-bodyColor {
+  width: 100%;
+}
+
+.card-bodyColor1 {
+  width: 100%;
+  background: rgba(255,234,96,.25);
+  text-align: left;
+  padding:15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+border-bottom: 5px solid #008dc2;
+}
+
+.card-bodyColor2 {
+  width: 100%;
+  background: rgba(255,234,96,.25);
+  text-align: left;
+  padding:15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+border-bottom: 5px solid #f25757;
+}
+
+.card-bodyColor3 {
+  width: 100%;
+  background: rgba(255,234,96,.25);
+  text-align: left;
+  padding:15px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: 5px solid #30badd;
+}
+
+.allRound .WRAPPER .card .card-body .card-title {
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #434343;
+  margin-bottom: 15px;
+letter-spacing: 0.15rem;
+}
+
+.allRound .WRAPPER .card .card-bodyColor1 .card-title1,
+.allRound .WRAPPER .card .card-bodyColor2 .card-title1,
+.allRound .WRAPPER .card .card-bodyColor3 .card-title1 {
+  font-size: 21px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #436df5;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.allRound .WRAPPER .card .card-body .card-text {
+  /* max-height: 80px;
+  height: 100%; */
+  font-size: 15px;
+  line-height: 1.5;
+  color: #434343;
+  text-align: justify;
+  padding: 0 10px;
+  font-weight: normal;
+}
+
+.allRound .WRAPPER .card .card-bodyColor1 .card-text1 ul,
+.allRound .WRAPPER .card .card-bodyColor2 .card-text1 ul,
+.allRound .WRAPPER .card .card-bodyColor3 .card-text1 ul {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #434343;
+  text-align: left;
+  /* list-style-image: url("../images/ul.png"); */
+  font-weight: bold;
+}
+
+.allRound .WRAPPER .card .card-bodyColor1 .card-text1 ul li,
+.allRound .WRAPPER .card .card-bodyColor2 .card-text1 ul li,
+.allRound .WRAPPER .card .card-bodyColor3 .card-text1 ul li {
+  position: relative;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.allRound .WRAPPER .card .card-bodyColor1 .card-text1 ul li::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #008dc2;
+  left: -19px;
+  top: 12px;
+}
+.allRound .WRAPPER .card .card-bodyColor2 .card-text1 ul li::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #f25757;
+  left: -19px;
+  top: 12px;
+}
+.allRound .WRAPPER .card .card-bodyColor3 .card-text1 ul li::before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #30badd;
+  left: -19px;
+  top: 12px;
+}
+@media screen and (max-width: 991px) {
+  .allRound .WRAPPER .card .card-body .card-text {
+      height: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .allRound .WRAPPER .card .card-bodyColor1 .card-text1 ul,
+  .allRound .WRAPPER .card .card-bodyColor2 .card-text1 ul,
+  .allRound .WRAPPER .card .card-bodyColor3 .card-text1 ul {
+    max-width: 320px;
+    margin: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .COURESES { 
+    padding: 20px 15px;
+    }
+  }
+/*增加多元學習模式區塊樣式 end*/
+/* from https://beta3w.pcschool.com.tw/2015/inqclass/css/layout.css - end */
+
+
+
+/**************************
+課程查詢 /courses  end
+*****************************/
+
+
+/**************************
+課程查詢 /courses
+科技產業趨勢情報 /tech-news
+電腦學習密技 /study-technical
+巨匠電腦得獎榮耀 /pcschool-news
+
+NOTES: .section-tech-news 模版
+start
+*****************************/
+.page-tech-news {}
+
+.section-tech-news {
+  padding-top: 90px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.section-tech-news h1 {
+  font-size: 32px;
+}
+
+.section-tech-news .fontBlue {
+  color: #777777 !important;
+}
+
+.section-tech-news .fb-share-button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+  /* fix: jQuery Click Events Not Working In Mobile Safari */
+  font-weight: 500;
+  color: #1B4CAE;
+  border: 2px solid #1B4CAE;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.section-tech-news .fb-share-button:focus,
+.section-tech-news .fb-share-button:hover {
+  background-color: #1B4CAE;
+  color: #ffffff;
+}
+
+.section-tech-news .fb-share-button~.fontBlue {
+  display: inline-block;
+}
+
+.section-tech-news .fb-xfbml-parse-ignore {
+  color: #1B4CAE;
+}
+
+.section-tech-news .fb-share-button:focus .fb-xfbml-parse-ignore,
+.section-tech-news .fb-share-button:hover .fb-xfbml-parse-ignore,
+.section-tech-news .fb-share-button:focus a,
+.section-tech-news .fb-share-button:hover a {
+  color: #ffffff;
+}
+
+/* only for 電腦學習密技 */
+.section-tech-news .fb-like {
+  /* padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer; */
+  /* fix: jQuery Click Events Not Working In Mobile Safari */
+  font-weight: 500;
+  color: #1B4CAE;
+  /* border: 2px solid #1B4CAE; */
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.section-tech-news .fb-like::after {
+  /* content: "分享";
+  display: inline-block; */
+  color: #1B4CAE;
+}
+
+/* fix  */
+.section-tech-news .fb-like ~ .fb-like {
+  display: none;
+}
+
+.section-tech-news .blog-article-table-2 {
+  margin: 2% 0;
+}
+
+.section-tech-news .couresesCollectionPicTeacherSignClass {
+  padding: 5px 10px 4px;
+}
+
+.section-tech-news .couresesCollectionPicTeacherSignClass:hover,
+.section-tech-news .couresesCollectionPicTeacherSignClass:focus {
+  background-color: #1251cf;
+}
+
+.section-tech-news .linker,
+.section-tech-news .vlinker {
+  color: #ffffff !important;
+}
+
+.section-tech-news img {
+  height: unset !important;
+  max-width: 100%;
+}
+
+
+/* only for 課程查詢 /courses */
+.iYearMonth {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+  .iYearMonth li {
+      list-style: none;
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+  }
+
+.iCourse label, .iCourse input[type="checkbox"] {
+  margin-bottom: 15px;
+}
+
+.couresesCollectionPicTeacherSignClass a {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 4px 10px 2px 10px;
+}
+
+.search-more {
+  cursor: pointer;
+}
+
+.SystemNeed {
+  margin: 10px auto;
+}
+
+.couresesInformationPicClass {
+  overflow: visible;
+}
+
+
+/****** 巨匠電腦得獎榮耀 /pcschool-news  start
+*****************************/
+.article-contents {
+  max-width: 1024px;
+  text-align: justify;
+  text-align-last: left;
+  letter-spacing: 0.15rem;
+  line-height: 1.5;
+  color: #575757;
+  margin: 0 auto;
+}
+
+.article-contents .text-section {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.article-contents .text-section-h2 {
+  margin: 3rem 0;
+  padding: 0 15px;
+  line-height: 1.6;
+  /* letter-spacing: 1px; */
+}
+
+.article-contents .text-section h2,
+.article-contents .text-section-h2 h2 {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  font-size: 2rem;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.highlight {
+  color: rgba(227, 108, 10, 1);
+  font-weight: normal;
+}
+
+span.highlight2 {
+  color: #428bca;
+  font-weight: bold;
+}
+
+p.pic-note {
+  font-size: 14px;
+  color: #707070;
+  padding: 5px 0;
+  line-height: 1.25;
+}
+
+.pictures-center {
+  display: flex;
+  justify-content: center;
+}
+
+div.picture img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.recommend {
+  background: #f5f4f8;
+  font-weight: 800;
+  padding: 3rem 2rem;
+}
+
+.recommend a {
+  color: #575757;
+  font-weight: 400;
+  border-bottom: 2px solid #C2000A;
+}
+
+.recommend a:hover,
+.text-section a:hover {
+  text-decoration: none;
+}
+
+a.text-link {
+  display: inline;
+  color: #575757;
+  border-bottom: 2px solid #C2000A;
+  padding: 0 2px;
+}
+
+a.text-link:hover {
+  font-weight: bold;
+}
+
+.article-contents .recommend {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .article-contents .text-section {
+    display: block;
+    margin: 3rem 0;
+  }
+
+  .article-contents .picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-contents .col-xs-12.picture,
+  .article-contents .picture,
+  .recommend {
+    margin: 2.5rem 0 !important;
+  }
+
+  div.picture img {
+    max-width: 500px;
+    width: 85%;
+    height: auto;
+  }
+
+  .recommend a {
+    /*display: inline;*/
+  }
+}
+.section-tech-news a .listItemWrapper {}
+.section-tech-news a .listItemWrapper:hover,
+.section-tech-news a .listItemWrapper:focus {
+  opacity: 0.85;
+}
+.section-tech-news .listItemIntro {
+  color: #333333;
+}
+
+
+/****** 巨匠電腦得獎榮耀 /pcschool-news  end
+*****************************/
+
+
+/****** 登記課程 /freecourse start
+*****************************/
+.page-tech-news .btnAreaPicker {
+  background-color: #eee;
+}
+.page-tech-news .btnAreaPicker.dropdown-toggle::after {
+  content: none;
+}
+/****** 登記課程 /freecourse end
+*****************************/
+
+/**************************
+課程查詢 /courses
+科技產業趨勢情報 /tech-news
+電腦學習密技 /study-technical
+巨匠電腦得獎榮耀 /pcschool-news
+登記課程 /freecourse
+NOTES: .section-tech-news 模版
+end
+*****************************/
+
+
+
+/**************************
+學員公告 /school-bulletin,
+學員權益說明 /customer-rights,
+我的收藏課程 /course-collection
+NOTES: .section-livecourse 模版
+
+start
+*****************************/
+
+.table1article {
+  width: 100%;
+  font-size: 22px;
+  color: #1B4CAE; /*orange: #eb6100;*/
+  /* text-decoration: underline; */
+  margin: 30px 0px 10px 0px;
+}
+
+.itemWrapper {
+  border-bottom: 1px dotted #7d7d7d;
+  margin-bottom: 20px;
+}
+.itemWrapper:hover, .itemWrapper:focus {
+  opacity: 0.85;
+}
+
+.itemWrapper:last-child {
+  border-bottom: none;
+}
+
+.table1date {
+  width: 100%;
+  font-size: 13px;
+  color: #959595;
+  margin: 10px 0px 30px 0px;
+}
+
+/* for 學員權益說明 */
+.table1in-page {
+  width: 100%;
+  color: #1b1b1b;
+  line-height: 30px;
+  position: relative;
+}
+
+
+
+
+.table1more {
+  font-size: 13px;
+  color: #448aca;
+  margin: 15px 0 15px 0;
+  display: inline-block;
+}
+
+.agree1Link,
+.agree1Link:hover,
+.agree1Link:visited,
+.agree1Link:focus {
+  display: inline;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #0000ff !important;
+  font-weight: bold;
+  text-decoration: underline;
+  outline: 0 none !important;
+}
+
+.btnPlayGame {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 898;
+  /*max-width: 300px;*/
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.btnPlayGame>img {
+  cursor: pointer;
+}
+
+.btnPlayGameIframe {
+  position: fixed;
+  left: 0;
+  bottom: -1080px;
+  /*z-index: 897;*/
+  z-index: 999 !important;
+  width: 300px;
+  overflow: hidden;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btnClassSchedule {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 897;
+  background-color: #FF3B3B;
+  text-align: center;
+}
+
+.btnGoTop {
+  position: fixed;
+  right: 10px;
+  bottom: 60px;
+  z-index: 899;
+  background-color: #4B2F86;
+  color: white;
+  border-radius: 90px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.table1article01 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f39700;
+  margin: 30px 0px 15px 0px;
+}
+
+/* only for 學員權益說明 /customer-rights */
+.table1article02 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f39700;
+  margin: 30px 0px 15px 0px;
+}
+
+.table1in-page01 {
+  width: 100%;
+  font-size: 20px;
+  color: #1b1b1b;
+  line-height: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+
+/* 我的收藏課程 /course-collection */
+.section-livecourse .collection {
+  width: 100%;
+}
+
+/**************************
+學員公告 /school-bulletin,
+學員權益說明 /customer-rights,
+NOTES: .section-livecourse
+
+end
+*****************************/
+
+
+
+
+
+
+/**************************
+我的個人資料 /about-me  start
+*****************************/
+/*  */
+.container-aboutMe {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+
+/**************************
+我的個人資料 /about-me  end
+*****************************/
+
+
+
+/**************************
+巨 匠 學 員 作 品 /student-show  start
+*****************************/
+.CONTENT1 .container .CONTENT1imgBox .imgBoxName1 img {
+  width: 100%;
+}
+/**************************
+巨 匠 學 員 作 品 /student-show  start
+*****************************/

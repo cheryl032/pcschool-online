@@ -1,0 +1,1012 @@
+@charset "UTF-8";
+@-webkit-viewport {
+  width: device-width; }
+
+@-moz-viewport {
+  width: device-width; }
+
+@-ms-viewport {
+  width: device-width; }
+
+@-o-viewport {
+  width: device-width; }
+
+@viewport {
+  width: device-width; }
+
+ol,
+ul {
+  list-style: none;
+  margin-bottom: 0px; }
+
+html,
+body,
+form {
+  height: 100%;
+  font-family: Arial, Helvetica, "source-han-sans-traditional", "微軟正黑體", "Microsoft JhengHsans",
+ sans-serif; }
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none; }
+
+.noMargin {
+  padding-left: 0;
+  padding-right: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, "source-han-sans-traditional", "微軟正黑體", "Microsoft JhengHsans",
+ sans-serif; }
+
+.container-fluid {}
+
+
+.TOP {
+  width: 100%;
+  height: auto;
+  padding-top: 90px;
+  padding-bottom: 30px; }
+  .TOP .container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 960px; }
+    .TOP .container h1 {
+      font-size: 40px;
+      color: #000;
+      line-height: 1.3;
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: 500; }
+      .TOP .container h1 p {
+        font-size: 20px;
+        line-height: 1.3;
+        font-weight: 600;
+        margin-top: 10px; }
+        .TOP .container h1 p span {
+          margin-right: 45px; }
+        @media (max-width: 320px) {
+          .TOP .container h1 p {
+            font-size: 18px; } }
+      @media (max-width: 320px) {
+        .TOP .container h1 {
+          font-size: 36px; } }
+    .TOP .container .line {
+      width: 50px;
+      height: 5px;
+      background-color: #e22612;
+      margin: 0 auto; }
+    .TOP .container .detail {
+      width: 100%;
+      height: auto;
+      padding: 30px 15px 0 15px;
+      text-indent: -0.5em; }
+      .TOP .container .detail ul {
+        padding-left: 5px; }
+      .TOP .container .detail ul li {
+        font-size: 14px;
+        /* line-height: 1.3; */
+    }
+
+.CONTENT1 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px; }
+  .CONTENT1 .container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1600px; }
+    .CONTENT1 .container .CONTENT1imgBox {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      height: 100px; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName1 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/RWD-010F.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName1 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName1 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName1 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName1 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName1 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName1 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName2 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/RWD-010A.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName2 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName2 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName2 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName2 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName2 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName2 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName3 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/RWD-010B.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName3 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName3 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName3 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName3 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName3 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName3 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName4 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/RWD-010C.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName4 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName4 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName4 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName4 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName4 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName4 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/RWD-010D.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName5 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName5 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName5 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName5 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName5 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName5 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName6 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/RWD-010E.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName6 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName6 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName6 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName6 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName6 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName6 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName7 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/img01.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName7 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName7 .backgroundImg {
+              padding: 25px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName7 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName7 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName7 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName7 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName8 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/img02.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName8 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName8 .backgroundImg {
+              padding: 25px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName8 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName8 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName8 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName8 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName9 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/img03.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName9 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName9 .backgroundImg {
+              padding: 25px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName9 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName9 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName9 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName9 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName10 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/img04.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName10 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName10 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName10 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName10 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName10 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName10 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .imgBoxName11 {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 100px;
+        margin: 15px 1px;
+        cursor: pointer;
+        background-image: url(../images/img05.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover; }
+        .CONTENT1 .container .CONTENT1imgBox .imgBoxName11 .backgroundImg {
+          position: absolute;
+          width: 100%;
+          height: 100px;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 30px 15px 0 15px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0; }
+          @media (max-width: 375px) {
+            .CONTENT1 .container .CONTENT1imgBox .imgBoxName11 .backgroundImg {
+              padding: 35px 15px 0 15px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName11 .backgroundImg p {
+            font-size: 18px;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+            z-index: 3;
+            font-weight: 600; }
+            @media (max-width: 375px) {
+              .CONTENT1 .container .CONTENT1imgBox .imgBoxName11 .backgroundImg p {
+                font-size: 16px; } }
+          .CONTENT1 .container .CONTENT1imgBox .imgBoxName11 .backgroundImg:hover, .CONTENT1 .container .CONTENT1imgBox .imgBoxName11 .backgroundImg:focus {
+            background: #da2310; }
+      .CONTENT1 .container .CONTENT1imgBox .slick-next {
+        top: 60px;
+        right: 2px; }
+      .CONTENT1 .container .CONTENT1imgBox .slick-prev {
+        top: 60px;
+        left: 2px;
+        z-index: 99; }
+
+.CONTENT2 {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 60px; }
+  .CONTENT2 .container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1600px; }
+    .CONTENT2 .container h2 {
+      font-size: 28px;
+      color: #000;
+      line-height: 1.3;
+      text-align: center;
+      margin-bottom: 60px;
+      font-weight: 500; }
+    .CONTENT2 .container .collection {
+      float: left;
+      width: 18%;
+      height: 300px;
+      margin: 0 1%;
+      margin-bottom: 15px; }
+      @media (max-width: 1400px) {
+        .CONTENT2 .container .collection {
+          width: 23%; } }
+      @media (max-width: 1280px) {
+        .CONTENT2 .container .collection {
+          width: 31.2%; } }
+      @media (max-width: 991px) {
+        .CONTENT2 .container .collection {
+          width: 48%; } }
+      @media (max-width: 639px) {
+        .CONTENT2 .container .collection {
+          width: 98%; } }
+      .CONTENT2 .container .collection p {
+        position: relative;
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 600;
+        text-align: left;
+        color: #000;
+        padding: 15px 0; }
+        .CONTENT2 .container .collection p img {
+          margin-right: 5px;
+          margin-top: -3px; }
+        .CONTENT2 .container .collection p span {
+          position: absolute;
+          text-align: right;
+          font-size: 16px;
+          font-weight: 400px;
+          color: #656565;
+          top: 15px;
+          right: 5px; }
+      .CONTENT2 .container .collection .picture {
+        position: relative;
+        width: 100%;
+        height: 230px;
+        background-image: url(../images/f01f0d7f-a2af-47fc-a8c0-028fc42178f1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 5px; }
+        .CONTENT2 .container .collection .picture .heading {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          font-size: 18px;
+          line-height: 1.3;
+          color: #fff;
+          font-weight: 600;
+          padding: 10px 15px;
+          background-color: rgba(0, 0, 0, 0.5);
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px; }
+    .CONTENT2 .container .btnMoreWorks {
+      width: 180px;
+      height: auto;
+      background-color: #e12713;
+      padding: 8px;
+      font-size: 20px;
+      line-height: 1.3;
+      color: #fff;
+      margin: 0 auto;
+      text-align: center;
+      cursor: pointer; }
+
+.lightbox-target {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.8); }
+
+.CONTENT3 {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  /* 關閉 Lightbox 按鈕的位置及樣式 */ }
+  .CONTENT3 .container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    padding: 0 120px; }
+    @media (max-width: 767px) {
+      .CONTENT3 .container {
+        max-width: 1200px;
+        padding: 15px 0; } }
+    .CONTENT3 .container .lightboxWorks {
+      float: right;
+      width: auto;
+      height: auto;
+      margin: 0 15px; }
+      .CONTENT3 .container .lightboxWorks p {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        line-height: 1.3;
+        border: 1px solid #fff;
+        padding: 5px 15px;
+        color: #fff;
+        text-align: center; }
+      @media (max-width: 768px) {
+        .CONTENT3 .container .lightboxWorks {
+          float: none;
+          width: 50%;
+          margin: 0 auto;
+          margin-bottom: 30px; }
+          .CONTENT3 .container .lightboxWorks p {
+            font-size: 18px; } }
+      @media (max-width: 479px) {
+        .CONTENT3 .container .lightboxWorks {
+          float: none;
+          width: 98%;
+          margin: 0 auto; } }
+    .CONTENT3 .container .lightboxWorksName {
+      width: 100%;
+      height: auto;
+      padding: 15px 0;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #fff; }
+      .CONTENT3 .container .lightboxWorksName span {
+        font-size: 24px;
+        font-weight: 600; }
+        @media (max-width: 425px) {
+          .CONTENT3 .container .lightboxWorksName span {
+            font-size: 24px; } }
+      @media (max-width: 425px) {
+        .CONTENT3 .container .lightboxWorksName {
+          font-size: 16px;
+          margin: 0;
+          padding: 15px 0; } }
+      @media (max-width: 767px) {
+        .CONTENT3 .container .lightboxWorksName {
+          padding: 15px; } }
+    .CONTENT3 .container .lightboxWorksPic {
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin: 15px 0; }
+      .CONTENT3 .container .lightboxWorksPic img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px; }
+      .CONTENT3 .container .lightboxWorksPic p {
+        font-size: 18px;
+        line-height: 1.3;
+        color: #fff;
+        padding: 15px 0; }
+        @media (max-width: 767px) {
+          .CONTENT3 .container .lightboxWorksPic p {
+            padding: 15px; } }
+      .CONTENT3 .container .lightboxWorksPic .arrowLeft {
+        position: absolute;
+        width: 80px;
+        height: auto;
+        bottom: 15px;
+        left: -100px; }
+        .CONTENT3 .container .lightboxWorksPic .arrowLeft p {
+          width: 50px;
+          height: 50px;
+          background-color: #434343;
+          border-radius: 50%;
+          font-size: 24px;
+          line-height: 1.1;
+          color: #fff;
+          text-align: center;
+          margin: 10px 15px; }
+          @media (max-width: 767px) {
+            .CONTENT3 .container .lightboxWorksPic .arrowLeft p {
+              width: 10px;
+              height: 10px;
+              background-color: transparent; } }
+        .CONTENT3 .container .lightboxWorksPic .arrowLeft span {
+          font-size: 16px;
+          line-height: 1.3;
+          font-weight: 400;
+          color: #fff;
+          text-align: center; }
+          @media (max-width: 767px) {
+            .CONTENT3 .container .lightboxWorksPic .arrowLeft span {
+              display: none; } }
+        @media (max-width: 767px) {
+          .CONTENT3 .container .lightboxWorksPic .arrowLeft {
+            bottom: 700px;
+            left: -25px; } }
+      .CONTENT3 .container .lightboxWorksPic .arrowRight {
+        position: absolute;
+        width: 80px;
+        height: auto;
+        bottom: 15px;
+        right: -100px; }
+        .CONTENT3 .container .lightboxWorksPic .arrowRight p {
+          width: 50px;
+          height: 50px;
+          background-color: #434343;
+          border-radius: 50%;
+          font-size: 24px;
+          line-height: 1.1;
+          color: #fff;
+          text-align: center;
+          margin: 10px 15px; }
+          @media (max-width: 767px) {
+            .CONTENT3 .container .lightboxWorksPic .arrowRight p {
+              width: 10px;
+              height: 10px;
+              background-color: transparent; } }
+        .CONTENT3 .container .lightboxWorksPic .arrowRight span {
+          font-size: 16px;
+          line-height: 1.3;
+          font-weight: 400;
+          color: #fff;
+          text-align: center; }
+          @media (max-width: 767px) {
+            .CONTENT3 .container .lightboxWorksPic .arrowRight span {
+              display: none; } }
+        @media (max-width: 767px) {
+          .CONTENT3 .container .lightboxWorksPic .arrowRight {
+            bottom: 700px;
+            right: -25px; } }
+    .CONTENT3 .container .lightboxWorksMore {
+      width: 100%;
+      height: auto;
+      font-size: 24px;
+      line-height: 1.6;
+      color: #fff;
+      font-weight: 900;
+      margin-bottom: 15px; }
+      @media (max-width: 767px) {
+        .CONTENT3 .container .lightboxWorksMore {
+          font-size: 24px;
+          padding: 15px; } }
+    .CONTENT3 .container .collection {
+      float: left;
+      width: 23%;
+      height: 230px;
+      margin: 0 1%;
+      margin-bottom: 25px; }
+      @media (max-width: 1024px) {
+        .CONTENT3 .container .collection {
+          width: 48%; } }
+      @media (max-width: 767px) {
+        .CONTENT3 .container .collection {
+          height: 300px;
+          width: 98%; } }
+      .CONTENT3 .container .collection p {
+        position: relative;
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 600;
+        text-align: left;
+        color: #fff;
+        padding: 15px 0; }
+        .CONTENT3 .container .collection p img {
+          margin-right: 5px;
+          margin-top: -3px; }
+        .CONTENT3 .container .collection p span {
+          position: absolute;
+          text-align: right;
+          font-size: 13px;
+          font-weight: 400px;
+          color: #fff;
+          top: 15px;
+          right: 5px; }
+        @media (max-width: 767px) {
+          .CONTENT3 .container .collection p {
+            width: 80%;
+            margin: 0 auto; } }
+      .CONTENT3 .container .collection .picture {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background-image: url(../images/f2a93e80-2aad-44cf-b005-1afd3ac8bb33.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 5px; }
+        .CONTENT3 .container .collection .picture .heading {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          font-size: 18px;
+          line-height: 1.3;
+          color: #fff;
+          font-weight: 600;
+          padding: 10px 15px;
+          background-color: rgba(0, 0, 0, 0.8);
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px; }
+        @media (max-width: 767px) {
+          .CONTENT3 .container .collection .picture {
+            width: 80%;
+            height: 250px;
+            margin: 0 auto; } }
+  .CONTENT3 .lightboxWorksLine {
+    width: 60%;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+    @media (max-width: 1600px) {
+      .CONTENT3 .lightboxWorksLine {
+        width: 80%; } }
+    @media (max-width: 991px) {
+      .CONTENT3 .lightboxWorksLine {
+        width: 90%; } }
+    @media (max-width: 900px) {
+      .CONTENT3 .lightboxWorksLine {
+        width: 98%; } }
+    @media (max-width: 767px) {
+      .CONTENT3 .lightboxWorksLine {
+        display: none; } }
+  .CONTENT3 .containerText {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 840px; }
+    .CONTENT3 .containerText p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #fff;
+      padding: 15px; }
+  .CONTENT3 .lightbox-close {
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    -moz-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.5s; }
+  .CONTENT3 .lightbox-close:before,
+  .CONTENT3 .lightbox-close:after {
+    content: " ";
+    display: block;
+    height: 50px;
+    width: 2px;
+    background: #fff;
+    position: absolute;
+    left: 26px;
+    top: 10px;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .CONTENT3 .lightbox-close:after {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .CONTENT3 .tableWorks {
+    width: 100%; }
+    .CONTENT3 .tableWorks tr td:nth-child(1) {
+      width: 15%;
+      height: 40px;
+      text-align: left; }
+      .CONTENT3 .tableWorks tr td:nth-child(1) span {
+        float: right;
+        width: 1%;
+        height: 100%;
+        margin: 0 15px;
+        font-weight: 100 !important;
+        text-align: right;
+        margin-top: -8px; }
+        @media (max-width: 425px) {
+          .CONTENT3 .tableWorks tr td:nth-child(1) span {
+            margin-top: -12px; } }
+      @media (max-width: 1126px) {
+        .CONTENT3 .tableWorks tr td:nth-child(1) {
+          width: 15%; } }
+      @media (max-width: 939px) {
+        .CONTENT3 .tableWorks tr td:nth-child(1) {
+          width: 22%; } }
+      @media (max-width: 844px) {
+        .CONTENT3 .tableWorks tr td:nth-child(1) {
+          width: 20%; } }
+      @media (max-width: 649px) {
+        .CONTENT3 .tableWorks tr td:nth-child(1) {
+          width: 25%; } }
+      @media (max-width: 528px) {
+        .CONTENT3 .tableWorks tr td:nth-child(1) {
+          width: 30%; } }
+      @media (max-width: 450px) {
+        .CONTENT3 .tableWorks tr td:nth-child(1) {
+          width: 38%; } }
+    .CONTENT3 .tableWorks tr td:nth-child(2) {
+      width: 84%;
+      height: auto;
+      padding: 0 15px; }
+      .CONTENT3 .tableWorks tr td:nth-child(2) span {
+        line-height: 1.1; }
+      @media (max-width: 939px) {
+        .CONTENT3 .tableWorks tr td:nth-child(2) {
+          width: 77%; } }
+      @media (max-width: 844px) {
+        .CONTENT3 .tableWorks tr td:nth-child(2) {
+          width: 80%; } }
+      @media (max-width: 649px) {
+        .CONTENT3 .tableWorks tr td:nth-child(2) {
+          width: 75%; } }
+      @media (max-width: 528px) {
+        .CONTENT3 .tableWorks tr td:nth-child(2) {
+          width: 70%; } }
+      @media (max-width: 450px) {
+        .CONTENT3 .tableWorks tr td:nth-child(2) {
+          width: 65%; } }
+      @media (max-width: 425px) {
+        .CONTENT3 .tableWorks tr td:nth-child(2) {
+          width: 62%;
+          padding: 0; } }
+
+
+
+
+/* 2025.7.16 update */
+.TOP {
+  padding-top: 70px;
+}
+/****************
+   breadcrumb 麵包屑 start
+*****************/
+.section-breadcrumb {
+  padding-bottom: 0;
+  line-height: 1;
+}
+.section-breadcrumb .container {}
+
+section:has(.nav-breadcrumb){
+  padding-top: 35px;
+}
+.nav-breadcrumb {
+  /* padding: 15px 0 30px;
+    margin-top: -35px; */
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-width: 0px;
+    outline: 0px;
+    z-index: 1;
+}
+.nav-breadcrumb .breadcrumb {
+  margin-bottom: 0;
+  line-height: 1.4;
+    background-color: transparent;
+}
+.nav-breadcrumb .breadcrumb li {
+    color: rgba(33, 37, 41, 0.75);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Noto Sans TC", "微軟正黑體", "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+.nav-breadcrumb .breadcrumb-item a {
+  color: #1B4CAE;
+  display: inline;
+}
+.nav-breadcrumb .breadcrumb-item.active {}
+/****************
+   breadcrumb 麵包屑 end
+*****************/
