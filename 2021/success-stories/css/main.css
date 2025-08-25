@@ -151,6 +151,7 @@
 }
 .mainCoverBox .mainCoverCard .studentImg img {
   width: 28%;
+  filter: brightness(1.1);
 }
 @media (max-width: 1680px) {
   .mainCoverBox .mainCoverCard .studentImg img {
