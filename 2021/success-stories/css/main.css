@@ -1535,7 +1535,7 @@ print {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  padding: 20px 15px 30px;
+  padding: 3px 3x 10px;
   /* margin-bottom: 30px;
   text-align: center; */
   z-index: 7;
@@ -1600,7 +1600,7 @@ print {
 @media (max-width: 767px) {
   .student-header {
     display: block;
-    padding: 20px 15px 30px;
+    padding: 20px 15px 20px;
   }
   .student-header .container {}
   .student-header img {
@@ -1695,6 +1695,306 @@ print {
     height: unset;
   }
 }
+
+
+/* 名人推薦 slickTestimonial */
+.testimonial-card {}
+.testimonial-card .testimonial-card-btn {}
+.testimonial-card .testimonial-card-btn:hover,
+.testimonial-card .testimonial-card-btn:focus {
+    color: var(--text-bk);
+}
+.testimonial-card figure {
+    overflow: hidden;
+    margin: 15px 15px 0;
+    border-radius: 10px;
+}
+.testimonial-card figure img {
+    aspect-ratio: 1.5 / 1;
+    object-fit: cover;
+    object-position: center;
+}
+.testimonial-card .card-body {
+    padding-top: 10px;
+}
+.testimonial-card .card-body .card-body-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.testimonial-card .tag-card {
+    background-color: #ffd9d9;
+    color: var(--text-bk);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    position: relative;
+    word-wrap: break-word;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 60%;
+}
+.testimonial-card .card-body-name {
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 1.6;
+    vertical-align: middle;
+    max-width: 40%;
+}
+.testimonial-card .card-body-head {
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+.testimonial-card .card-body-text {
+    -webkit-line-clamp: 2;
+}
+
+.tab-content-btnbox {}
+.tab-content-btnbox .btn-more {
+    background-color: #858585;
+    color: #ffffff;
+    padding: 8px 20px;
+    min-width: 146px;
+}
+.tab-content-btnbox .btn-more:hover,
+.tab-content-btnbox .btn-more:focus,
+.tab-content-btnbox .btn-more:active {
+    background-color: #5f5f5f;
+    color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    .section-testimonial {}
+
+    .section-title2 {}
+
+    .testimonial-tabs {}
+    .testimonial-tabs .tab {}
+    .tab-content-testimonial {}
+    .tab-pane-testimonial {}
+    .tab-pane-testimonial .cards {}
+    .testimonial-card {}
+    .testimonial-card .testimonial-card-btn {}
+    .testimonial-card figure img {}
+    .testimonial-card .card-body {}
+    .testimonial-card .card-body .card-body-header {}
+    .testimonial-card .tag-card {}
+    .testimonial-card .card-body-name {}
+    .testimonial-card .card-body-head {}
+    .testimonial-card .card-body-text {
+        -webkit-line-clamp: 4;
+    }
+}
+
+
+
+
+
+
+/* 放在 footer 的 card 名人推薦 slickTestimonial */
+/* .testimonial .container {}
+.testimonial .slick-testimonial {}
+.testimonial-header {}
+.slick-testimonial .slick-title {}
+
+.slickTestimonial {}
+.slick-testimonial .slick-slide {}
+.slick-testimonial .testimonial-card {}
+.slick-testimonial .testimonial-card-btn {
+  color: #333333;
+  text-decoration: none;
+}
+.slick-testimonial .testimonial-card-btn figure {}
+.slick-testimonial .testimonial-card-btn figure .img {  
+    max-height: 200px;
+}
+.slick-testimonial .testimonial-card .card-body {}
+.slick-testimonial .testimonial-card .card-body-header {}
+.slick-testimonial .testimonial-card .tag-card {}
+.slick-testimonial .testimonial-card .card-body-name {
+  margin: 0;
+}
+.slick-testimonial .testimonial-card .card-body-head {}
+.slick-testimonial .testimonial-card .card-body-text {}
+ */
+
+
+
+.foot-testimonial {
+  /* background-color: #eeeeee; */
+  padding-bottom: 20px;
+}
+.foot-testimonial .container {}
+.slick-foot-testimonial {}
+.foot-testimonial-header {
+  display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 3px 3px 10px;
+}
+.foot-testimonial-header .slick-title {
+  text-align: center;
+    line-height: 1.6;
+    color: #3d3d3d;
+    font-size: 28px;
+    font-weight: 500;
+}
+.foot-testimonial-header .slick-slide {}
+.foot-testimonial-card {
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border: 0px solid transparent;
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+.foot-testimonial-card .foot-testimonial-card-btn {
+  color: #333333;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 150px 60%;
+  gap: 10px;
+}
+.foot-testimonial-card .foot-testimonial-card-btn figure {
+  margin: 0;
+}
+.foot-testimonial-card .foot-testimonial-card-btn figure .img  {
+  aspect-ratio: 1.5 / 1;
+  object-fit: cover;
+  object-position: center;
+  max-height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+.foot-testimonial-card .card-body {
+  padding: 0px;
+}
+.foot-testimonial-card .card-body-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.foot-testimonial-card .tag-card {
+  font-size: 14px;
+  line-height: 1;
+  padding: 5px 8px 3px;
+  border-radius: 10px;
+  font-weight: 400;
+  word-break: keep-all;
+  background-color: #ffd9d9;
+  color: #333333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  position: relative;
+  word-wrap: break-word;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+.foot-testimonial-card .tag-card:hover,
+.foot-testimonial-card .tag-card:focus {
+  box-shadow: 0px 1px 5px #ffbfbf;
+}
+.foot-testimonial-card .card-body-name {
+  font-size: 21px;
+  font-weight: normal;
+    line-height: 1;
+    vertical-align: middle;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    margin: 5px 0px 5px;
+}
+.foot-testimonial-card .card-body-head {
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.foot-testimonial-card .card-body-text {
+  overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    margin-bottom: 5px;
+}
+
+/*  */
+.foot-testimonial .slick-next,
+.foot-testimonial .slick-prev {
+  height: 40px;
+  background-color: #ffbfbfbb;
+  color: #ffffff;
+  opacity: 0.8;
+  padding: 5px;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  top: 50%;
+}
+
+.foot-testimonial .slick-next {}
+.foot-testimonial .slick-prev {}
+
+.foot-testimonial .slick-next::before,
+.foot-testimonial .slick-prev::before {
+  font-family: "Font Awesome 5 Pro";
+}
+.foot-testimonial .slick-next::before {
+  content: "\f054";
+}
+.foot-testimonial .slick-prev::before {
+  content: "\f104";
+}
+
+
+@media (min-width: 992px) {
+.foot-testimonial {}
+.foot-testimonial .container {}
+.slick-foot-testimonial {}
+.foot-testimonial-header {}
+.foot-testimonial-header .slick-title {}
+.foot-testimonial-header .slick-slide {}
+.foot-testimonial-card {}
+.foot-testimonial-card .foot-testimonial-card-btn {}
+.foot-testimonial-card .foot-testimonial-card-btn figure .img  {}
+.foot-testimonial-card .card-body {}
+.foot-testimonial-card .card-body-header {
+  /* display: flex;
+  align-items: flex-start; */
+}
+.foot-testimonial-card .tag-card {}
+.foot-testimonial-card .card-body-name {}
+.foot-testimonial-card .card-body-head {}
+.foot-testimonial-card .card-body-text {}
+
+}
+
+
+
+
+
+
+
 
 .studentDetail {
   padding: 30px 0 10px;
@@ -1853,8 +2153,12 @@ color: #0866FF;
 }
 
 
-/*  */
 
+/* 更多學員故事 */
+.student-stories {
+  /* background-color: #eeeeee; */
+  padding: 20px 30px 10px;
+}
 .slick-student-stories {}
 .slick-student-stories .slick-title {
   text-align: center;
@@ -1863,164 +2167,122 @@ color: #0866FF;
   font-size: 28px;
   font-weight: 500;
 }
-.slick-student-stories .slick-slide {}
-.slick-student-stories .slick-slide .card-student-story {
-  /* background-color: ; */
-}
-.slick-student-stories .card-student-link {}
-.slick-student-stories .card-student-imgbox {}
-.slick-student-stories .card-student-imgbox .img {}
+.card-student-story .slick-slide {}
 
-.slick-student-stories .card-student-txtbox {}
-.slick-student-stories .card-student-txtbox .name {}
-.slick-student-stories .card-student-txtbox .series {}
-.slick-student-stories .card-student-txtbox .txt {}
-.slick-student-stories .card-student-txtbox .btn-more {}
-
-
-/*  */
-.card-student {
-    max-width: 400px;
-    width: 100%;
-    padding: 15px;
-    margin: auto;
-}
-/* .card-student:hover, .card-student:focus, .card-student:active {
-    color: var(--text-bk);
-} */
-.card-student-link {
-    margin: -15px;
-    padding: 15px;
-    position: relative;
-    display: block;
-    cursor: pointer;
-}
-.card-student-link::before {
-    content: '';
-    background-color: #0000004a;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-    z-index: 1;
-    opacity: 0;
-}
-.card-student-link:hover, .card-student-link:focus, .card-student-link:active {
-    color: var(--text-bk);
-}
-.card-student-link:hover::before, .card-student-link:focus::before, .card-student-link:active::before {
-    opacity: 1;
-}
-
-.card-student-imgbox {
-    text-align: center;
-}
-.card-student-imgbox .img {
-    max-width: 84px;
-    width: 100%;
-}
-.card-student-txtbox {
-    padding-left: 0;
-}
-.card-student-txtbox .name {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
+.card-student-story {
+  margin: 5px;
+  border-radius: 10px;
     overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border: 0px solid transparent;
+    background-color: #fff;
+    padding: 10px;
+    gap: 10px;
     position: relative;
-    word-wrap: break-word;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-}
-.card-student-txtbox .txt {}
-.card-student-txtbox .btn-more {
-    padding: 10px 20px;
-    margin: auto;
-    display: block;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--jgun-red);
-    color: #ffffff;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    z-index: 2;
-    opacity: 0;
+    transition: 0.3s;
 }
-.card-student-txtbox .series {
-    position: absolute;
-    top: -8px;
-    right: -2px;
+.card-student-story .card-student-link {
+  border-radius: 10px;
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 10px;
+    border: 1px #ffffff solid;
+    background-color: #fff;
+    color: #333333;
+    position: relative;
+    top: 0;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
-.card-student-txtbox .series span {
-    border-radius: 0 10px;
+.card-student-story .card-student-imgbox {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
 }
-.card-student-txtbox .series .cs {    
-    /* color: var(--course-color-cs);
-    border: 1px solid var(--course-color-cs);
-    background-color: #ffffff; */
+.card-student-story .card-student-imgbox .img {}
+.card-student-story .card-student-text {}
+.card-student-story .card-student-title {
+  overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
 }
-.card-student-txtbox .series .design {    
-    /* color: var(--course-color-design);
-    border: 1px solid var(--course-color-design);
-    background-color: #ffffff; */
+.card-student-story .card-student-bottom {}
+.card-student-story .card-student-bottom .name {  
+  overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
 }
-/* .card-student-txtbox .btn-more:hover, .card-student-txtbox .btn-more:focus {
-    opacity: 1;
-} */
-.card-student:hover .btn-more, .card-student:focus .btn-more, .card-student:active .btn-more {
-    opacity: 1;
-}
-
-@media screen and (min-width: 992px) {
-    .card-student {
-        max-width: 400px;
-        width: 100%;
-        padding: 15px;
-    }
-    .card-student-imgbox {
-    }
-    .card-student-imgbox .avatar {
-        max-width: 84px;
-        width: 100%;
-    }
-    .card-student-txtbox {
-        padding: 0;
-    }
-    .card-student-txtbox .name {}
-    .card-student-txtbox .txt {}
-    .card-student-txtbox .btn-more {
-        margin-left: auto;
-        display: block;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-    }
+.card-student-story .card-student-bottom .badge-student {  
+  overflow: hidden;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+  color: #333333;
+  background-color: #fff;
+  display: inline-block;
+  border: 1px #dedede solid;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 3px 9px 2px;
+  display: block;
 }
 
+.student-stories .slick-next,
+.student-stories .slick-prev {
+  height: 40px;
+  background-color: #ffbfbfbb;
+  color: #ffffff;
+  opacity: 0.8;
+  padding: 5px;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  top: 50%;
+}
 
+.student-stories .slick-next {}
+.student-stories .slick-prev {}
 
+.student-stories .slick-next::before,
+.student-stories .slick-prev::before {
+  font-family: "Font Awesome 5 Pro";
+}
+.student-stories .slick-next::before {
+  content: "\f054";
+}
+.student-stories .slick-prev::before {
+  content: "\f104";
+}
 
+@media (min-width: 992px) {
+  /* 更多學員故事 */
+  .student-stories {}
+  .slick-student-stories {}
+  .slick-student-stories .slick-title {}
+  .card-student-story .slick-slide {}
 
-
-
-
-
-
-
-
-
-
+  .card-student-story {}
+  .card-student-story .card-student-link {}
+  .card-student-story .card-student-imgbox {}
+  .card-student-story .card-student-imgbox .img {}
+  .card-student-story .card-student-text {}
+  .card-student-story .card-student-title {}
+  .card-student-story .card-student-bottom {}
+  .card-student-story .card-student-bottom .name {}
+  .card-student-story .card-student-bottom .badge-student {}
+}
 
 
 
