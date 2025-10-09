@@ -1,0 +1,419 @@
+:root {
+    --fzSecTitle: 28px;
+    --fz3: 24px;
+}
+@media screen and (min-width: 768px) {
+  :root {
+    /* Font size - width 991px up (desktop) */
+    --fzSecTitle: 32px;
+    --fztSecContenTitle: 30px;
+    --fz2: 28px;
+    --fz3: 24px;
+    --fz4: 20px;
+  }
+}
+/* 
+::-webkit-scrollbar {
+    display: unset !important;
+} */
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x)); */
+}
+
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+}
+
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    content: " ";
+    display: table;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* @media (min-width: 769px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+} */
+
+.d-none {
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+    .d-md-block {
+        display: block !important;
+    }
+    .d-md-none {
+        display: none !important;
+    }
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-12 {    
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+.text-small {
+    font-size: 75%;
+}
+
+.has-error {
+    color: #c00000;
+    font-size: 80%;
+}
+
+.agreeLink, .agreeLink:hover, .agreeLink:visited, .agreeLink:focus {
+    color: #333333 !important;
+}
+
+/****************
+  form start  
+  from: https://beta3w.pcschool.com.tw/2024/css/content.css
+  直接複製的 form 模板
+****************/
+/* 有用到頁：設計課程頁、資訊課程頁、政府職訓課程詳情 */
+.form-contact {}
+
+.form-contact input:not([type="checkbox"]),
+.form-contact select {
+  width: 100%;
+  height: 40px;
+  line-height: 1;
+  max-height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid #b1b1b1;
+  color: var(--text-gray);
+  border-radius: 5px;
+  padding: 5px;
+  -webkit-appearance: auto;
+}
+
+.form-contact input:not([type="checkbox"]):focus,
+.form-contact select:focus {
+  outline: 0;
+  border-color: var(--link);
+}
+
+.form-contact input[type="checkbox"] {
+  border: 1px solid;
+}
+
+
+/* layout rules: 
+form-col, form-col-lg-6, form-col-12 
+from bootstrap5's col, col-6 ...
+*/
+.form-contact .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /* margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-0.5* var(--bs-gutter-x));
+  margin-left: calc(-0.5* var(--bs-gutter-x)); */
+  margin: auto;
+  width: 100%;
+}
+
+.form-contact .btn-wrapper {
+    text-align: center;
+    width: 100%;
+}
+.form-contact .row .btn-theme {
+    background-color: #c00000;
+    color: #ffffff;
+    font-weight: 500;
+    width: fit-content;
+    padding: 0.5rem 5rem;
+    min-width: 200px;
+    margin: 5px auto 24px;
+}
+
+.form-col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0%;
+          flex: 1 0 0%;
+  padding-bottom: 1rem;
+}
+
+.form-col-lg-6 {
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.form-col-lg-6:nth-of-type(1) {}
+
+.form-col-lg-6:nth-of-type(2) {}
+
+.form-col-12 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.form-read-group {}
+
+.form-read-group .form-check {}
+
+.form-read-group .form-check .form-check-label {}
+.form-read-group .form-check .form-check-label .read-note {
+    font-weight: normal;
+}
+.form-read-group .form-check .form-check-label .read-link {
+    display: inline;
+    color: #c00000;
+}
+
+.form-contact select {}
+
+.form-contact option {}
+
+/* custom */
+.form-col.name {}
+
+.form-col.phone {}
+
+.form-col.email {}
+
+.form-col.city {}
+
+.form-col.district {}
+
+.form-col.course {}
+
+/* 已詳細閱讀... */
+.read-group {}
+
+.read-group .read-checkbox {}
+
+.read-group .read-note {}
+
+.read-group .btn-wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.read-group .btn-wrapper .btn {}
+
+.read-link {
+  font-weight: 400;
+  color: var(--text-bk);
+  text-decoration: underline;
+  display: inline;
+}
+
+@media screen and (min-width: 992px) {
+
+  .form-contact {}
+
+  .form-contact input:not([type="checkbox"]),
+  .form-contact select {}
+
+  .form-contact input:not([type="checkbox"]):focus,
+  .form-contact select:focus {}
+
+  .form-contact input[type="checkbox"] {}
+
+  /* layout rules: 
+  form-col, form-col-lg-6, form-col-12 
+  from bootstrap5's col, col-6 ...
+  */
+  .form-contact .row {}
+
+  .form-contact .btn-wrapper {}
+  
+  .form-contact .row .btn-theme {}
+
+  .form-col {}
+
+  .form-col-lg-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .form-col-lg-6:nth-of-type(1) {
+    padding-right: 6px;
+  }
+
+  .form-col-lg-6:nth-of-type(2) {
+    padding-left: 6px;
+  }
+
+  .form-col-12 {}
+
+  .form-contact select {}
+
+  .form-contact option {}
+
+  /* custom */
+  .form-col.name {}
+
+  .form-col.phone {}
+
+  .form-col.email {}
+
+  .form-col.city {}
+
+  .form-col.district {}
+
+  .form-col.course {}
+
+  /* 已詳細閱讀... */
+  .read-group {}
+
+  .read-group .read-checkbox {}
+
+  .read-group .read-note {}
+
+  .read-group .btn-wrapper {}
+
+  .read-group .btn-wrapper .btn {}
+
+  .read-link {}
+}
+
+/****************
+  form end 
+****************/
+
+
+
+
+
+
+/****************
+  form main 
+  2025/10上線版，統一報名表單，可以放在任一地方
+  名人推薦集合頁、內頁長相一樣，檔案略有差異 
+  start
+****************/
+.form-main {
+    padding: 20px 0 20px;
+    background-image: url('../../2025/images/bg-testimonial-form.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    /* background-attachment: fixed; */
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 104%;
+}
+.form-main .form-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.form-header {
+    padding: 0.5rem 0 0.2rem;
+    text-align: center;
+}
+.form-header .section-title,
+.form-header .section-title2 {
+    margin-bottom: 0;
+    text-shadow: 1px 1px 5px #ffffff;
+    font-size: var(--fzSecTitle);
+    font-weight: 700;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5%;
+}
+.form-contact-inside {
+    padding: 10px;
+    background-color: #ffffff91;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px #bbbbbb;
+}
+
+.form-contact-deco {
+    padding: 0 15px 0%;
+    text-align: center;
+    position: relative;
+}
+.form-contact-deco .img {  
+    width: 100%;
+    max-width: 450px;
+}
+
+@media (min-width: 768px) {
+    .form-main {
+        padding: 6% 0 0;
+    }
+    .form-container {
+        padding-bottom: 0%;
+    }
+    .form-header {}
+    .section-title2 {}
+
+    .form-contact {}
+    .form-contact-inside {
+        width: 100%;
+    }
+
+    .form-contact-deco {
+        order: 1;
+    }
+    .form-contact-deco .img {
+        max-width: 100%;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+}
+/****************
+  form main 
+  2025/10上線版，統一報名表單，可以放在任一地方
+  名人推薦集合頁、內頁長相一樣，檔案略有差異 
+  end
+****************/
