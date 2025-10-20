@@ -166,6 +166,7 @@ from bootstrap5's col, col-6 ...
     padding: 0.5rem 5rem;
     min-width: 200px;
     margin: 5px auto 24px;
+    display: inline-block;
 }
 
 .form-col {
